@@ -1,0 +1,1 @@
+//!Sitemap inside robot txt

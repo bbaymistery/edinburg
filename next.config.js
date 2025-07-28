@@ -35,19 +35,19 @@ const nextConfig = {
       { hostname: 'www.airport-pickups-london.com' },
     ],
   },
-  // async headers() {
-  //   return [
-  //     {
-  //       source: '/:all*(js|css|png|jpg|webp|svg)',
-  //       headers: [
-  //         {
-  //           key: 'Cache-Control',
-  //           value: 'public, max-age=31536000, immutable',
-  //         }
-  //       ],
-  //     },
-  //   ];
-  // },
+  async headers() {
+    return [
+      {
+        source: '/:all*(js|css|png|jpg|webp|svg)',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=31536000, immutable',
+          }
+        ],
+      },
+    ];
+  },
 
 
 }
