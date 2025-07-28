@@ -1,0 +1,140 @@
+@import "../../styles/variables";
+
+.contact_us {
+    height: 100%;
+    position: relative;
+    margin-top: 50px;
+    background-color: white !important;
+
+    &_section {
+        @media(max-width:1400px) {
+            margin: 0 auto !important;
+        }
+
+
+        &_container {
+
+            display: flex;
+            gap: 4rem;
+
+            @media(max-width:1400px) {
+                max-width: 100% !important;
+                width: 100%;
+                padding: 0px 50px !important;
+            }
+
+            @media(max-width:1200px) {
+                flex-direction: column;
+                gap: 1rem;
+            }
+            @media(max-width:650px) {
+                padding: 0px 20px !important;
+               }
+            .contact_area {
+                padding-top: 105px;
+
+                flex-basis: 70%;
+
+                @media(max-width:1200px) {
+                    flex-basis: 100%;
+                    padding-top: 20px;
+                }
+
+
+                .form_box {
+                    max-width: 890px;
+                    width: 100%;
+                    border: 1px solid rgba(128, 137, 150, 0.1);
+                    -webkit-border-radius: 5px;
+                    -moz-border-radius: 5px;
+                    border-radius: 5px;
+                    margin-bottom: 30px;
+                    box-shadow: $box-shadow-1;
+
+                    @media(max-width:1200px) {
+                        max-width: 100%;
+                        width: 100%;
+                    }
+
+                    .form_content {
+                        padding: 30px;
+
+                        @media (max-width: 400px) {
+                            padding: 17px;
+                        }
+
+                        h3 {}
+
+                        p {
+                            color: $--color-accent-1-dark;
+                            margin-bottom: 2rem;
+
+                        }
+
+                        .contact_form_action {
+                            .form {
+                                display: flex;
+                                gap: 2rem;
+                                justify-content: space-between;
+
+                                @media (max-width: 768px) {
+                                    flex-direction: column;
+                                    gap: 0rem;
+                                }
+
+                                .input_box {
+                                    width: 100%;
+
+                                    .input {
+                                        margin-bottom: 2rem;
+                                    }
+                                }
+                            }
+
+                            .lodbtn {
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+
+                                button {
+                                    padding: 10px 15px;
+                                    background-color: $--color-accent-1;
+                                    color: white;
+                                    margin-top: 1rem;
+                                    width: 100%;
+                                    border-radius: 4px;
+                                    transition: all 0.4s;
+                                    font-size: 17px;
+                                    border: none;
+
+                                    &:hover {
+                                        background-color: $--color-accent-1-dark;
+                                    }
+                                }
+                            }
+
+                            .inp_textarea {
+                                margin-top: 0.5rem;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .address_area {
+                flex-basis: 30%;
+                padding-top: 105px;
+                position: relative;
+                @media(max-width:1200px) {
+                 padding-top: 0px;
+                }
+            }
+        }
+    }
+}
+
+
+
+.contact_us[bggray="false"] {
+    background-color: $--color-light-1;
+}

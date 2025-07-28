@@ -1,0 +1,112 @@
+@import '../../../styles/variables';
+
+.form_input[type="date"] {
+    &::after {
+        content: "\f073";
+        /* Font Awesome takvimi – calendar-alt: f073 */
+        font-family: "Font Awesome 6 Free";
+        font-weight: 900;
+        position: absolute;
+        right: 12px;
+        top: 50%;
+        transform: translateY(-50%);
+        pointer-events: none;
+        color: #999;
+        font-size: 14px;
+    }
+}
+
+.form_input {
+    position: relative;
+    display: flex;
+    width: 100%;
+    transition: all 0.2s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
+
+
+
+    .form_input_error {
+        position: absolute;
+        top: -21px;
+        color: red !important;
+        font-size: 13px;
+        font-weight: 500;
+        text-transform: lowercase !important;
+
+        &[direction="false"] {
+            right: 5px;
+        }
+
+        &[direction="true"] {
+            left: 5px;
+        }
+    }
+
+    .label {
+        position: absolute;
+        pointer-events: none;
+        top: 13px;
+        font-size: 13px;
+        padding: 0px 15px;
+        transition: all 0.2s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
+        color: $label_text_color;
+        text-transform: capitalize;
+    }
+
+    .input {
+        width: 100%;
+        min-height: 54px;
+        border: 1px solid $--color-light-6;
+        border-radius: 4px;
+        padding: 17px 15px 0px 15px;
+        transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
+        font-size: 14px;
+        font-weight: 500;
+        color: $input_text_color;
+
+        @media (max-width: 520px) {
+            font-size: 13px;
+        }
+
+        &:focus~.label,
+        &:valid~.label {
+            margin-top: -10px;
+            transition: all 0.5s ease;
+        }
+
+        &:focus {
+            outline: none;
+        }
+
+        &[err="true"] {
+            border-color: red;
+        }
+
+        &[type=number]::-webkit-inner-spin-button,
+        &[type=number]::-webkit-outer-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+    }
+
+    input[type="date"]::-webkit-calendar-picker-indicator {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: auto;
+        height: auto;
+        color: transparent;
+        background: transparent;
+        user-select: none;
+        z-index: 1;
+    }
+
+    &.isTaxiDeal .input {
+        border: 5px solid lighten($--color-light-2, 7%);
+    }
+
+    .p {
+        display: none;
+    }
+}
