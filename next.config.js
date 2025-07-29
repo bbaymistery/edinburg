@@ -35,12 +35,8 @@ const nextConfig = {
       { hostname: 'www.airport-pickups-london.com' },
     ],
   },
-  swcMinify: true,
-  compress: true,
   experimental: {
-    esmExternals: true,
-    legacyBrowsers: false, // Eski tarayıcıları hedefleme
-    modern: true           // Modern bundle oluştur
+    legacyBrowsers: false, // 🚀 Modern tarayıcıya özel bundle üretir
   },
   // async headers() {
   //   return [
