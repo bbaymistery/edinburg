@@ -8,7 +8,7 @@ import { extractLanguage } from "../../../helpers/extractLanguage";
 import OutsideClickAlert from "../../elements/OutsideClickAlert";
 import dynamic from 'next/dynamic'
 import { setCookie } from "../../../helpers/cokieesFunc";
-import logoImage from '../../../../public/logos/logo.webp'
+import logoImage from '../../../../public/logos/edinburgLogo.webp'
 import airportTranslations from "../../../constants/generalTranslataions";
 import { updateCurrencyGetQuotationOnSpecialPage } from "../../../helpers/updateCurrencyGetQuotationOnspecialPage";
 import { useSkipFirstRender } from "../../../hooks/useSkipFirstRender";
@@ -29,7 +29,6 @@ const Header = () => {
   const [currencyStatus, setCurrencyStatus] = useState(false)
   const { appData } = useSelector(state => state.initialReducer)
   const [translatedAppData, setTranslatedAppData] = useState(appData)
-  const isLanguageDisabled = router.pathname === '/sofor-araniyor' || router.pathname === "/sofor-basvuru-formu"
   let [internalState, setInternalState] = React.useReducer((s, o) => ({ ...s, ...o }), {
 
     "error-booking-message-0": "",
@@ -106,7 +105,6 @@ const Header = () => {
   //when we click lang text it opens dropdown
   const setOpenLanguageDropdown = () => {
 
-    if (isLanguageDisabled) return
     setCurrencyStatus(false)
     setLanguageStatus(!languageStatus)
 
@@ -170,14 +168,10 @@ const Header = () => {
 
           <div className={styles.right_items}>
 
-      
+
 
             <div className={`${styles.language_dropdown}`} >
-              <div
-                className={styles.img_div}
-                onClick={() => setOpenLanguageDropdown()} data-name="language"
-                style={{ cursor: isLanguageDisabled ? 'default' : 'pointer' }}
-              >
+              <div className={styles.img_div} onClick={() => setOpenLanguageDropdown()} data-name="language" >
                 {appData ? <Image src={`/languages/${language}.gif`} width={20} height={11} priority alt={language} data-name="language" /> : <></>}
               </div>
               {languageStatus ?

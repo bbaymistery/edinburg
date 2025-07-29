@@ -44,7 +44,7 @@
                 .form_box {
                     max-width: 890px;
                     width: 100%;
-                    border: 1px solid rgba(128, 137, 150, 0.1);
+                    border: 1px solid $gray-color-light-3;
                     -webkit-border-radius: 5px;
                     -moz-border-radius: 5px;
                     border-radius: 5px;
@@ -63,10 +63,9 @@
                             padding: 17px;
                         }
 
-                        h3 {}
 
                         p {
-                            color: $--color-accent-1-dark;
+                            color: $primary-color;
                             margin-bottom: 2rem;
 
                         }
@@ -98,7 +97,7 @@
 
                                 button {
                                     padding: 10px 15px;
-                                    background-color: $--color-accent-1;
+                                    background-color: $primary-color-light;
                                     color: white;
                                     margin-top: 1rem;
                                     width: 100%;
@@ -108,7 +107,7 @@
                                     border: none;
 
                                     &:hover {
-                                        background-color: $--color-accent-1-dark;
+                                        background-color: $primary-color;
                                     }
                                 }
                             }
@@ -136,5 +135,5 @@
 
 
 .contact_us[bggray="false"] {
-    background-color: $--color-light-1;
+    background-color: $gray-color-light;
 }

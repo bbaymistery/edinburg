@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import TopHeader from '../../widgets/TopHeader';
+import Footer from '../../widgets/Footer';
 const SeoDefaults = {
   title: "Ediinburg",
   keywords: "Test",
@@ -38,6 +39,8 @@ const GlobalLayout = ({ children, title = SeoDefaults.title, description = SeoDe
       <main>
         {children}
       </main>
+      <Footer />
+
     </>
   )
 }

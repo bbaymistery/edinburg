@@ -9,7 +9,7 @@
 
 .car_section {
     padding: 4rem 0px;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid $gray-color-light;
     padding-bottom: 4.5rem;
 }
 
@@ -62,12 +62,11 @@
 /* Card styling for each item */
 .card {
     background: white;
-    // border: 1px solid #ddd;
     border-radius: 10px;
     padding: 40px 20px 15px 20px;
     /* Increase padding to add more space */
     text-align: center;
-    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    box-shadow: $box-shadow-1;
     /* Subtle shadow for depth */
     min-height: 330px;
 
@@ -103,19 +102,12 @@
 
 .card_body {
     padding: 1px;
-
     &_title {
         font-weight: 500;
         line-height: 1.2;
         font-size: 19px;
-        color: #000;
         text-align: left;
         margin-bottom: 10px;
-
-        &:hover {
-            color: $--color-yellow-3;
-            transition: all 0.4s;
-        }
     }
 
     &_attributes {
@@ -144,10 +136,6 @@
             .card_atr_li {
                 margin-right: 15px;
                 padding-right: 15px;
-
-                color: #0d233e;
-                font-weight: 400;
-
                 .li_icon {
                     padding-right: 7px;
                     font-size: 15px;
@@ -180,7 +168,7 @@
     top: 50%;
     transform: translateY(-50%);
     /* Center vertically */
-    background: $--color-accent-1-dark;
+    background: $primary-color-light;
     color: #fff;
     border: none;
     border-radius: 50%;
@@ -200,7 +188,7 @@
 }
 
 .rightArrow {
-    right:20px;
+    right: 20px;
 }
 
 /* Pagination dots */
@@ -223,6 +211,7 @@
 
 /* Active dot styling */
 .activeDot {
-    background: $--color-accent-1;
+    background: $primary-color;
+
     /* Highlight the active dot */
 }

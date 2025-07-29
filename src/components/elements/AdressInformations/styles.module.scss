@@ -1,25 +1,20 @@
 @import '../../../styles/variables';
-$black1: #0d233e;
-$graycontact: rgb(93, 100, 109);
 
 .form_box {
-    border: 1px solid rgba(128, 137, 150, 0.1);
+    border: 1px solid $gray-color-light-2;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
     background-color: #fff;
-    -webkit-box-shadow: 0 0 40px rgb(82 85 90 / 10%);
-    -moz-box-shadow: 0 0 40px rgba(82, 85, 90, 0.1);
-    box-shadow: 0 0 40px rgb(82 85 90 / 10%);
+    box-shadow: $box-shadow-1;
 
 
     .form_title_wrap {
         padding: 15px;
-        border-bottom: 1px solid rgba(128, 137, 150, 0.1);
+        border-bottom: 1px solid $gray-color-light-2;
 
         .title {
             font-size: 20px;
-            color: $black1;
             text-transform: capitalize;
         }
 
@@ -46,7 +41,7 @@ $graycontact: rgb(93, 100, 109);
                     padding-left: 45px;
                     padding-bottom: 15px;
                     margin-bottom: 15px;
-                    border-bottom: 1px solid rgba(128, 137, 150, 0.1);
+                    border-bottom: 1px solid$gray-color-light;
 
                     &:last-child {
                         display: flex;
@@ -83,8 +78,8 @@ $graycontact: rgb(93, 100, 109);
                         height: 35px;
                         line-height: 35px;
                         font-size: 18px;
-                        background-color: $--color-accent-1;
-                        color: rgba(255, 255, 255, 0.878);
+                        background-color: $primary-color-light;
+                        color: $gray-color-light;
                         border-radius: 50%;
                         display: flex;
                         align-items: center;
@@ -98,8 +93,7 @@ $graycontact: rgb(93, 100, 109);
                             height: 25px;
                             line-height: 35px;
                             font-size: 12px;
-                            background-color: $--color-accent-1;
-                            color: rgba(255, 255, 255, 0.878);
+                            background-color: $primary-color-light;
                             border-radius: 50%;
                             display: flex;
                             align-items: center;
@@ -121,11 +115,12 @@ $graycontact: rgb(93, 100, 109);
                     }
 
                     a {
-                        color: $graycontact;
+                        color: $primary-color-light;
                     }
 
                     p {
-                        color: $graycontact;
+                        color: $primary-color-light;
+
 
                         span {
                             font-weight: 500;
