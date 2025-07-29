@@ -35,6 +35,7 @@ const nextConfig = {
       { hostname: 'www.airport-pickups-london.com' },
     ],
   },
+    compress: true,
   // async headers() {
   //   return [
   //     {
