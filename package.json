@@ -27,5 +27,12 @@
     "redux-devtools-extension": "^2.13.9",
     "sass": "^1.75.0",
     "sharp": "^0.33.3"
-  }
+  },
+  "browserslist": [
+  "last 2 Chrome versions",
+  "last 2 Firefox versions",
+  "last 2 Safari versions",
+  "not IE 11",
+  "not dead"
+]
 }

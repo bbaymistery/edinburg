@@ -13,7 +13,7 @@ async function getRoutes() {
   // generate rewrite rules dynamically
   // let toursRoutes = [{ source: `/:lang(${allLangaugesAsString})/tours/:link`, destination: '/tours/:link', locale: false, }]
   // for each language, create a rewrite rule with the language code in the source path
-  const rewriteRules = [...singleRoutes, ...linknameRoutes, ];
+  const rewriteRules = [...singleRoutes, ...linknameRoutes,];
 
 
   return rewriteRules
@@ -34,6 +34,13 @@ const nextConfig = {
       { hostname: 'api.london-tech.com' },
       { hostname: 'www.airport-pickups-london.com' },
     ],
+  },
+  // swcMinify: true,
+  // compress: true,
+  experimental: {
+    // esmExternals: true,
+    legacyBrowsers: false, // Eski tarayıcıları hedefleme
+    modern: true           // Modern bundle oluştur
   },
   // async headers() {
   //   return [
