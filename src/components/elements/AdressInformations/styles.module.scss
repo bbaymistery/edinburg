@@ -1,0 +1,142 @@
+@import '../../../styles/variables';
+$black1: #0d233e;
+$graycontact: rgb(93, 100, 109);
+
+.form_box {
+    border: 1px solid rgba(128, 137, 150, 0.1);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 40px rgb(82 85 90 / 10%);
+    -moz-box-shadow: 0 0 40px rgba(82, 85, 90, 0.1);
+    box-shadow: 0 0 40px rgb(82 85 90 / 10%);
+
+
+    .form_title_wrap {
+        padding: 15px;
+        border-bottom: 1px solid rgba(128, 137, 150, 0.1);
+
+        .title {
+            font-size: 20px;
+            color: $black1;
+            text-transform: capitalize;
+        }
+
+        .desc {
+            font-size: 15px !important;
+        }
+    }
+
+    .form_content {
+        padding: 0px;
+
+        .address_book {
+            ul {
+                @media (max-width: 950px) {
+                    padding: 0px 20px;
+                }
+
+                @media (max-width: 400px) {
+                    padding: 0px 0px;
+                }
+
+                li {
+                    position: relative;
+                    padding-left: 45px;
+                    padding-bottom: 15px;
+                    margin-bottom: 15px;
+                    border-bottom: 1px solid rgba(128, 137, 150, 0.1);
+
+                    &:last-child {
+                        display: flex;
+                        align-items: center;
+
+                        div {
+                            a {
+                                padding: 20px 0px;
+
+                                p {
+                                    padding: 10px 0px;
+
+                                    span {
+                                        font-weight: bold;
+                                    }
+                                }
+                            }
+                        }
+
+                        i {
+                            top: 40%;
+                        }
+                    }
+
+                    @media (max-width: 400px) {
+                        padding-left: 30px;
+                    }
+
+                    i {
+                        position: absolute;
+                        left: 0;
+                        top: 5px;
+                        width: 35px;
+                        height: 35px;
+                        line-height: 35px;
+                        font-size: 18px;
+                        background-color: $--color-accent-1;
+                        color: rgba(255, 255, 255, 0.878);
+                        border-radius: 50%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+
+                        @media (max-width: 400px) {
+                            position: absolute;
+                            left: 0;
+                            top: 5px;
+                            width: 24px;
+                            height: 25px;
+                            line-height: 35px;
+                            font-size: 12px;
+                            background-color: $--color-accent-1;
+                            color: rgba(255, 255, 255, 0.878);
+                            border-radius: 50%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                        }
+                    }
+
+                    h5 {
+                        margin: 0px;
+                        padding: 0px;
+                        margin-top: 1rem;
+                        font-weight: 500;
+                        font-size: 18px;
+                        text-transform: capitalize;
+
+                        @media (max-width: 400px) {
+                            font-size: 15px;
+                        }
+                    }
+
+                    a {
+                        color: $graycontact;
+                    }
+
+                    p {
+                        color: $graycontact;
+
+                        span {
+                            font-weight: 500;
+                        }
+
+                        @media (max-width: 400px) {
+                            font-size: 13px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
