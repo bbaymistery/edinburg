@@ -20,7 +20,7 @@ const GlobalLayout = ({ children, title = SeoDefaults.title, description = SeoDe
         {/*//? no follow  */}
         <meta name="googlebot" content="index" />
         <meta name="robots" content="noindex,nofollow" />
-
+        <link rel="preconnect" href="/webfonts/fa-solid-900.ttf" crossOrigin="anonymous" />
         {/* <meta name="copyright" content={`Copyright APL transfers ${currentYear}. All rights reserved.`} /> */}
         {/* <meta name="author" content="APL Transfers" /> */}
 
