@@ -1,26 +1,33 @@
-const { createServer } = require("http");
-const { parse } = require("url");
+const express = require("express");
 const next = require("next");
+const compression = require("compression");
 
-const dev = false //process.env.NODE_ENV !== "production";
+const dev = false;
 const app = next({ dev });
 const handle = app.getRequestHandler();
 
 app.prepare().then(() => {
-  createServer((req, res) => {
-    // Be sure to pass `true` as the second argument to `url.parse`.
-    // This tells it to parse the query portion of the URL.
-    const parsedUrl = parse(req.url, true);
-    const { pathname, query } = parsedUrl;
+  const server = express();
 
-    if (pathname === "/a") {
-      app.render(req, res, "/a", query);
-    } else if (pathname === "/b") {
-      app.render(req, res, "/b", query);
-    } else {
-      handle(req, res, parsedUrl);
-    }
-  }).listen(9000, (err) => {
+  // 🔥 GZIP sıkıştırma aktif!
+  server.use(compression());
+
+  // 👇 Özel route'larını koruyorum
+  server.get("/a", (req, res) => {
+    return app.render(req, res, "/a", req.query);
+  });
+
+  server.get("/b", (req, res) => {
+    return app.render(req, res, "/b", req.query);
+  });
+
+  // Diğer tüm route'lar
+  server.all("*", (req, res) => {
+    return handle(req, res);
+  });
+
+  server.listen(9000, (err) => {
     if (err) throw err;
+    console.log("> Ready on http://localhost:9000");
   });
 });
