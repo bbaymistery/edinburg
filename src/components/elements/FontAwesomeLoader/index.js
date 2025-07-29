@@ -6,6 +6,7 @@ export default function FontAwesomeHeadLoader() {
     const router = useRouter();
     const [interactionHappened, setInteractionHappened] = useState(false);
     const isHome = router.pathname === '/';
+    console.log("dsa");
 
     useEffect(() => {
         const handleInteraction = () => {
@@ -33,6 +34,7 @@ export default function FontAwesomeHeadLoader() {
 
 
     const preloadHref = (isHome && !interactionHappened) ? '/fontawesome/css/all.min.css' : '/fontawesomeAll/css/all.min.css';
+    console.log({ preloadHref });
 
     return (
         <Head>

@@ -6,9 +6,12 @@
     "dev": "next dev -p 9000",
     "build": "next build",
     "start": "next start",
-    "live": "SET NODE_ENV=production && node server.js"
+    "live": "SET NODE_ENV=production && node server.js",
+     "partytown": "partytown copylib public/~partytown"
+
   },
   "dependencies": {
+    "@qwik.dev/partytown": "^0.11.1",
     "@react-google-maps/api": "^2.19.3",
     "html2canvas": "^1.4.1",
     "jspdf": "^2.5.1",
@@ -24,13 +27,5 @@
     "redux-devtools-extension": "^2.13.9",
     "sass": "^1.75.0",
     "sharp": "^0.33.3"
-  },
-  "browserslist": [
-    "defaults and supports es6-module",
-    "not IE 11",
-    "last 2 Chrome versions",
-    "last 2 Edge versions",
-    "last 2 Firefox versions",
-    "last 2 Safari versions"
-  ]
+  }
 }

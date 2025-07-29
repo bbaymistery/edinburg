@@ -13,7 +13,7 @@ async function getRoutes() {
   // generate rewrite rules dynamically
   // let toursRoutes = [{ source: `/:lang(${allLangaugesAsString})/tours/:link`, destination: '/tours/:link', locale: false, }]
   // for each language, create a rewrite rule with the language code in the source path
-  const rewriteRules = [...singleRoutes, ...linknameRoutes,];
+  const rewriteRules = [...singleRoutes, ...linknameRoutes, ];
 
 
   return rewriteRules
@@ -21,46 +21,35 @@ async function getRoutes() {
 
 const nextConfig = {
   reactStrictMode: false,
-  swcMinify: true, // modern JS minification (daha hızlı build ve daha küçük dosyalar)
-
   env: {
     mapApiKey: "AIzaSyDulwIwncfuxBve8MKXPIIPmPLRve6ySw8",
     NEXT_PUBLIC_GOOGLE_ANALYTICS: "G-S02J90JMSB",
   },
-
-  experimental: {
-    modularizeImports: {
-      lodash: {
-        transform: "lodash/{{member}}",
-      },
-    },
-  },
-
   async rewrites() {
     const rules = await getRoutes();
     return rules;
   },
-
   images: {
     remotePatterns: [
       { hostname: 'api.london-tech.com' },
       { hostname: 'www.airport-pickups-london.com' },
     ],
   },
+  // async headers() {
+  //   return [
+  //     {
+  //       source: '/:all*(js|css|png|jpg|webp|svg)',
+  //       headers: [
+  //         {
+  //           key: 'Cache-Control',
+  //           value: 'public, max-age=31536000, immutable',
+  //         }
+  //       ],
+  //     },
+  //   ];
+  // },
 
-  async headers() {
-    return [
-      {
-        source: '/:all*(js|css|png|jpg|webp|svg)',
-        headers: [
-          {
-            key: 'Cache-Control',
-            value: 'public, max-age=31536000, immutable',
-          },
-        ],
-      },
-    ];
-  },
-};
+
+}
 
 module.exports = nextConfig
