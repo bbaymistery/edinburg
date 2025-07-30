@@ -24,6 +24,7 @@
                 font-size: 20px;
                 font-weight: 500;
                 text-align: left !important;
+                color: $primary-color-light;
             }
 
 
@@ -118,7 +119,7 @@
                             justify-content: space-between;
                             align-items: center;
                             font-size: 14px;
-                            color: $primary-color-light;
+                            color: $primary-color;
                             margin-bottom: 2px !important;
                         }
 
@@ -152,6 +153,8 @@
                     font-size: 15px;
                     font-weight: bold;
                     line-height: 28px;
+                    color: $primary-color-light;
+
                 }
 
                 a {
@@ -180,7 +183,7 @@
             .price_div {
                 display: flex;
                 justify-content: space-between;
-                color: #212529;
+                color: $primary-color;
                 padding: 10px 20px;
                 font-size: 19px;
                 background-color:$primary-color-light-2;

@@ -5,7 +5,6 @@
     padding: 0;
     font-family: 'montserrat', sans-serif;
     min-height: 100vh;
-    background-image: linear-gradient(125deg,$primary-color-light, $primary-color);
 
     .container {
         width: 100%;
@@ -13,7 +12,6 @@
         top: 50%;
         transform: translateY(-50%);
         text-align: center;
-        color: #343434;
 
         h2 {
             @media(max-width:600px) {
@@ -57,7 +55,7 @@
 
         a {
             text-decoration: none;
-            background: #632402;
+            background: $primary-color-light;
             color: #fff;
             padding: 12px 24px;
             display: inline-block;
@@ -65,14 +63,15 @@
             font-size: 14px;
             text-transform: uppercase;
             transition: background 0.4s linear;
-
+margin-top: 1rem;
             @media(max-width:600px) {
                 padding: 6px 18px;
                 margin-top: 10px;
             }
 
             &:hover {
-                background: #4060a7;
+                       background: $primary-color;
+
             }
         }
 

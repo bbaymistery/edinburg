@@ -1,4 +1,4 @@
-import currencies from "../constants/currencies";
+const currencies=[]
 
 /**
  * Get the symbol and correct price for an item based on active currency.

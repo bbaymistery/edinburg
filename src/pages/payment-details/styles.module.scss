@@ -1,0 +1,267 @@
+@import '../../styles/variables';
+
+.payment_details {
+    padding-top: 30px !important;
+
+    .payment_details_section {
+        padding-bottom: 0px !important;
+
+        .payment_details_section_container {
+            @media (max-width:1400px) {
+                max-width: 1070px;
+            }
+
+            @media (max-width:1200px) {
+                max-width: 1070px;
+            }
+
+            @media (max-width:768px) {
+                padding: 0px;
+            }
+
+            .payment_details_section {
+                padding-top: 0px;
+                padding-bottom: 80px;
+                width: 100%;
+                position: relative;
+
+                div {
+                    .main_container {
+                        margin-bottom: 1.5rem;
+                        display: flex;
+                        gap: 1rem;
+
+                        .left {
+                            flex: 0.35;
+                            border-radius: 3px;
+                            height: min-content;
+                            box-shadow: $box-shadow-3;
+
+                            @media (max-width: 990px) {
+                                display: none;
+                            }
+
+                            .left_top_title {
+                                padding: 10px 10px;
+                                font-weight: 500;
+                                background-color: $primary-color-light-2;
+                                color: $primary-color-light;
+                                font-size: 20px;
+                            }
+
+
+                            .left_content_of_card {
+                                padding: 20px 10px;
+
+
+                                .show_ondestkop {
+                                    @media (max-width: 990px) {
+                                        display: none;
+                                    }
+
+                                }
+
+                                .image_div {
+                                    .names {
+                                        display: flex;
+                                        justify-content: space-between;
+                                        padding-top: 15px;
+
+                                        .text_2 {
+                                            color: $primary-color;
+                                            font-weight: 500;
+
+                                        }
+
+                                        .text_1 {
+                                            color: $primary-color;
+                                            font-size: 17px;
+                                            font-weight: 500;
+
+                                        }
+                                    }
+
+                                    .image {
+                                        padding-top: 10px;
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+
+                                        img {
+                                            width: 300px;
+                                            object-fit: contain;
+                                            height: 97px;
+                                        }
+                                    }
+                                }
+
+                                .tour_image_div {
+                                    position: relative;
+                                    margin-top: 1.5rem;
+                                    border: 5px solid $gray-color-light-3;
+                                    border-radius: 10px;
+                                    height: 240px !important;
+                                    overflow: hidden;
+
+                                }
+
+
+                            }
+
+                        }
+
+                        .right {
+                            flex: 0.65;
+                  box-shadow: $box-shadow-3;
+
+                            border-radius: 3px;
+                            @media (max-width: 990px) {
+                                flex: 1
+                            }
+
+                            .right_top_title {
+                                padding: 10px 10px;
+                                font-weight: 500;
+                                background-color:$primary-color-light-2;
+                                color: $primary-color-light;
+                                font-size: 20px;
+                                border-bottom: 1px solid $gray-color-light-4;
+                                text-transform: capitalize;
+
+                            }
+
+
+                            .passenger_details {
+                                padding: 10px 10px;
+                                .card_info {
+                                    .info {
+                                        .show_onmobile {
+
+                                            display: none;
+
+                                            @media(max-width:990px) {
+                                                display: block;
+                                            }
+                                        }
+
+
+                                        li:nth-child(even) {
+                                                                            background-color:$primary-color-light-2;
+
+                                        }
+
+                                        li {
+                                            flex-direction: row;
+                                            color: $primary-color;
+                                            padding: 10px 0;
+                                            letter-spacing: 0.7px;
+
+                                            &:not(:last-child) {
+                                                border-bottom: 1px solid $gray-color-light-4;
+                                            }
+
+                                            .details_headerr_li {
+
+                                                display: grid;
+                                                grid-template-columns: 150px 1fr;
+                                                align-items: center;
+                                                letter-spacing: 1px;
+                                                font-size: 12.4px;
+
+                                                @media (max-width:450px) {
+                                                    grid-template-columns: 136px 1fr;
+                                                }
+
+                                                .li_info {
+                                                    display: grid;
+                                                    grid-template-columns: 25px 1fr;
+                                                    align-items: center;
+                                                    gap: 5px;
+
+
+
+                                                    @media (max-width:450px) {
+                                                        gap: 0px;
+                                                    }
+
+                                                    .property {
+                                                        color: $primary-color;
+                                                        font-weight: bold;
+                                                        font-size: 14px;
+                                                        text-transform: capitalize;
+
+                                                        @media (max-width:450px) {
+                                                            font-size: 13px;
+                                                        }
+                                                    }
+
+                                                    i {
+                                                        color: $primary-color;
+                                                        font-size: 13px;
+                                                        padding: 5px;
+                                                        display: flex;
+                                                        align-items: center;
+                                                        justify-content: center;
+
+                                                        @media (max-width:450px) {
+                                                            font-size: 11px;
+                                                        }
+
+                                                    }
+
+                                                }
+
+                                                .value {
+                                                    margin-left: 2px;
+                                                    font-weight: 500;
+                                                    font-size: 13px;
+
+                                                    @media (max-width:350px) {
+                                                        font-size: 11px !important;
+                                                    }
+                                                }
+                                            }
+
+
+                                        }
+                                    }
+
+                                    .tour_price {
+                                        padding-top: 30px;
+                                        padding-bottom: 10px;
+                                        text-align: right;
+                                        font-size: 30px;
+
+                                        @media (max-width: 990px) {
+                                            text-align: center;
+                                        }
+
+                                        span:nth-child(2) {
+                                            font-size: 34px;
+                                        }
+                                    }
+                                }
+
+                            }
+
+                            .btn_div {
+                                padding: 10px 10px;
+                                display: flex;
+                                justify-content: flex-end;
+                                align-items: flex-end;
+
+                                @media (max-width: 990px) {
+                                    button {
+                                        width: 100%;
+
+                                    }
+                                }
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -5,6 +5,7 @@ import { composeWithDevTools } from "redux-devtools-extension";
 import { pickUpDropOffActions } from "./pickUpDropOffActions";
 import { alertReducer } from './alertReducer';
 import GET_APP_DATA from './pickUpDropOffActions/GET_APP_DATA';
+import { tourActions } from './tourActions'
 
 // Initial Reducer
 const initialReducer = (state = {}, action) => {
@@ -39,6 +40,7 @@ const staticReducers = {
     pickUpDropOffActions,
     initialReducer,
     alertReducer,
+    tourActions,
 };
 
 // Create store with initial reducers
