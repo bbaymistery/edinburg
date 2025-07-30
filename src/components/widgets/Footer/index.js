@@ -110,9 +110,9 @@ const Footer = () => {
                                 <a href={`${language === 'en' ? `/travel-agents` : `/${language}/travel-agents`}`} title={(appData || {}).words["strTravelNews"]}  >
                                     {(appData || {}).words["strTravelNews"]}
                                 </a>
-                                <a href={"/tr/sofor-araniyor"} hrefLang="tr" title={generalAllTranslations.strDriverWanted[language]} >
+                                {/* <a href={"/tr/sofor-araniyor"} hrefLang="tr" title={generalAllTranslations.strDriverWanted[language]} >
                                     {generalAllTranslations.strDriverWanted[language]}
-                                </a>
+                                </a> */}
 
                                 <a href={`${language === 'en' ? `/sitemap` : `/${language}/sitemap`}`} title={generalAllTranslations.strSiteMap[language]} >
                                     {generalAllTranslations.strSiteMap[language]}
@@ -124,7 +124,7 @@ const Footer = () => {
                             <div>
                                 {
                                     airportTaxiLinks
-                                        .filter((item) => item.hasTaxiDeals !== "ADB" && item.hasTaxiDeals !== "GZP") // Exclude ADB & GZP
+                                        // .filter((item) => item.hasTaxiDeals !== "ADB" && item.hasTaxiDeals !== "GZP") // Exclude ADB & GZP
                                         .map((item) => {
                                             let { strInnerText, path: listPath, hasTaxiDeals } = item;
 

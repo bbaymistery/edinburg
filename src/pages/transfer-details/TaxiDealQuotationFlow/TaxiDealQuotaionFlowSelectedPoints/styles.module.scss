@@ -1,0 +1,284 @@
+@import '../../../../styles/variables';
+
+
+//pick up drop of input
+.search_menu {
+    min-height: 50px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+    @media (max-width:990px) {
+        border-right: none;
+        margin-bottom: 0rem;
+    }
+
+    .taxideals_select_div {
+        position: relative;
+        border-radius: 4px;
+        padding: 4px 4px;
+        padding-right: 6px;
+        display: flex;
+        border: 1px solid $gray-color-light-3;
+
+        img {
+            width: 12px;
+            margin-left: 5px;
+            margin-right: 5px;
+            filter: invert(46%) sepia(39%) saturate(204%) hue-rotate(181deg) brightness(89%) contrast(91%)
+        }
+
+        .taxideals_select {
+            width: 100%;
+            width: 100%;
+            outline: none;
+            border: 1px solid transparent;
+            font-weight: 500;
+            color: black;
+            color: $gray-color;
+            background-color: transparent;
+            font-size: 15px;
+        }
+
+    }
+
+    .taxideals_select_div[direction="false"] {
+        margin-bottom: 16px;
+
+        img {
+            right: 9px !important;
+        }
+    }
+
+    .taxideals_select_div[direction="true"] {
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-top: 2px !important;
+
+        img {
+            left: 9px !important;
+            top: 5px;
+        }
+    }
+
+    p {
+        font-size: 15px;
+        font-weight: 500 !important;
+        text-transform: capitalize;
+        color: black;
+        padding-right: 8px;
+        padding-bottom: 10px;
+    }
+
+    .input_div {
+        position: relative;
+
+        @media(max-width:990px) {
+            padding-right: 0px;
+            padding-bottom: 4px;
+
+        }
+
+        .popup_header[f="false"] {
+            display: none;
+        }
+
+        .popup_header[f="true"] {
+            display: flex;
+            align-items: center;
+            padding-top: 12px;
+            padding-bottom: 10px;
+            padding-left: 3px;
+
+            i {
+                margin-right: 11px;
+                font-size: 21px;
+                cursor: pointer;
+                z-index: 999999999999999;
+                margin-bottom: 8px;
+            }
+
+            p {
+                font-size: 19px;
+                font-weight: 500;
+                color: $primary-color;
+            }
+        }
+
+
+        .input_delete_field_icon[popupp="false"][direction="false"] {
+            top: 7px;
+            font-size: 13px;
+            color: $--color-light-3;
+            right: 10px;
+            position: absolute;
+            display: inline;
+            width: 14px;
+            cursor: pointer;
+
+            &:hover {
+                color: darken($--color-light-3, 10%);
+            }
+        }
+
+        .input_delete_field_icon[popupp="false"][direction="true"] {
+            position: absolute;
+            right: 97% !important;
+            color: $--color-light-3;
+            right: 5px;
+            font-size: 12px;
+            transform: rotate(180deg);
+            top: 9px;
+            cursor: pointer;
+            width: 10px;
+        }
+
+        .input_delete_field_icon[popupp="true"][direction="true"] {
+            position: absolute;
+            left: 23px !important;
+            color: $--color-light-3;
+            font-size: 12px;
+            transform: rotate(180deg);
+            top: 88px !important;
+            cursor: pointer;
+        }
+
+        .input_delete_field_icon[popupp="true"][direction="false"] {
+            position: absolute;
+            right: 23px !important;
+            color: $--color-light-3;
+            font-size: 12px;
+            top: 88px;
+            cursor: pointer;
+        }
+
+
+        .error_icon[popupp="false"][direction="false"] {
+            top: 0px;
+            font-size: 12px;
+            color: $--color-light-3;
+            right: 10px;
+            position: absolute;
+            display: inline;
+            width: 13px;
+        }
+
+        .error_icon[popupp="false"][direction="true"] {
+            position: absolute;
+            top: 0px;
+            left: 5px !important;
+            font-size: 12px;
+            color: $--color-light-3;
+
+
+            @media(max-width:990px) {
+                width: 100%;
+                left: 50%;
+                right: 97%;
+
+            }
+        }
+
+        .error_icon[popupp="true"][direction="true"] {
+            display: none;
+        }
+
+        .error_icon[popupp="true"][direction="false"] {
+            display: none;
+        }
+
+        input {
+            border: 1px solid $gray-color-light-3;
+            outline: none;
+            width: 100%;
+            background-color: transparent;
+            outline-offset: -2px;
+            -webkit-appearance: textfield;
+            border-radius: 4px;
+            padding: 4px 6px !important;
+            min-height: 36px;
+
+            @media (max-width:990px) {
+                padding: 1px 0px;
+            }
+
+            &::placeholder {
+                color: $gray-color;
+                font-weight: 400;
+                font-size: 13px;
+            }
+        }
+
+        input[f="true"] {
+            border: 1px solid $gray-color-light-3;
+            border-radius: 4px;
+            padding: 10px;
+        }
+
+        input[f="false"] {
+            padding: 1px 2px;
+        }
+
+        //normal english or turkish
+
+        .loading_div[direction="false"] {
+            position: absolute;
+            top: -36px;
+            right: 72px;
+
+            @media(max-width:1300px) {
+                right: 72px;
+            }
+
+            @media(max-width:990px) {
+                right: 80px;
+            }
+        }
+
+        .loading_div[popupp="false"][direction="true"] {
+            position: absolute;
+            top: -38px;
+            left: -22px;
+        }
+
+        .loading_div[popupp="true"][direction="false"] {
+            top: 42px !important;
+            right: 92px !important;
+            position: absolute;
+        }
+
+        .loading_div[popupp="true"][direction="true"] {
+            top: 36px !important;
+            position: absolute !important;
+            left: 0px !important;
+            background-color: $gray-color-light-3;
+
+        }
+
+        input[f="false"].error_input {
+            border-bottom: 1px solid red !important;
+        }
+
+
+    }
+
+
+
+
+}
+
+@media only screen and (max-width: 1000px) {
+    .search-input-container[f="true"] {
+        position: fixed !important;
+        top: 0 !important;
+        left: 0 !important;
+        width: 100vw !important;
+        height: 100vh !important;
+        overflow: auto;
+        background-color: white;
+        z-index: 100000001 !important;
+        padding: 12px !important;
+        overflow: hidden;
+
+    }
+}

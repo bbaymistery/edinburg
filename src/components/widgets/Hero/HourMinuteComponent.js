@@ -1,4 +1,3 @@
-import React from 'react'
 import styles from "./styles.module.scss"
 import { hours, minutes } from '../../../constants/minutesHours'
 const HourMinuteComponent = ({ onChangeSetDateTimeHandler, selectedPickupPoints, direction, appData, index,splitedHour,splitedMinute }) => {

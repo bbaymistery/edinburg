@@ -23,12 +23,12 @@
             padding: 0px 35px;
 
             li {
-                border-bottom: 1px solid $--color-light-4;
+                border-bottom: 1px solid $gray-color-light-4;
 
                 &:hover {
                     a {
                         transition: 0.2s linear;
-                        color: $--color-accent-1;
+                        color: $primary-color-light;
                     }
                 }
 
@@ -36,7 +36,7 @@
                     display: flex;
                     justify-content: space-between;
                     padding: 8px 8px;
-                    color: $--color-dark-1;
+                    color: $primary-color;
 
                     span {
                         font-size: 18px;
@@ -67,7 +67,8 @@
 
                         &:hover {
                             cursor: pointer;
-                            color: $--color-accent-1;
+                            color: $primary-color-light;
+
                         }
                     }
                 }
@@ -82,7 +83,7 @@
 
                 .first_child_a {
                     padding: 8px;
-                    color: $--color-accent-1;
+                    color: $primary-color-light;
                 }
             }
         }
@@ -90,15 +91,16 @@
 
     .header_content_menu_mobile[expand="true"] {
         height: 100px !important;
-     box-shadow: 0 48px 100px 0 rgba(17, 12, 46, .15);
+        box-shadow: 0 48px 100px 0 rgba(17, 12, 46, .15);
         top: 80px;
+
         .menu_content_ul {
             height: 100%;
             overflow-y: hidden;
             padding: 10px 70px;
 
             li {
-                border-bottom: 1px solid $--color-light-4;
+                border-bottom: 1px solid $gray-color-light-4;
 
                 &:last-child {
                     border-bottom: none;

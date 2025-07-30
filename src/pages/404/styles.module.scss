@@ -5,7 +5,7 @@
     padding: 0;
     font-family: 'montserrat', sans-serif;
     min-height: 100vh;
-    background-image: linear-gradient(125deg, $--color-accent-1, rgb(246, 150, 82));
+    background-image: linear-gradient(125deg,$primary-color-light, $primary-color);
 
     .container {
         width: 100%;

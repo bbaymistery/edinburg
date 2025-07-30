@@ -1,0 +1,37 @@
+@import '../../../styles/variables.scss';
+
+.module_content {
+    p {
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+
+        strong {
+            color: $primary-color-light;
+
+        }
+    }
+
+    h3 {
+        font-size: 14px;
+        margin-bottom: 0px;
+
+    }
+
+    ul {
+        margin: 0px;
+
+        li {
+            margin: 0px;
+            padding: 0px;
+            font-size: 14px;
+
+            strong {
+                color: $primary-color-light;
+            }
+        }
+    }
+
+    h4 {
+        font-size: 14px;
+    }
+}

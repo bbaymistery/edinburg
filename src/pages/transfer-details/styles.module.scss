@@ -1,0 +1,158 @@
+@import '../../styles/variables';
+
+
+
+
+
+
+.tr_details_section {
+    padding-top: 0px;
+    padding-bottom: 50px;
+    position: relative;
+
+    .tr_details_section_container {
+        @media only screen and (max-width:1200px) {
+            max-width: 1150px !important;
+        }
+
+        .transferdetails_subcontainer {
+            .transferdetails_subcontainer_content.rtl {
+                flex-direction: row-reverse;
+            }
+
+            .transferdetails_subcontainer_content {
+                max-width: 1450px;
+                width: 100%;
+                display: flex;
+                background-color: transparent;
+                position: relative;
+                gap: 1rem;
+                margin: 0 auto;
+                justify-content: space-between;
+                z-index: 1;
+
+                @media (max-width:1100px) {
+                    display: flex;
+                    flex-direction: column-reverse;
+
+                }
+
+                .transferdetails_subcontainer_content_points_and_passengerdetails {
+                    flex-basis: 60%;
+                    margin-top: 25px;
+                    position: relative;
+                    min-height: 500px;
+                    display: flex;
+                    flex-direction: column;
+                    padding: 20px;
+                    box-shadow: $box-shadow-1;
+
+                    @media (max-width:1100px) {
+                        flex-basis: 100% !important;
+                    }
+
+                    @media (max-width:450px) {
+                        padding: 20px 10px;
+                    }
+
+                    .points[direction="true"] {
+                        p {
+                            padding-bottom: 5px !important;
+                        }
+
+
+                    }
+
+                    .points {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 1rem;
+                        margin-top: 25px;
+                        padding: 30px 0px;
+                        border-radius: 4px;
+
+                        @media (max-width:990px) {
+                            flex-direction: column;
+                            flex-basis: 100%;
+                            margin-top: 0px;
+                        }
+
+                        h2 {
+                            color: black;
+                            font-weight: 500;
+                            margin-bottom: 5px;
+                            font-size: 22px;
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            text-transform: capitalize;
+
+                            i {
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                color: $primary-color;
+                                font-size: 16px;
+                                cursor: pointer;
+                            }
+                        }
+
+
+                    }
+
+                    .points.rtl {
+                        flex-direction: row-reverse;
+                    }
+                }
+            }
+
+            .modal {
+                position: fixed;
+                inset: 0; // shorthand for top/right/bottom/left: 0;
+                background-color: $primary-color-light-2; // dark overlay
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                z-index: 9999;
+
+                &.hidden {
+                    display: none;
+                }
+            }
+
+            .modal_container {
+                background-color: #fff;
+                padding: 2rem;
+                width: 90%;
+                max-width: 500px;
+                border-radius: 1rem;
+                box-shadow: $box-shadow-1;
+                position: relative;
+                animation: fadeInScale 0.3s ease-in-out;
+
+                div {
+                    font-size: 1rem;
+                    color: $gray-color;
+                    margin-bottom: .5rem;
+                    text-align: center;
+                }
+            }
+
+
+
+            .close_icon {
+                position: absolute;
+                top: 1rem;
+                left: 1rem;
+                cursor: pointer;
+                color: #555;
+                font-size: 1.2rem;
+                transition: color 0.2s ease;
+
+                &:hover {
+                    color: $primary-color;
+                }
+            }
+        }
+    }
+}

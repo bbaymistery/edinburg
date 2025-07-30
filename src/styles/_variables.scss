@@ -18,7 +18,7 @@ $--color-accent-2: #CD4B13;
 $--color-light-1: #F5F5F5; //
 $--color-light-2: #717171; //
 $--color-light-3: #FBFBFB; //
-$--color-light-4: #DDD3EC; //
+$gray-color-light-4: #DDD3EC; //
 $--color-light-5: #F2F1EC; //
 $--color-light-6: #E7E6E6;
 $--color-light-7: #C6C6D2;
@@ -44,14 +44,24 @@ $tr-cubic: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
 //!!!!
 $primary-color: #0B1D33;
 $primary-color-light: #113056;
-$primary-color-light-2:#194a8608;
+$primary-color-light-2: #194a8608;
 
 
+$gray-color: #717171; //
 $gray-color-light: #f5f5f5;
 $gray-color-light-2: #FBFBFB; //
 $gray-color-light-3: #F2F1EC; //
+$gray-color-light-4: #DDD3EC; //
 
+
+
+$yellow-color: rgb(255, 179, 0);
 $text-color: #000000;
+$modal-bg-color:rgba(0, 0, 0, 0.6);
+$bg-light:rgba(0, 0, 0, 0.2);
+
+
+
 
 //!Shadows
 $box-shadow-1: rgba(149, 157, 165, 0.2) 0px 8px 24px;

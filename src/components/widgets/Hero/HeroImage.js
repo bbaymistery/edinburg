@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import React from 'react'
 import styles from "./styles.module.scss"
 const HeroImage = ({ islinknamecomponent, matchingLinkNameImage }) => {
     return (
@@ -17,7 +16,6 @@ const HeroImage = ({ islinknamecomponent, matchingLinkNameImage }) => {
                 (min-width: 1020px) calc(28.88vw + 801px),
                 (min-width: 528px) calc(14.79vw + 154px),
                 1239px"
-
                 src={islinknamecomponent ? matchingLinkNameImage : "/images/hero.webp"}
             />
             <Image priority className={styles.shape_image} src={"/images/svgs/shape3.svg"} alt="APL Transfers " width={1700} height={600} style={{ height: "auto", width: "100%" }} />

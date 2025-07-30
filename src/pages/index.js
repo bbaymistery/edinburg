@@ -1,11 +1,41 @@
 
+
+import { useEffect, useState } from 'react';
 import GlobalLayout from '../components/layouts/GlobalLayout'
+import Hero from '../components/widgets/Hero'
+import dynamic from 'next/dynamic';
+import { parse } from 'url';
+import { setNoCacheHeader } from "../helpers/setNoCacheHeader";
+import { parseCookies } from '../helpers/cokieesFunc';
+import { checkLanguageAttributeOntheUrl } from '../helpers/checkLanguageAttributeOntheUrl';
+import { adjustPathnameForLanguage } from '../helpers/adjustedPageLanguage';
+import { isUrlLoverCase } from '../helpers/isUrlLoverCase';
+import { fetchConfig } from '../resources/getEnvConfig';
+const Testimonials = dynamic(() => import('../components/widgets/Testimonials'), { loading: () => <div>Loading...</div>, ssr: false });
+const CarsSlider = dynamic(() => import('../components/widgets/CarsSlider'), { loading: () => <div>Loading...</div>, ssr: false });
 
 export default function Home(props) {
+  const [hasScrolled, setHasScrolled] = useState(false);
+
+  // Check if window scroll position is more than 200 pixels
+  const handleScroll = () => {
+    if (window.scrollY > 210 && !hasScrolled) setHasScrolled(true);
+  };
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+    // Clean up the event listener on component unmount
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, [hasScrolled]);
 
   return (
-    <GlobalLayout>
-      Salam
+    <GlobalLayout title={props?.seoDatas?.title} keywords={props?.seoDatas?.keywords} description={props?.seoDatas?.description} mainCanonical={props.mainCanonical}>
+      <Hero env={props.env} />
+      {/* <WhyChoice /> */}
+      {/* <PopularDestinations env={props.env} /> */}
+      {/* {hasScrolled && <Tours insideGlobalLayout={false} />} */}
+      {hasScrolled && <CarsSlider />}
+      <Testimonials />
     </GlobalLayout>
   )
 }
@@ -62,12 +92,23 @@ const seoHomeDefaults = {
 };
 
 export async function getServerSideProps({ req, res, query, resolvedUrl }) {
-  // setNoCacheHeader(res, false);
+  setNoCacheHeader(res, false);
   // Cache'i kapat
-  console.log("getServerSideProps called");
+  isUrlLoverCase(resolvedUrl, res)
+  const env = await fetchConfig();
 
+  //get cookie and pathnames
+  let cookies = parseCookies(req.headers.cookie);
+  let { pathname } = parse(req.url, true)
+  let pageStartLanguage = checkLanguageAttributeOntheUrl(req?.url)
+  // Adjust pathname and language based on initial language
+  const adjusted = adjustPathnameForLanguage(pathname, pageStartLanguage, cookies);
+  // pathname = adjusted.pathname;
+  pageStartLanguage = adjusted.pageStartLanguage;
+  const seoDatas = seoHomeDefaults[pageStartLanguage] || seoHomeDefaults["en"];
+  const mainCanonical = `${env.websiteDomain}${pageStartLanguage === 'en' ? "/" : `/${pageStartLanguage}/`}`
   return {
     //we pass tourdetails fot adding inside redux generally all together
-    props: {}
+    props: { seoDatas, mainCanonical }
   };
 }

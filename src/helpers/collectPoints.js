@@ -6,7 +6,7 @@ const collectPoints = (params = { "value": String(), "reducerSessionToken": Stri
     const method = "POST";
     const headers = { "Content-Type": "application/json" };
     //!language tr es olanda pointsgelmir oyuzden en atayiriq
-    const body = JSON.stringify({ value, "session-token": reducerSessionToken, language: "en", configuration: { ignoreGooglePlaces }, "countryId": 203 });
+    const body = JSON.stringify({ value, "session-token": reducerSessionToken, language: "en", configuration: { ignoreGooglePlaces },  });
     const config = { method, headers, body };
 
     fetch(url, config)

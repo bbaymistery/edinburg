@@ -96,14 +96,15 @@
                     border-radius: 12px;
                     margin-top: 20px;
                     position: relative;
-                    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                    box-shadow: $box-shadow-2;
+
 
                     .linkname_title_div {
                         .title {
                             padding-bottom: 10px;
                             padding-left: 3px;
                             font-weight: 100;
-                            color: $--color-light-2;
+                            color: $primary-color-light;
                             font-size: 29px;
                         }
                     }
@@ -127,7 +128,7 @@
                             cursor: pointer;
                             line-height: 20px;
                             display: inline-block;
-                            color: $--color-light-2;
+                            color: $primary-color-light;
                             text-transform: capitalize;
                         }
 
@@ -139,9 +140,8 @@
                             top: 0;
                             width: 16px;
                             height: 16px;
-                            border: 1px solid $--color-light-4;
+                            border: 1px solid $gray-color-light-4;
                             border-radius: 100%;
-                            background: #fff;
                         }
 
                         [type="radio"]:checked+label:after,
@@ -149,7 +149,7 @@
                             content: '';
                             width: 10px;
                             height: 10px;
-                            background: $--color-accent-1;
+                            background: $primary-color-light;
                             position: absolute;
                             top: 3px;
                             left: 3px;
@@ -172,14 +172,14 @@
                     }
 
                     .return_journey_title {
-                        color: $--color-light-2;
+                        color: $primary-color-light;
                         margin: 24px 0px 24px 4px !important;
                         font-size: 24px;
                         text-transform: capitalize;
                     }
 
                     .tr_journey_title {
-                        color: $--color-light-2;
+                        color: $primary-color-light;
                         margin: 9px 0px 24px 4px !important;
                         width: 100%;
                         font-size: 24px;
@@ -237,12 +237,12 @@
                             .icon_wrapper {
                                 width: 50px;
                                 height: 50px;
-                                border: 1px solid $--color-light-6;
+                                border: 1px solid $gray-color-light-4;
                                 border-radius: 12px;
                                 display: flex;
                                 align-items: center;
                                 justify-content: center;
-                                color: $--color-light-2;
+                                color: $primary-color-light;
                             }
 
                             //pick up drop of input
@@ -256,8 +256,8 @@
                                     font-size: 15px;
                                     font-weight: 500;
                                     line-height: 1.6;
-                                    color: $--color-dark-1;
                                     text-transform: capitalize;
+                                    color: $primary-color;
                                 }
 
                                 .input_div {
@@ -284,7 +284,6 @@
                                         p {
                                             font-size: 18px;
                                             font-weight: 500;
-                                            color: #000;
                                         }
                                     }
 
@@ -397,22 +396,21 @@
                                         border: 0;
                                         outline: none;
                                         width: 100%;
-                                        font-size: 15px;
+                                        font-size: 14px;
                                         line-height: 1.4;
-                                        color: $--color-light-2;
+                                        color: $primary-color-light;
 
-                                        border-bottom: 1px solid $--color-light-6;
+                                        border-bottom: 1px solid $gray-color-light-4;
 
 
                                         &::placeholder {
                                             text-transform: capitalize;
-                                            color: $--color-light-2;
-                                            font-weight: 300;
+                                            color: $primary-color-light;
                                         }
                                     }
 
                                     input[f="true"] {
-                                        border: 1px solid #efefef;
+                                        border: 1px solid $gray-color-light-4;
                                         border-radius: 4px;
                                         padding: 10px;
                                     }
@@ -494,7 +492,7 @@
                                     .add_point_icon,
                                     .add_point_text {
                                         font-size: 14px;
-                                        color: $--color-light-2;
+                                        color: $primary-color;
                                     }
 
                                     .add_point_icon {
@@ -515,25 +513,23 @@
                                         text-align: left;
                                         min-width: 100%;
                                         max-width: 100%;
-                                        -webkit-appearance: none;
-                                        -moz-appearance: none;
                                         border-radius: 0;
                                         min-height: 28px !important;
                                         height: 28px !important;
                                         border: 0;
                                         outline: none;
                                         outline-offset: -2px;
-                                        background-color: rgb(255, 255, 255);
+                                        background-color: white;
                                         font-size: 15px;
 
-                                        border-bottom: 1px solid $--color-light-6;
+                                        border-bottom: 1px solid $gray-color-light-4;
 
                                         &::before,
                                         &::after {
                                             content: '';
                                             position: absolute;
                                             height: 50%;
-                                            border-color: transparent transparent transparent rgba($--color-light-2, 0.5);
+                                            border-color: transparent transparent transparent rgba($primary-color-light, 0.5);
                                             border-style: solid;
                                             border-width: 1px;
                                             transform: skewX(-15deg);
@@ -591,7 +587,7 @@
                                         &::-webkit-datetime-edit-month-field,
                                         &::-webkit-datetime-edit-day-field {
                                             position: absolute !important;
-                                            color: $--color-light-8;
+                                            color: $primary-color-light;
                                             padding: 0;
                                         }
 
@@ -674,10 +670,10 @@
                                             border: none;
                                             width: 100%;
                                             font-size: 15px;
-                                            color: $--color-light-8;
+                                            color: $primary-color;
 
                                             // -webkit-appearance: menulist;
-                                            border-bottom: 1px solid $--color-light-6;
+                                            border-bottom: 1px solid $gray-color-light-4;
 
 
                                             &:focus {
@@ -691,7 +687,7 @@
                                             position: absolute;
                                             right: 35px !important;
                                             font-size: 13px;
-                                            color: $--color-light-2;
+                                            color: $primary-color-light;
                                             z-index: 0;
                                             pointer-events: none;
 
@@ -737,7 +733,7 @@
                                 width: 100%;
                                 height: 50px;
                                 border-radius: 4px;
-                                border: 1px solid $--color-accent-1;
+                                border: 1px solid $primary-color-light;
                                 cursor: not-allowed;
                                 display: flex;
                                 justify-content: center;

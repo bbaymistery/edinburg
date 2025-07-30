@@ -32,6 +32,16 @@ body {
     }
 }
 
-i {
-    font-style: normal;
+
+.phone_input {
+    width: 100%;
+    .form-control {
+        width: 100% !important;
+        height: 53px !important;
+    }
+
+    .country-list {
+        max-height: 305px !important;
+    }
+
 }

@@ -1,0 +1,102 @@
+@import '../../../styles/variables';
+
+.selected_points {
+    .point_div {
+        position: relative;
+
+        .icons {
+            top: 3px;
+            right: 0px;
+        }
+
+        .icons_delete_span {
+            @media (max-width:990px) {
+                opacity: 1;
+                transform: scale(1);
+                font-size: 18px;
+            }
+        }
+
+        input {
+            outline: none;
+            padding: 6px 15px !important;
+            padding-left: 0px !important;
+            width: 100%;
+            border: none;
+            text-transform: capitalize;
+            font-size: 14px;
+            line-height: 1.4;
+            color: $primary-color-light;
+            border-bottom: 1px solid $primary-color;
+            transition: .2s linear;
+            border-radius: 4px;
+
+        }
+
+        input::placeholder {
+            color: $primary-color-light;
+            
+        }
+
+        .icons {
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1;
+            width: 19px;
+            height: 19px;
+            background-color: white;
+            transition: .5s linear;
+            cursor: pointer;
+            font-size: 15px;
+            padding: 12px;
+
+        }
+
+        .icons_check_span {
+            opacity: 1;
+            color: $primary-color;
+            z-index: 0;
+        }
+
+        .icons_delete_span {
+            opacity: 0;
+            color: red;
+
+            @media(max-width:990px) {
+                opacity: 1;
+            }
+        }
+
+        &:hover {
+            .icons_delete_span {
+                opacity: 1;
+                transform: scale(1);
+            }
+
+            .icons_check_span {
+                visibility: hidden;
+                transform: scale(0);
+                opacity: 0;
+            }
+
+        }
+
+        @media(max-width:990px) {
+
+            .icons_check_span[hideme="true"],
+            .icons_delete_span[hideme="true"] {
+                display: none;
+
+                &:hover {
+                    display: none;
+                }
+            }
+
+            .icons_check_span {
+                display: none;
+            }
+        }
+    }
+}

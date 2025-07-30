@@ -1,4 +1,3 @@
-import React from 'react'
 import styles from "./styles.module.scss"
 import { currentDate } from '../../../helpers/getDates'
 const InputDateComponent = ({ reservations,selectedPickupPoints, direction, appData, index, splitedDate, onChangeSetDateTimeHandler }) => {
