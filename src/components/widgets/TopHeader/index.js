@@ -10,9 +10,6 @@ import dynamic from 'next/dynamic'
 import { setCookie } from "../../../helpers/cokieesFunc";
 import logoImage from '../../../../public/logos/edinburgLogo.webp'
 import airportTranslations from "../../../constants/generalTranslataions";
-import { updateCurrencyGetQuotationOnSpecialPage } from "../../../helpers/updateCurrencyGetQuotationOnspecialPage";
-import { useSkipFirstRender } from "../../../hooks/useSkipFirstRender";
-import { updateCurrencyOnTaxiDealFlow } from "../../../helpers/updateCurrencyOntaxiDealFlow";
 import { useWindowSize } from "../../../hooks/useWindowSize";
 
 const DropDownAllLanguages = dynamic(() => import('../../elements/DropDownAllLanguages'),);
@@ -23,7 +20,7 @@ const MobileMenu = dynamic(() => import('../../elements/MobileMenu'),);
 const Header = () => {
   const router = useRouter()
   const dispatch = useDispatch()
-  const { params: { language, journeyType, selectedCurrency, quotations }, reservations } = useSelector(state => state.pickUpDropOffActions)
+  const { params: { language, journeyType,  } } = useSelector(state => state.pickUpDropOffActions)
   const [openMenu, setOpenMenu] = useState(false) //mobile
   const [languageStatus, setLanguageStatus] = useState(false)
   const [currencyStatus, setCurrencyStatus] = useState(false)
@@ -83,15 +80,7 @@ const Header = () => {
     }
   }
 
-  const handleCurrency = (params = {}) => {
-    let { e, text, currencyId } = params
-    dispatch({ type: "SET_CURRENCY", data: { currencyId: +currencyId, text } })
 
-    // setCookie("currency", text, 1);
-    // setCookie("currencyId", currencyId, 1);
-
-    setCurrencyStatus(false)
-  }
 
   const toggleMenu = () => setOpenMenu(!openMenu)
 
@@ -127,14 +116,6 @@ const Header = () => {
     toggleMenu();
   }, [dispatch, journeyType, toggleMenu]);
 
-  useSkipFirstRender(() => {
-
-    if (quotations[0]?.taxiDeal) {
-      updateCurrencyOnTaxiDealFlow({ quotations, reservations, reduxLanguage: language, currencyId: selectedCurrency.currencyId, dispatch, });
-    } else {
-      updateCurrencyGetQuotationOnSpecialPage({ dispatch, setInternalState, router, reservations, journeyType, language, appData, selectedCurrency, isTaxiDeal: false });
-    }
-  }, [selectedCurrency.currencyId]);//second parametre if false it means it rendere initially 
 
   useEffect(() => {
     const err0 = internalState["error-booking-message-0"];

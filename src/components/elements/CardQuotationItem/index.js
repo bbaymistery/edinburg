@@ -1,9 +1,8 @@
 import { useRouter } from 'next/router';
-import React, { useEffect, useState } from 'react'
+import { useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
 import { quotationImagesObjWebp } from '../../../constants/quotationImages';
 import styles from "./styles.module.scss";
-import WaveLoading from '../LoadingWave';
 import HeaderOfResults from './HeaderOfResults';
 import { BUTTON_TYPES } from '../Button/ButtonTypes';
 import Button from '../Button/Button';
@@ -11,13 +10,7 @@ import { splitAndTranslateDuration } from '../../../helpers/splitHelper';
 import VisibleAccordionContent from './VisibleAccordionContent';
 import SelectedCardItem from './SelectedCardItem';
 import OneWayCardItemComponent from './OneWayCardItemComponent';
-// let finalPrice=`£${item?.price.split(".")[0]}.`
-const currencySymbols = {
-  1: "€", // EUR
-  2: "$", // USD
-  3: "£", // GBP
-  4: "₺"  // TRY
-};
+
 const checkJourneyTypeAndAddQuotationToReducer = (params = {}) => {
   //by this index  we r gonna assure in which journey we should add quotation
   //by journey type we r gonn assure should we directly pass to next page or not
@@ -60,7 +53,6 @@ const CardQuotationItem = (params = {}) => {
     setShowMapReturn = () => { },
     showMapReturn = false,
     showMapOneWay = false,
-    currencyId
   } = params
 
   const router = useRouter();
@@ -142,8 +134,6 @@ const CardQuotationItem = (params = {}) => {
               changeCar={changeCar}
               accordionStatus={index === 0 ? journeyAccrodionStatus : returnJourneyAccordionStatus}
               journeyType={journeyType}
-              currencySymbols={currencySymbols}
-              currencyId={currencyId}
               quotationImagesObjWebp={quotationImagesObjWebp}
               formattedDuration={formattedDuration}
             />
@@ -164,18 +154,14 @@ const CardQuotationItem = (params = {}) => {
           journeyAccrodionStatus={journeyAccrodionStatus}
           returnJourneyAccordionStatus={returnJourneyAccordionStatus}
           setJourneyAccrodionStatus={setJourneyAccrodionStatus}
-          currencyId={currencyId}
-          currencySymbols={currencySymbols}
           formattedDuration={formattedDuration}
         />
 
         <OneWayCardItemComponent
           journeyType={journeyType}
           carObject={carObject}
-          currencyId={currencyId}
           selectedQuotation={selectedQuotation}
           formattedDuration={formattedDuration}
-          currencySymbols={currencySymbols}
           quotationImagesObjWebp={quotationImagesObjWebp}
           datas={datas}
           handleClickForMobile={handleClickForMobile}

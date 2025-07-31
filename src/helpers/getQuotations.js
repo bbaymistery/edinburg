@@ -1,6 +1,6 @@
-const collectQuotations = (params = { 'reservations': Object(), 'journeyType': Number(), 'env': Object(), "currencyId": Number() }, callback = () => { }) => {
+const collectQuotations = (params = { 'reservations': Object(), 'journeyType': Number(), 'env': Object(),  }, callback = () => { }) => {
 
-  let { reservations, journeyType, env, currencyId } = params
+  let { reservations, journeyType, env, } = params
 
   //transfer
   let trSelectedPickPoints = reservations[0]?.selectedPickupPoints;
@@ -23,7 +23,6 @@ const collectQuotations = (params = { 'reservations': Object(), 'journeyType': N
       'selectedDropoffPoints': trSelectedDroppPoints,
       'transferDateTimeString': transferDAteTimeString,
       "accountId": 2964,
-      "currencyId": currencyId
     }),
   };
 
@@ -36,7 +35,6 @@ const collectQuotations = (params = { 'reservations': Object(), 'journeyType': N
       'selectedDropoffPoints': returnDroppPoints,
       'transferDateTimeString': returnDAteTimeString,
       "accountId": 2964,
-      "currencyId": currencyId
     }),
   };
   let __requests = parseInt(journeyType) === 0 ? [fetch(url, configTransfer)] : [fetch(url, configTransfer), fetch(url, configReturn)];
@@ -47,6 +45,8 @@ const collectQuotations = (params = { 'reservations': Object(), 'journeyType': N
     .then(function (data) {
 
       if (data.every(o => o.status === 200)) {
+        console.log({ data });
+
         callback({ 'status': 200, data })
       } else {
         callback({ "status": 400, data });
@@ -55,7 +55,7 @@ const collectQuotations = (params = { 'reservations': Object(), 'journeyType': N
     .catch(function (error) {
       callback({ 'status': 400, 'message': error.message })
 
-      let message = "ISTANVBUL TRANSFERS   _collectQuotations()  function catch blog  else part of>> parseInt(journeyType) === 0"
+      let message = "EDINBURG TRANSFERS   _collectQuotations()  function catch blog  else part of>> parseInt(journeyType) === 0"
       window.handelErrorLogs(error, message, { configReturn })
     });
 }

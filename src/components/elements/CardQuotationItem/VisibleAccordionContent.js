@@ -4,18 +4,19 @@ import { quotationImagesObjWebp } from '../../../constants/quotationImages'
 import styles from "./styles.module.scss"
 import Button from '../Button/Button'
 import { BUTTON_TYPES } from '../Button/ButtonTypes'
+import { getPriceDetailsFromQuotation } from '../../../helpers/getPriceDetailsFromQuotation'
 
 const VisibleAccordionContent = (props) => {
 
     let {
         journeyType, journeyAccrodionStatus, returnJourneyAccordionStatus,
         datas, handleClickForMobile, carObject, appData, direction,
-        setQuotationHandleClick, selectedQuotation, index, quotationLoading, currencyId, currencySymbols, formattedDuration
+        setQuotationHandleClick, selectedQuotation, index, quotationLoading, currencySymbols, formattedDuration
     } = props
     return (!journeyAccrodionStatus && index === 0 && journeyType === 1 || !returnJourneyAccordionStatus && index === 1 && journeyType === 1) && datas?.map((item, index) => {
         let selected = Number(selectedQuotation?.carId) === Number(carObject[item?.carId].id)
-        const price = `${item?.normalExchangedPrice}`;
-        const finalPrice = `${currencySymbols[item?.exchangedCurrencyId] || "£"}${price.split(".")[0]}.`;
+        let _item_details = getPriceDetailsFromQuotation({ quotation: item }).data || {}
+
         return (
             <div id="main_container" key={index + 10000}>
                 <div
@@ -64,7 +65,8 @@ const VisibleAccordionContent = (props) => {
                                     </span>
 
                                     <span className={`${styles.price_span}`} >
-                                        {quotationLoading ? "..." : finalPrice}
+                                        {quotationLoading ? "..." : `£${String(_item_details.normalPrice || '').split(".")[0]}.`}
+
                                         <span>00</span>
                                     </span>
                                 </p>
@@ -73,7 +75,7 @@ const VisibleAccordionContent = (props) => {
                     </div>
                     <div className={`${direction === 'rtl' ? styles.thirdcolumnDirection : ""} ${styles.column_third}`}>
                         <div className={styles.duration_price}>
-                            <div className={styles.price}>{quotationLoading ? "..." : `${finalPrice}.`} <span>{quotationLoading ? "" : "00"}</span> </div>
+                            <div className={styles.price}>{quotationLoading ? "..." : `£${String(_item_details.normalPrice || '').split(".")[0]}.`} <span>00</span> </div>
                         </div>
                         <div className={`${styles.btn_div} ${selected ? styles.selectedBtnDiv : ""}`}>
                             <Button

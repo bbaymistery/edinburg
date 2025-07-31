@@ -1,0 +1,109 @@
+@import '../../styles/variables';
+
+.account_results_details {
+    background-color: #fff;
+
+    .account_results_details_section {
+        .account_results_details_section_container {
+            .content {
+                display: flex;
+                gap: 2.5rem;
+                justify-content: space-between;
+
+                .left_content {
+                    border: 5px solid $gray-color-light-4;
+                    border-radius: 4px;
+                    padding: 30px 20px;
+                    flex-basis: 65%;
+                    gap: 2rem;
+                    display: flex;
+                    flex-direction: column;
+                    height: 100%;
+                    position: relative;
+
+                    @media(max-width:1100px) {
+                        flex-basis: 100%;
+                    }
+
+                    @media (max-width:540px) {
+                        padding: 15px 25px 5px 25px;
+                    }
+
+                    h1 {
+                        font-size: 30px;
+                        margin-bottom: 1rem;
+
+                        @media (max-width:440px) {
+                            font-size: 22px;
+                        }
+                    }
+
+                    h2 {
+                        font-size: 25px;
+                        text-transform: capitalize;
+                    }
+
+                    .info_section {
+                        .operationNotes_info {
+                            flex-direction: column;
+                        }
+
+                        .info {
+                            display: flex;
+                            justify-content: space-between;
+                            border-bottom: 1px solid  $gray-color-light-4;
+                            // font-family: $font-jost;
+                            padding: 12px 0px;
+
+                            &:last-child {
+                                border-bottom: none;
+                            }
+
+                            .left {
+                                text-transform: capitalize;
+
+                                @media (max-width:490px) {
+                                    font-size: 15px;
+                                }
+
+                            }
+
+                            .right {
+                                font-size: 17px;
+                                font-weight: 500;
+                                color: $primary-color-light;
+
+                                @media (max-width:490px) {
+                                    font-size: 14px;
+                                }
+
+
+                            }
+
+                        }
+
+                        .buttons {
+                            display: flex;
+                            width: 100%;
+                            justify-content: flex-end;
+                            margin-top: 2rem;
+                        }
+                    }
+                }
+
+                .contact_section {
+                    border-radius: 4px;
+                    flex-basis: 35%;
+                    position: sticky;
+                    top: 120px;
+                    height: 100%;
+
+                    @media(max-width:1100px) {
+                        display: none;
+                    }
+                }
+            }
+
+        }
+    }
+}

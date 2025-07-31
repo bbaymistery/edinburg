@@ -22,7 +22,6 @@ import SWITCH_JOURNEY from "./SWITCH_JOURNEY";
 import SET_QUOTATION from "./SET_QUOTATION";
 import ADD_NEW_POINT from "./ADD_NEW_POINT";
 import GET_QUOTATION from "./GET_QUOTATION";
-import SET_CURRENCY from "./SET_CURRENCY";
 import SET_QUOTATION_ON_SPECIAL_CASE from "./SET_QUOTATION_ON_SPECIAL_CASE";
 
 //taxi deals
@@ -81,7 +80,6 @@ const INITIAL_STATE = {
     tokenForArchieve: "",
     pointsModalStatus: false,//we use it on taxi deals component
     hasTaxiDeals: "IST",
-    selectedCurrency: { currencyId: 1, currency: "EUR" },
 
   }
 };
@@ -179,9 +177,7 @@ export const pickUpDropOffActions = (state = INITIAL_STATE, action) => {
     case "RESELECT_POINTS_FROM_STORE": {
       return RESELECT_POINTS_FROM_STORE({ state, action })
     }
-    case "SET_CURRENCY": {
-      return SET_CURRENCY({ state, action })
-    }
+
     case "SET_QUOTATION_ON_SPECIAL_CASE": {
       return SET_QUOTATION_ON_SPECIAL_CASE({ state, action })
     }

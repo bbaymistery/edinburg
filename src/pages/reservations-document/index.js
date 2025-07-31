@@ -14,7 +14,6 @@ import store from '../../store/store'
 import { createWrapper } from 'next-redux-wrapper'
 import { urlWithLangAtribute } from '../../helpers/urlWithLangAtrribute'
 import { useRouter, Router } from 'next/router'
-import { getDisplayedPrice } from '../../helpers/setCurrencyAndPrice'
 let title = ""
 let keywords = ""
 let description = ""
@@ -22,7 +21,7 @@ let description = ""
 const ReservationsDocument = (props) => {
     let { env } = props
     let state = useSelector((state) => state.pickUpDropOffActions)
-    let { reservations, params: { journeyType, tokenForArchieve, direction, language, selectedCurrency } } = state
+    let { reservations, params: { journeyType, tokenForArchieve, direction, language } } = state
     let { paymentDetails: { paymentType } } = reservations[0]
 
 
@@ -133,14 +132,14 @@ const ReservationsDocument = (props) => {
                     fetchArchieveToken({ id: [[null], [null]], stage: "GET_SERVER_RESPONED", response });
                     //if fail it means we dont have any reservation id So we made it null
                     let location = "else part fetch response  https://api.london-tech.com/api/v1/reservation"
-                    let message = 'Istanbul reservations-document Component - submitDataToGetReservId function fetch_response_ else part '
+                    let message = 'EDINBURG TRANSFERS reservations-document Component - submitDataToGetReservId function fetch_response_ else part '
                     let options = { requestOptions, response, body }
                     window.handelErrorLogs(location, message, options)
                 }
             })
             .catch((error) => {
                 let location = error
-                let message = 'Istanbul reservations-document Component - submitDataToGetReservId function fetch_ cathc blog'
+                let message = 'EDINBURG TRANSFERS reservations-document Component - submitDataToGetReservId function fetch_ cathc blog'
                 let options = { body }
                 window.handelErrorLogs(location, message, options)
                 fetchArchieveToken({ id: [[null], [null]], stage: "GET_SERVER_RESPONED", 'response': { 'message': error.message, 'status': error.status } });
@@ -214,14 +213,7 @@ const ReservationsDocument = (props) => {
                                         let { phone, email, firstname } = passengerDetails
                                         const [splitedHour, splitedMinute] = splitDateTimeStringIntoHourAndMinute(transferDateTimeString) || []
                                         const [splitedDate] = splitDateTimeStringIntoDate(transferDateTimeString) || []
-                                        const { symbol, displayedPrice } = getDisplayedPrice({ currencyId: selectedCurrency.currencyId, item: obj.quotation });
-                                        const totalDisplayedPrice = reservations.reduce((acc, obj) => {
-                                            const { symbol, displayedPrice } = getDisplayedPrice({
-                                                currencyId: selectedCurrency.currencyId,
-                                                item: obj.quotation
-                                            });
-                                            return acc + (+displayedPrice);
-                                        }, 0);
+                                      
 
                                         return (
                                             <div key={index}>
@@ -245,7 +237,8 @@ const ReservationsDocument = (props) => {
                                                         <div className={styles.column_div}>
                                                             <div className={`${styles.text1} ${direction}`}>{appData?.words["strTotalPrice"]}</div>
                                                             <div className={`${styles.text2} ${direction}`}>
-                                                                {symbol}{parseInt(journeyType) === 0 ? displayedPrice : totalDisplayedPrice}
+                                                                £{parseInt(journeyType) === 0 ? reservations[0].quotation.price : parseInt(reservations[0].quotation.price) + parseInt(reservations[1].quotation.price)}
+
                                                             </div>
                                                         </div>
                                                         <div className={styles.column_div}>
@@ -295,7 +288,7 @@ const ReservationsDocument = (props) => {
                                                     <DropOffPoints language={language} direction={direction} selectedDropoffPoints={selectedDropoffPoints} />
                                                     <div className={`${styles.passenger_info} ${direction}`}>
                                                         <div className={styles.left}>{appData?.words["strPriceTitle"]}</div>
-                                                        <div className={styles.right}>{symbol}{displayedPrice}</div>
+                                                                                                 <div className={styles.right}>£{quotation.price}</div>
                                                     </div>
                                                     <div className={`${styles.passenger_info} ${direction}`}>
                                                         <div className={styles.left}>{appData?.words["strSpecialRequestsTitle"]}</div>
@@ -320,14 +313,8 @@ const ReservationsDocument = (props) => {
                                                 let { phone, email, firstname } = passengerDetails
                                                 const [splitedHour, splitedMinute] = splitDateTimeStringIntoHourAndMinute(transferDateTimeString) || []
                                                 const [splitedDate] = splitDateTimeStringIntoDate(transferDateTimeString) || []
-                                                const { symbol, displayedPrice } = getDisplayedPrice({ currencyId: selectedCurrency.currencyId, item: obj.quotation });
-                                                const totalDisplayedPrice = reservations.reduce((acc, obj) => {
-                                                    const { symbol, displayedPrice } = getDisplayedPrice({
-                                                        currencyId: selectedCurrency.currencyId,
-                                                        item: obj.quotation
-                                                    });
-                                                    return acc + (+displayedPrice);
-                                                }, 0);
+                                           
+                                          
                                                 return (
                                                     <div key={index}>
                                                         <div className={pdf.second_section}>
@@ -344,7 +331,8 @@ const ReservationsDocument = (props) => {
                                                                 <div className={pdf.column_div}>
                                                                     <div className={pdf.text1}>{appData?.words["strTotalPrice"]}</div>
                                                                     <div className={pdf.text2}>
-                                                                        {symbol}{parseInt(journeyType) === 0 ? displayedPrice : totalDisplayedPrice}
+                                                                        £{parseInt(journeyType) === 0 ? reservations[0].quotation.price : parseInt(reservations[0].quotation.price) + parseInt(reservations[1].quotation.price)}
+
                                                                     </div>
                                                                 </div>
                                                                 <div className={pdf.column_div}>
@@ -393,7 +381,8 @@ const ReservationsDocument = (props) => {
                                                             <DropOffPoints selectedDropoffPoints={selectedDropoffPoints} />
                                                             <div className={pdf.passenger_info}>
                                                                 <div className={pdf.left}>{appData?.words["strPriceTitle"]}</div>
-                                                                <div className={pdf.right}>{symbol}{displayedPrice}</div>
+                                                                                                                           <div className={pdf.right}>£{quotation.price}</div>
+
                                                             </div>
                                                             <div className={pdf.passenger_info}>
                                                                 <div className={pdf.left}>{appData?.words["strSpecialRequestsTitle"]}</div>

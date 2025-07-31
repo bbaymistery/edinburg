@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "./styles.module.scss"
 import Button from "../Button/Button";
 import { BUTTON_TYPES } from "../Button/ButtonTypes";
@@ -13,11 +12,11 @@ const SelectedCardItem = ({
     selectedQuotation,
     changeCar,
     accordionStatus,
-    currencySymbols, formattedDuration,
+    formattedDuration,
     quotationImagesObjWebp
 }) => {
-    const price = `${item?.normalExchangedPrice}`;
-    const finalPrice = `${currencySymbols[item?.exchangedCurrencyId] || "£"}${price?.split(".")[0]}.`;
+    const _item_details = getPriceDetailsFromQuotation({ quotation: item }).data || {};
+
     const carData = carObject[item?.carId];
     const storageKey = index === 0 ? "journeyQuotation" : "returnJourneyQuotation";
     const localSelectedCarId = Number(JSON.parse(localStorage?.getItem(storageKey))?.carId);
@@ -27,15 +26,10 @@ const SelectedCardItem = ({
     if (!(renderSelectedItem && accordionStatus)) return null;
 
     return (
-        <div
-            dataid={index === 0 ? "first_car" : ""}
-            className={`${styles.card_item} ${selected ? styles.selectedCard : ""}`}
-        >
-            <div
-                data={quotationImagesObjWebp[item?.carId]?.id}
-                className={styles.column_first}
-                style={{ backgroundImage: `url(${quotationImagesObjWebp[item?.carId]?.image})` }}
-            ></div>
+        <div dataid={index === 0 ? "first_car" : ""} className={`${styles.card_item} ${selected ? styles.selectedCard : ""}`}  >
+            <div data={quotationImagesObjWebp[item?.carId]?.id} className={styles.column_first} style={{ backgroundImage: `url(${quotationImagesObjWebp[item?.carId]?.image})` }}>
+
+            </div>
 
             <div className={styles.column_second}>
                 <div className={styles.column_second_flex_column}>
@@ -97,7 +91,7 @@ const SelectedCardItem = ({
                                 <span>{appData?.words["strFreeCancellation24h"]}</span>
                             </span>
                             <span className={styles.price_span}>
-                                {quotationLoading ? "..." : finalPrice}
+                                {quotationLoading ? "..." : `£${String(_item_details?.normalPrice || '').split('.')[0]}.`}
                                 <span>00</span>
                             </span>
                         </p>

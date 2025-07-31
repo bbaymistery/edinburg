@@ -1,0 +1,120 @@
+@import "../../styles/variables";
+
+.travelAgents {
+    height: 100%;
+    position: relative;
+    margin-top: 50px;
+    background-color: white !important;
+
+    &_section {
+
+
+
+        &_container {
+            @media(max-width:1400px) {
+                padding: 0px;
+            }
+
+            .content {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 3rem;
+
+                @media (max-width: 1200px) {
+                    flex-direction: column;
+                }
+
+                .left {
+                    flex: 1;
+
+                    .title {
+                        text-transform: capitalize;
+                    }
+
+                    .account_div {
+                        margin-bottom: 1rem;
+                        display: flex;
+                        justify-content: space-between;
+
+                        button {
+                            padding: 9px 22px;
+                            border-radius: 4px;
+                            font-size: 18px;
+
+                            @media (max-width: 768px) {
+                                font-size: 16px;
+                            }
+                        }
+
+                    }
+
+                    .pageContent {
+                        h1 {
+                            margin-bottom: .55rem;
+                            margin-top: 0.75rem;
+                            text-transform: capitalize !important;
+                        }
+
+                        ul {
+                            li {
+                                padding-bottom: 0.2rem;
+                                list-style: disc;
+                                margin-left: 15px;
+
+                                strong {
+                                    font-weight: 500 !important;
+                                }
+                            }
+                        }
+
+                        p {
+                            margin-bottom: 1rem;
+
+                            a {
+                                color: $primary-color-light;
+                                font-weight: 500;
+                            }
+
+                            span {
+                                color: $primary-color-light;
+                                font-weight: 500;
+                            }
+
+                        }
+                    }
+
+                }
+
+                .right {
+                    display: flex;
+                    position: sticky;
+                    top: 130px;
+                    align-self: flex-start;
+
+                    @media (max-width: 1200px) {
+                        align-self: center;
+                    }
+
+                    img {
+                        width: 550px;
+                        border-radius: 10px;
+                        border: 10px solid $gray-color-light-4;
+
+                        @media(max-width:1400px) {
+                            width: 450px;
+                        }
+
+                        @media (max-width: 1200px) {
+                            width: 100%;
+                            max-width: 550px;
+                        }
+                    }
+
+                }
+            }
+
+
+        }
+    }
+}

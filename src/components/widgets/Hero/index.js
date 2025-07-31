@@ -57,7 +57,7 @@ const Hero = (props) => {
     const dispatch = useDispatch()
     const state = useSelector(state => state.pickUpDropOffActions)
     let { reservations, params } = state
-    let { sessionToken: reducerSessionToken, journeyType, direction, language, hasTaxiDeals, selectedCurrency } = params
+    let { sessionToken: reducerSessionToken, journeyType, direction, language, hasTaxiDeals } = params
 
     const { appData } = useSelector(state => state.initialReducer)
     let [internalState, setInternalState] = React.useReducer((s, o) => ({ ...s, ...o }), {
@@ -111,7 +111,6 @@ const Hero = (props) => {
                 dispatch, setInternalState, router, journeyType,
                 reservations: checkedReservations, language,
                 shouldNavigate: true, env, appData,
-                currencyId: selectedCurrency.currencyId
             }
             readyToCollectQuotationOptions(propsOfReadyColection)
 

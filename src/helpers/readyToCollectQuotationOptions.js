@@ -39,12 +39,12 @@ const pushToQuotationsResultPage = (params = {}) => {
 * @param {boolean} [params.shouldNavigate=true] - Whether to redirect to `/quotation-results` on success.
 */
 export const readyToCollectQuotationOptions = async (params = {}) => {
-    let { dispatch, setInternalState, router, journeyType, reservations, language, shouldNavigate = true, env, currencyId } = params;
+    let { dispatch, setInternalState, router, journeyType, reservations, language, shouldNavigate = true, env,  } = params;
 
     try {
         setInternalState({ ["quotation-loading"]: true });
 
-        let log = await collectQuotationsAsync({ reservations, journeyType, env, currencyId });
+        let log = await collectQuotationsAsync({ reservations, journeyType, env,  });
 
         let { status, data } = log;
 

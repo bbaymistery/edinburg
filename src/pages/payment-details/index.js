@@ -26,7 +26,7 @@ const PaymentDetails = (props) => {
 
     const router = useRouter()
     let state = useSelector((state) => state.pickUpDropOffActions)
-    let { reservations, params: { tokenForArchieve, direction, quotations, language, journeyType, selectedCurrency } } = state
+    let { reservations, params: { tokenForArchieve, direction, quotations, language, journeyType } } = state
 
 
     const { appData } = useSelector(state => state.initialReducer)
@@ -80,7 +80,7 @@ const PaymentDetails = (props) => {
                     router.push("/");
                     return;
                 } else {
-                    const newQuotationsResponse = await collectQuotationsAsync({ reservations, journeyType, env, currencyId: selectedCurrency.currencyId });
+                    const newQuotationsResponse = await collectQuotationsAsync({ reservations, journeyType, env,  });
 
                     if (newQuotationsResponse.status === 200 && !quotations[0].taxiDeal) {
                         const newQuotations = newQuotationsResponse.data[index] || {};

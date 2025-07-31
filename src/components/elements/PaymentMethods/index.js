@@ -6,7 +6,6 @@ import { useRouter } from "next/router";
 import { BUTTON_TYPES } from "../Button/ButtonTypes";
 import Button from "../Button/Button";
 import OutsideClickAlert from "../OutsideClickAlert";
-const currencies=[];
 import moment from "moment-timezone";
 import { collectQuotationsAsync } from "../../../helpers/getQuotations";
 import { getPriceDetailsFromQuotation } from "../../../helpers/getPriceDetailsFromQuotation";
@@ -16,7 +15,7 @@ const PaymentMethods = (props) => {
   const router = useRouter()
   const dispatch = useDispatch()
   let state = useSelector((state) => state.pickUpDropOffActions)
-  let { params: { journeyType, tokenForArchieve, sessionToken, direction, language, selectedCurrency, quotations }, reservations } = state
+  let { params: { journeyType, tokenForArchieve, sessionToken, direction, language, quotations }, reservations } = state
   const { appData, paymentTypes } = useSelector(state => state.initialReducer)
 
   const updatedReservationsRef = useRef(reservations); // ilk değeri mevcut reservations
@@ -121,10 +120,10 @@ const PaymentMethods = (props) => {
           })
           .catch((error) => {
 
-            window.handelErrorLogs(error, 'iSTANBUL  PaymentMethods Component - stripeMethod function fetching catch blog  ', { config, url })
+            window.handelErrorLogs(error, 'EDINBURG TRANSFERS   PaymentMethods Component - stripeMethod function fetching catch blog  ', { config, url })
           });
       } catch (error) {
-        window.handelErrorLogs(error, ' iSTANBUL PaymentMethods Component - stripeMethod function try catch blog ', { id, quotations, passengerEmail, url })
+        window.handelErrorLogs(error, ' EDINBURG TRANSFERS  PaymentMethods Component - stripeMethod function try catch blog ', { id, quotations, passengerEmail, url })
       }
     }
   };
@@ -183,11 +182,11 @@ const PaymentMethods = (props) => {
           })
           .catch((error) => {
             tempPopup.close(); // Hata olursa popup'ı kapat
-            window.handelErrorLogs(error, "ISTANBUL APL PaypalMethod Fetch Catch", { config, url });
+            window.handelErrorLogs(error, "EDINBURG TRANSFERS   PaypalMethod Fetch Catch", { config, url });
           });
       }
     } catch (error) {
-      window.handelErrorLogs(error, "ISTANBUL APL  PaypalMethod Try Catch", { id, quotations, passengerEmail, url });
+      window.handelErrorLogs(error, "EDINBURG TRANSFERS    PaypalMethod Try Catch", { id, quotations, passengerEmail, url });
     }
   };
 
@@ -208,7 +207,7 @@ const PaymentMethods = (props) => {
         return null;
       }
 
-      const newQuotationsResponse = await collectQuotationsAsync({ reservations, journeyType, env, currencyId: selectedCurrency.currencyId });
+      const newQuotationsResponse = await collectQuotationsAsync({ reservations, journeyType, env,  });
 
       if (newQuotationsResponse.status === 200 && !quotations[0].taxiDeal) {
         const newQuotations = newQuotationsResponse.data[index] || {};
@@ -256,7 +255,7 @@ const PaymentMethods = (props) => {
       if (id === 5) paypalMethod({ id, quotations, passengerEmail, url, updatedReservations });
       if (id === 7) stripeMethod({ id, quotations, passengerEmail, url, updatedReservations });
     } catch (error) {
-      window.handelErrorLogs(error, 'APL PaymentMethods Component -startPayment function trys catch blog', { id })
+      window.handelErrorLogs(error, 'EDINBURG TRANSFERS  PaymentMethods Component -startPayment function trys catch blog', { id })
 
     }
   }
@@ -310,7 +309,7 @@ const PaymentMethods = (props) => {
             clearInterval(interVal);
           }
         } catch (error) {
-          let message = "Istanbul  PaymentMethods Component - useEffect statusToken catch blog  "
+          let message = "EDINBURG TRANSFERS   PaymentMethods Component - useEffect statusToken catch blog  "
           window.handelErrorLogs(error, message, { config })
         }
       }, 2000);
@@ -345,7 +344,6 @@ const PaymentMethods = (props) => {
     return prices.reduce((sum, p) => sum + parseInt(p || 0), 0);
   }, [seatListPrice, journeyType, reservations]);
 
-  const symbol = currencies.find(c => c.currencyId === +selectedCurrency.currencyId)?.symb || "£";
 
 
   return (
@@ -364,7 +362,7 @@ const PaymentMethods = (props) => {
           <div className={styles.header_tot_price} direction={String(direction === 'rtl')}>
             <p className={styles.header_tot_price_text}>{appData?.words["strTotalPrice"]}</p>
             <span className={styles.header_tot_price_price}>
-              {symbol} {totalPrice}
+              £ {totalPrice}
             </span>
           </div>
         </div>
@@ -414,11 +412,3 @@ const PaymentMethods = (props) => {
 };
 
 export default PaymentMethods;
-/*
-  useEffect(() => {
-      const socket = io();
-      socket.on("<webSocketToken>", (response) => {
-
-      });
-  }, [third])
-*/

@@ -13,6 +13,7 @@ import { isUrlLoverCase } from '../helpers/isUrlLoverCase';
 import { fetchConfig } from '../resources/getEnvConfig';
 const Testimonials = dynamic(() => import('../components/widgets/Testimonials'), { loading: () => <div>Loading...</div>, ssr: false });
 const CarsSlider = dynamic(() => import('../components/widgets/CarsSlider'), { loading: () => <div>Loading...</div>, ssr: false });
+const WhyChoice = dynamic(() => import('../components/widgets/WhyChoice'), { loading: () => <div>Loading...</div>, ssr: false });
 
 export default function Home(props) {
   const [hasScrolled, setHasScrolled] = useState(false);
@@ -31,7 +32,7 @@ export default function Home(props) {
   return (
     <GlobalLayout title={props?.seoDatas?.title} keywords={props?.seoDatas?.keywords} description={props?.seoDatas?.description} mainCanonical={props.mainCanonical}>
       <Hero env={props.env} />
-      {/* <WhyChoice /> */}
+      <WhyChoice />
       {/* <PopularDestinations env={props.env} /> */}
       {/* {hasScrolled && <Tours insideGlobalLayout={false} />} */}
       {hasScrolled && <CarsSlider />}

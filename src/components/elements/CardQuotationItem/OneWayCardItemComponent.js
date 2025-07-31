@@ -1,15 +1,15 @@
-import React from 'react'
 import Button from '../Button/Button'
 import { BUTTON_TYPES } from '../Button/ButtonTypes'
 import styles from "./styles.module.scss"
 import WaveLoading from '../LoadingWave'
+import { getPriceDetailsFromQuotation } from '../../../helpers/getPriceDetailsFromQuotation'
 const OneWayCardItemComponent = (props) => {
-    let { journeyType, carObject, currencyId, selectedQuotation, formattedDuration, currencySymbols, quotationImagesObjWebp, datas, handleClickForMobile, quotationLoading, direction, setQuotationHandleClick, appData } = props
+    let { journeyType, carObject, selectedQuotation, formattedDuration,  quotationImagesObjWebp, datas, handleClickForMobile, quotationLoading, direction, setQuotationHandleClick, appData } = props
 
     return (+journeyType === 0) && [...datas.filter(item => item.carId !== 4), ...datas.filter(item => item.carId === 4)]?.map((item, index) => {
         let selected = Number(selectedQuotation?.carId) === Number(carObject[item?.carId].id)
-        const price = `${item.normalExchangedPrice}`;
-        const finalPrice = `${currencySymbols[item?.exchangedCurrencyId] || "£"}${price?.split(".")[0]}.`;
+        let _item_details = getPriceDetailsFromQuotation({ quotation: item }).data || {}
+
         return (
             <div id="main_container" key={index + 100000}>
                 <div
@@ -59,7 +59,8 @@ const OneWayCardItemComponent = (props) => {
                                     </span>
 
                                     <span className={`${styles.price_span}`} >
-                                        {quotationLoading ? "..." : `£${item?.price.split(".")[0]}.`}
+                                        {quotationLoading ? "..." : `£${String(_item_details.normalPrice || '').split(".")[0]}.`}
+
                                         <span>00</span>
                                     </span>
                                 </p>
@@ -69,7 +70,7 @@ const OneWayCardItemComponent = (props) => {
 
                     <div className={` ${styles.column_third}`}>
                         <div className={styles.duration_price}>
-                            <div className={styles.price}>{quotationLoading ? "..." : finalPrice} <span>{quotationLoading ? "" : "00"}</span> </div>
+                            <div className={styles.price}>{quotationLoading ? "..." : `£${String(_item_details.normalPrice || '').split(".")[0]}.`} <span>00</span> </div>
                         </div>
                         <div className={`${styles.btn_div} ${selected ? styles.selectedBtnDiv : ""}`}>
                             <Button

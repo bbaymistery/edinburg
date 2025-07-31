@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import styles from "./styles.module.scss";
 import store from '../../store/store';
 import InfoModal from '../../components/elements/InfoModal/InfoModal'

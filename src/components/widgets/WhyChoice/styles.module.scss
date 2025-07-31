@@ -1,0 +1,67 @@
+@import "../../../styles/variables";
+
+.whychoice {
+    padding-bottom: 60px;
+    margin-top: 0px;
+    box-shadow: $box-shadow-2;
+
+    @media(max-width:768px) {
+        padding-top: 60px;
+    padding-bottom: 30px;
+
+    }
+
+    &_section {
+        &_container {
+            h2 {
+                font-weight: bold;
+                font-size:30px;
+
+                @media(max-width:990px) {
+                    font-size: 24px;
+                }
+            }
+
+            .featureIcons {
+                padding-top: 50px;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+
+                @media(max-width:1400px) {
+                    grid-template-columns: 1fr 1fr;
+                    grid-gap: 2rem;
+                }
+
+                @media(max-width:768px) {
+                    grid-template-columns: 1fr;
+                }
+
+                .featureIcon {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    padding-right: 40px;
+
+                    .featureIcon_icon {
+                        background-color: transparent;
+                        color: $primary-color-light;
+                        font-size: 33px;
+                        opacity: .9;
+                    }
+
+                    h2 {
+                        font-size: 18px;
+                        margin-top: 30px;
+                        font-weight: 500;
+                    }
+
+                    .featureIcon__text {
+                        margin-top: 10px;
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+

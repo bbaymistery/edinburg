@@ -32,7 +32,7 @@ const QuotationResults = (props) => {
 
     const state = useSelector(state => state.pickUpDropOffActions)
     let { reservations, params } = state
-    let { sessionToken: reducerSessionToken, journeyType, direction, language, quotations, selectedCurrency } = params
+    let { sessionToken: reducerSessionToken, journeyType, direction, language, quotations } = params
 
     const reservationsRef = useRef(reservations);
     const { appData } = useSelector(state => state.initialReducer)
@@ -109,7 +109,8 @@ const QuotationResults = (props) => {
             journeyType,
             reservations: checkedReservations,
             language,
-            shouldNavigate: false, env, currencyId: selectedCurrency.currencyId
+            shouldNavigate: false,
+            env
         }
         if (errorHolder.status === 200) readyToCollectQuotationOptions(propsReadyToCollectQuotationOptions)
     }
@@ -146,7 +147,6 @@ const QuotationResults = (props) => {
     }, [
         reservations?.[0]?.transferDetails?.transferDateTimeString,
         reservations?.[1]?.transferDetails?.transferDateTimeString,
-        selectedCurrency.currencyId
     ]);
 
     useEffect(() => {
@@ -281,7 +281,6 @@ const QuotationResults = (props) => {
                                                         setShowMapReturn={setShowMapReturn}
                                                         showMapOneWay={showMapOneWay}
                                                         showMapReturn={showMapReturn}
-                                                        currencyId={selectedCurrency.currencyId}
                                                     />
                                                 }
                                             </div>
