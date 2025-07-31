@@ -1,0 +1,39 @@
+   @import '../../../styles/variables';
+
+   .taxideal_result_container {
+       flex-basis: 75%;
+       min-width: 75%;
+
+       .title {
+           font-weight: 500;
+           text-transform: capitalize;
+
+           @media(max-width:1350px) {
+               font-size: 32px !important;
+           }
+
+           @media (max-width: 767px) {
+               font-size: 20px !important;
+               flex-direction: column;
+               margin-bottom: 0px;
+
+           }
+       }
+
+       .title_center {
+           display: flex !important;
+           align-items: center !important;
+           justify-content: center !important;
+           text-align: center !important;
+           flex-wrap: wrap;
+       }
+
+       .viceversa {
+           text-align: center;
+           font-weight: bold;
+           font-size: 15px;
+           margin-bottom: 1.5rem;
+           text-decoration: underline;
+
+       }
+   }

@@ -1,0 +1,22 @@
+@import '../../../../styles/variables';
+
+.map_direction {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+
+    button {
+        padding: 8px 16px;
+        border-radius: 4px;
+        font-size: 20px;
+        position: absolute;
+        border: none;
+background-color: $primary-color-light;
+color: white;
+        &:hover {
+            background-color: $primary-color;
+            transition: all 0.3s ease;
+        }
+    }
+}

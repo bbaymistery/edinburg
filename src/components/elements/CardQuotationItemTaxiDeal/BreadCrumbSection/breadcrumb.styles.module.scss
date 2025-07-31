@@ -1,0 +1,15 @@
+.breadcrumbs {
+    font-size: 16px;
+    font-weight: normal;
+    text-decoration: none !important;
+    text-align: center;
+
+    span {
+        a {
+            color: black;
+            span {
+                text-decoration: none !important;
+            }
+        }
+    }
+}

@@ -6,7 +6,6 @@ export default function FontAwesomeHeadLoader() {
     const router = useRouter();
     const [interactionHappened, setInteractionHappened] = useState(false);
     const isHome = router.pathname === '/';
-    console.log("dsa");
 
     useEffect(() => {
         const handleInteraction = () => {

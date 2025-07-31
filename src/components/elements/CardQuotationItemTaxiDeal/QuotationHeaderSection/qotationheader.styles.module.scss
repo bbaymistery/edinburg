@@ -1,0 +1,45 @@
+
+@import '../../../../styles/variables';
+
+.quotation_header {
+    padding: 20px;
+    margin-bottom: 16px;
+    box-shadow: $box-shadow-3;
+        background-color: $primary-color-light-2;
+
+
+    ul> {
+        @media (max-width: 768px) {
+
+            li:nth-child(4),
+            li:nth-child(3) {
+                display: none;
+            }
+        }
+
+        li {
+            color: rgb(0, 0, 0);
+            font-size: 15px;
+            letter-spacing: 0.3px;
+
+            .left {
+                text-transform: capitalize;
+            }
+
+            .li_icon {
+                margin-right: 5px;
+                color: $primary-color-light;
+                font-weight: bold;
+            }
+
+            .strong {
+                color:$primary-color-light;
+                font-weight: bold;
+
+                @media (max-width: 768px) {
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+}

@@ -5,23 +5,19 @@ import { urlToTitle } from "./letters";
 export const fetchPathnamePageDatas = async (urls) => {
   const env = await fetchConfig();
   const allLanguages = ["en", "tr", "ar", "es", "zh", "it", "ru"];
-  const allCurrencyIds = [1, 2, 3, 4];
 
   try {
     let cache = JSON.parse(sessionStorage.getItem('pathnameLinkCache')) || {};
 
     await Promise.all(urls.map(async (linkurl) => {
       await Promise.all(allLanguages.map(async (lang) => {
-        await Promise.all(allCurrencyIds.map(async (currencyId) => {
-          const cacheKey = `page-${lang}-${currencyId}-${linkurl}`;
+          const cacheKey = `page-${lang}-${linkurl}`;
           if (!cache[cacheKey]) {
             const body = {
               language: lang,
               taxiDealPathname: linkurl,
               withoutExprectedPoints: true,
               checkRedirect: true,
-              currencyId,
-              "channelId": 12
             };
             const url = `${env.apiDomain}/api/v1/taxi-deals/details`;
             const { status, data } = await postDataAPI({ url, body });
@@ -102,7 +98,6 @@ export const fetchPathnamePageDatas = async (urls) => {
               };
             }
           }
-        }));
       }));
     }));
 

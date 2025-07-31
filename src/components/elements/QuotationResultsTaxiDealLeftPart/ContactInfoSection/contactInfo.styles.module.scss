@@ -1,0 +1,50 @@
+@import '../../../../styles/variables';
+
+.left_support {
+    p {
+        margin-bottom: 20px !important;
+    }
+
+    ul {
+        .mail {
+            img {
+                width: 18px;
+                margin-bottom: -5px;
+                margin-left: 4px;
+            }
+        }
+
+        .wp {
+
+            img {
+                width: 25px;
+                margin-bottom: 2px;
+            }
+        }
+
+        .phone {
+            margin-bottom: 13px;
+
+            img {
+                width: 20px;
+                margin-bottom: 2px;
+                margin-left: 3px;
+            }
+        }
+
+        li {
+            display: grid;
+            grid-template-columns: 20px 1fr;
+
+            span {
+                display: flex;
+            }
+
+            a {
+                color: $primary-color-light;
+                font-size: 17px;
+                font-weight: 500;
+            }
+        }
+    }
+}

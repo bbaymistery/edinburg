@@ -1,0 +1,72 @@
+@import '../../../../styles/variables';
+
+.services {
+    padding: 10px 0px !important;
+    text-transform: capitalize;
+    li{
+        color: $primary-color-light;
+    }
+    .checkbox {
+        position: absolute;
+        user-select: none;
+        cursor: pointer;
+        opacity: 0;
+
+        // Text
+        &+label {
+            padding-left: 20px;
+            user-select: none;
+            color: transparent;
+;
+            // Checkbox
+            &:before {
+                position: absolute;
+                display: block;
+                left: 0;
+                top: 48%;
+                transform: translateY(-50%);
+                content: "";
+                background: transparent;
+                width: 20px;
+                height: 20px;
+                border-radius: 4px;
+                transition: 200ms ease-in-out all;
+            }
+
+            // Tick
+            &:after {
+                position: absolute;
+                display: block;
+                top: 7px;
+                left: 7px;
+                content: "";
+                width: 5px;
+                height: 8px;
+                border-right: 2px solid transparent;
+                border-bottom: 2px solid transparent;
+                transform: rotate(45deg);
+                transition: 200ms ease-in-out all;
+
+            }
+        }
+
+        // Checked
+        &:checked {
+            &+label {
+                &:before {
+                    background: 20px;
+                    box-shadow: none;
+                    background-color: $primary-color-light-2;
+                    box-shadow: $box-shadow-3;
+                }
+
+                &:after {
+                    border-color: $primary-color-light;
+                }
+            }
+        }
+
+    }
+    .primary_text{
+    }
+}

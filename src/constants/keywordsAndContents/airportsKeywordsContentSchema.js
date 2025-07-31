@@ -6,6 +6,7 @@
  * @returns {string} The airport page content for the given pathname and language.
  */
 export const getAirportPageContentByPathname = (pathname, language = "en") => {
+    console.log({pathname})
     return airportPageContents[pathname][language]
 }
 const airportPageContents = {

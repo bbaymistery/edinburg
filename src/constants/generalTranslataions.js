@@ -12,7 +12,8 @@ const airportTranslations = {
     strEdinburghAirportToAberdeen: "Edinburgh Airport – Aberdeen",
     strAberdeenToEdinburghAirport: "Aberdeen – Edinburgh Airport",
     strEdinburghAirportToInverness: "Edinburgh Airport – Inverness",
-    strInvernessToEdinburghAirport: "Inverness – Edinburgh Airport"
+    strInvernessToEdinburghAirport: "Inverness – Edinburgh Airport",
+    strIstanbulAirportPrices: "Istanbul Airport Taxi Prices",
   }
   ,
   tr: {
