@@ -16,6 +16,8 @@
 
     @media (max-width:768px) {
         margin-top: 73px !important;
+        padding-top: 60px;
+
     }
 
     .hero_bg {
@@ -55,6 +57,9 @@
             left: 0;
             object-fit: cover;
             width: 100%;
+               @media (max-width:768px) {
+display: none;
+            }
         }
     }
 

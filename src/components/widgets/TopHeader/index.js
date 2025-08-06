@@ -136,7 +136,7 @@ const Header = () => {
             <div className={styles.left_items_flex_div}>
               <a href={language === 'en' ? '/' : `/${language}`} className={`${styles.logo_tag}`}  >
                 <div >
-                  <Image src={logoImage} alt="APL transfers" fill priority sizes="(max-width: 768px) 175px, 255px" style={{ objectFit: "contain" }} />
+                  <Image src={logoImage} alt="APL transfers" fill priority sizes="(max-width: 768px) 184px, 255px" style={{ objectFit: "contain" }} />
                 </div>
               </a>
               {width > 1200 ? <DesktopMenu expandedMenu={expandedMenu} airportTranslations={airportTranslations} journeyType={journeyType} language={language} /> : <></>}
