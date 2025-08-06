@@ -18,7 +18,6 @@ const HeroImage = ({ islinknamecomponent, matchingLinkNameImage }) => {
                 1239px"
                 src={islinknamecomponent ? matchingLinkNameImage : "/images/hero.webp"}
             />
-            <Image priority className={styles.shape_image} src={"/images/svgs/shape3.svg"} alt="Edinburq Transfers " width={1700} height={600} style={{ height: "auto", width: "100%" }} />
         </div>
     )
 }
