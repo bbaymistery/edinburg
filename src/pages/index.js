@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import GlobalLayout from '../components/layouts/GlobalLayout'
-import Hero from '../components/widgets/Hero'
+// import Hero from '../components/widgets/Hero'
 import dynamic from 'next/dynamic';
 import { parse } from 'url';
 import { setNoCacheHeader } from "../helpers/setNoCacheHeader";
@@ -11,9 +11,9 @@ import { checkLanguageAttributeOntheUrl } from '../helpers/checkLanguageAttribut
 import { adjustPathnameForLanguage } from '../helpers/adjustedPageLanguage';
 import { isUrlLoverCase } from '../helpers/isUrlLoverCase';
 import { fetchConfig } from '../resources/getEnvConfig';
-const Testimonials = dynamic(() => import('../components/widgets/Testimonials'), { loading: () => <div>Loading...</div>, ssr: false });
-const CarsSlider = dynamic(() => import('../components/widgets/CarsSlider'), { loading: () => <div>Loading...</div>, ssr: false });
-const WhyChoice = dynamic(() => import('../components/widgets/WhyChoice'), { loading: () => <div>Loading...</div>, ssr: false });
+// const Testimonials = dynamic(() => import('../components/widgets/Testimonials'), { loading: () => <div>Loading...</div>, ssr: false });
+// const CarsSlider = dynamic(() => import('../components/widgets/CarsSlider'), { loading: () => <div>Loading...</div>, ssr: false });
+// const WhyChoice = dynamic(() => import('../components/widgets/WhyChoice'), { loading: () => <div>Loading...</div>, ssr: false });
 
 export default function Home(props) {
   const [hasScrolled, setHasScrolled] = useState(false);
@@ -31,12 +31,12 @@ export default function Home(props) {
 
   return (
     <GlobalLayout title={props?.seoDatas?.title} keywords={props?.seoDatas?.keywords} description={props?.seoDatas?.description} mainCanonical={props.mainCanonical}>
-      <Hero env={props.env} />
-      <WhyChoice />
+      {/* <Hero env={props.env} /> */}
+      {/* <WhyChoice /> */}
       {/* <PopularDestinations env={props.env} /> */}
       {/* {hasScrolled && <Tours insideGlobalLayout={false} />} */}
-      {hasScrolled && <CarsSlider />}
-      <Testimonials />
+      {/* {hasScrolled && <CarsSlider />} */}
+      {/* <Testimonials /> */}
     </GlobalLayout>
   )
 }
