@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 
-// Custom hook: useUserInteractionOnce
+// Custom hook: 
 // This hook listens for the user's first interaction (scroll, mousemove, keydown, or touchstart),
 // and runs a callback function exactly once when any of those events occur.
 export const useUserInteractionOnce = (callback) => {

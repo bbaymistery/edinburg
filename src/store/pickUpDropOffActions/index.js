@@ -12,7 +12,6 @@ import SET_POST_CODE_ADRESSES from "./SET_POST_CODE_ADRESSES";
 import SET_PASSEGER_DETAILS from "./SET_PASSEGER_DETAILS";
 import SET_TRANSFER_DETAILS from "./SET_TRANSFER_DETAILS";
 import SET_JOURNEY_DATETIME from "./SET_JOURNEY_DATETIME";
-import CHECK_MOBILE_OR_NOT from "./CHECK_MOBILE_OR_NOT";
 import SET_SESSION_TOKEN from "./SET_SESSION_TOKEN";
 import SET_POINTS_MODAL from "./SET_POINTS_MODAL";
 import SET_NEW_LANGUAGE from "./SET_NEW_LANGUAGE";
@@ -155,9 +154,7 @@ export const pickUpDropOffActions = (state = INITIAL_STATE, action) => {
     case "CHECHK_FLIGHT_WAITING_TIME": {
       return CHECHK_FLIGHT_WAITING_TIME({ state, action })
     }
-    case "CHECK_MOBILE_OR_NOT": {
-      return CHECK_MOBILE_OR_NOT({ state, action })
-    }
+
     case "SET_POINTS_MODAL": {
       return SET_POINTS_MODAL({ state, action })
     }
