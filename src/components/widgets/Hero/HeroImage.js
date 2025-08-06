@@ -1,9 +1,6 @@
 import Image from 'next/image'
 import styles from "./styles.module.scss"
-import { useWindowSize } from '../../../hooks/useWindowSize';
 const HeroImage = ({ islinknamecomponent, matchingLinkNameImage }) => {
-    let size = useWindowSize();
-    let { width } = size
     return (
         <div className={styles.hero_bg}>
             {/* Dalaman da Mugl olarak kalsin  */}
@@ -21,9 +18,7 @@ const HeroImage = ({ islinknamecomponent, matchingLinkNameImage }) => {
                 1239px"
                 src={islinknamecomponent ? matchingLinkNameImage : "/images/hero.webp"}
             />
-            {width > 768 ?
-                <Image priority className={styles.shape_image} src={"/images/svgs/shape3.svg"} alt="Edinburq Transfers " width={1700} height={600} style={{ height: "auto", width: "100%" }} />
-                : <></>}
+            <Image priority className={styles.shape_image} src={"/images/svgs/shape3.svg"} alt="Edinburq Transfers " width={1700} height={600} style={{ height: "auto", width: "100%" }} />
         </div>
     )
 }

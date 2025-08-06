@@ -47,14 +47,14 @@ const Footer = () => {
                             <ul>
                                 <li className={styles.phone}>
                                     <span>
-                                        {width > 768 ? <Image src={"/images/others/tel.webp"} alt="Edinburg transfers hotline" width={32} height={32} /> : <></>}
+                                        <Image src={"/images/others/tel.webp"} alt="Edinburg transfers hotline" width={32} height={32} />
                                         {appData?.words["appContactUsHotLine"] ? appData?.words["appContactUsHotLine"] : "Hotline 24/7"}:
                                     </span>
                                     <a href="tel:+902127085540">+90 212 708 5540</a>
                                 </li>
                                 <li className={styles.ep}>
                                     <span>
-                                        {width > 768 ? <Image src={"/images/others/world.webp"} alt="Edinburg transfers  Support" width={25} height={20} /> : <></>}                                        {generalAllTranslations.strEurope[language]}:
+                                        <Image src={"/images/others/world.webp"} alt="Edinburg transfers  Support" width={25} height={20} />                                        {generalAllTranslations.strEurope[language]}:
                                     </span>
                                     <a href="tel:+442033259878">
                                         +44 203 325 9878
@@ -62,7 +62,7 @@ const Footer = () => {
                                 </li>
                                 <li className={styles.wp}>
                                     <span>
-                                        {width > 768 ? <Image src={"/images/others/WhatsAppp.webp"} alt="Edinburg transfers WhatsApp" width={25} height={25} /> : <></>}                                        {appData?.words["strWhatsAppUs"]}:
+                                        <Image src={"/images/others/WhatsAppp.webp"} alt="Edinburg transfers WhatsApp" width={25} height={25} />                                        {appData?.words["strWhatsAppUs"]}:
                                     </span>
                                     <a target="_blank" href="https://wa.me/447387901028">
                                         +44 738 790 1028
@@ -70,7 +70,7 @@ const Footer = () => {
                                 </li>
                                 <li className={styles.mail}>
                                     <span>
-                                        {width > 768 ? <Image src={"/images/others/mail.webp"} alt="Edinburg transfers Email" width={25} height={20} /> : <></>}                                        {appData.words["strEmail"]}:
+                                        <Image src={"/images/others/mail.webp"} alt="Edinburg transfers Email" width={25} height={20} />                                        {appData.words["strEmail"]}:
                                     </span>
                                     <a href="mailto:info@apltransfers.com" >info@apltransfers.com</a>
                                 </li>
