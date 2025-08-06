@@ -36,6 +36,10 @@ function MyApp({ Component, pageProps }) {
   const { store, props } = wrapper.useWrappedStore(pageProps);
   let { hasLanguage, appData } = props//has language used for when user comes it write lcalhost:3000/tr
 
+
+
+
+  
   const setLanguage = useCallback(async (params = {}) => {
     let { language, } = params;
 
