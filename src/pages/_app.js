@@ -1,10 +1,10 @@
 import { createWrapper } from 'next-redux-wrapper';
 import { DM_Sans } from "next/font/google";
 import { useRouter } from 'next/router';
-import { useCallback, useEffect } from 'react';
+import { useCallback } from 'react';
 import { Provider, useDispatch } from 'react-redux';
 import { checkLanguageAttributeOntheUrl } from '../helpers/checkLanguageAttributeOntheUrl';
-import { getCookie, setCookie } from "../helpers/cokieesFunc";
+
 import { fetchConfig } from "../resources/getEnvConfig";
 import store from '../store/store';
 import "../styles/global.scss";

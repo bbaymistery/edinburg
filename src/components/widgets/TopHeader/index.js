@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useRef, useState } from "react";
+import React, { useCallback, useEffect,  useState } from "react";
 import styles from "./styles.module.scss";
 import Image from "next/image";
 import { useDispatch, useSelector } from "react-redux";
@@ -12,15 +12,19 @@ import logoImage from '../../../../public/logos/edinburgLogo.webp'
 import airportTranslations from "../../../constants/generalTranslataions";
 import { useWindowSize } from "../../../hooks/useWindowSize";
 
-const DropDownAllLanguages = dynamic(() => import('../../elements/DropDownAllLanguages'),);
+const DropDownAllLanguages = dynamic(() => import('../../elements/DropDownAllLanguages'), {
+  ssr: false
+});
 const DesktopMenu = dynamic(() => import('../../elements/DesktopMenu'), {
   ssr: false
 });
-const MobileMenu = dynamic(() => import('../../elements/MobileMenu'),);
+const MobileMenu = dynamic(() => import('../../elements/MobileMenu'), {
+  ssr: false
+});
 const Header = () => {
   const router = useRouter()
   const dispatch = useDispatch()
-  const { params: { language, journeyType,  } } = useSelector(state => state.pickUpDropOffActions)
+  const { params: { language, journeyType, } } = useSelector(state => state.pickUpDropOffActions)
   const [openMenu, setOpenMenu] = useState(false) //mobile
   const [languageStatus, setLanguageStatus] = useState(false)
   const [currencyStatus, setCurrencyStatus] = useState(false)

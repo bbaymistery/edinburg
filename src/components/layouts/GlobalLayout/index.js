@@ -1,8 +1,12 @@
 import Head from 'next/head';
 import TopHeader from '../../widgets/TopHeader';
 import React from 'react'
-import Footer from '../../widgets/Footer';
 import { useRouter } from 'next/router';
+import dynamic from 'next/dynamic';
+const Footer = dynamic(() => import('../../widgets/Footer'), {
+  loading: () => '...',
+  ssr: false // Skip server-side rendering for client-only components
+});
 const SeoDefaults = {
   title: "Ediinburg",
   keywords: "Test",
