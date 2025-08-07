@@ -8,7 +8,7 @@ const HeroImage = ({ islinknamecomponent, matchingLinkNameImage }) => {
               style={{ objectFit: islinknamecomponent ? "fill" : "cover" }}
                 priority
                 fetchPriority="high"
-                quality={40}
+                quality={30}
                 alt="Edinburq Transfers "
                 fill
                 className={styles.landing_image}
