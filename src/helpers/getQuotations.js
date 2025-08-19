@@ -45,7 +45,6 @@ const collectQuotations = (params = { 'reservations': Object(), 'journeyType': N
     .then(function (data) {
 
       if (data.every(o => o.status === 200)) {
-        console.log({ data });
 
         callback({ 'status': 200, data })
       } else {

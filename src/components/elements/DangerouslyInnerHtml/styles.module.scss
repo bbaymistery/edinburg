@@ -16,10 +16,12 @@
         list-style: disc;
         margin-left: 18px;
     }
-p{
-   font-size: 20px;
-   padding:15px 0px;
-}
+
+    p {
+        font-size: 20px;
+        padding: 10px 0px;
+    }
+
     a {
         color: $primary-color;
         font-weight: 500;
@@ -27,7 +29,7 @@ p{
 
     h1 {
         font-size: 32px;
-          color: $primary-color;
+        color: $primary-color;
 
         @media(max-width:768px) {
             font-size: 23px;
@@ -41,7 +43,7 @@ p{
         padding-top: 16px;
         font-weight: 500;
         font-size: 25px;
-             color: $primary-color;
+        color: $primary-color;
 
         border-top: 4px solid $gray-color-light-3;
 
@@ -52,11 +54,45 @@ p{
         }
     }
 
+    div {
+        width: 100%;
+        overflow-x: auto;
+        /* ✅ küçülünce yatay scroll çıkar */
+        -webkit-overflow-scrolling: touch;
+        /* mobilde daha smooth */
+    }
+
+    div table {
+        width: max-content;
+        /* tablo genişliği içeriğe göre ayarlanır */
+        border-collapse: collapse;
+    }
+
+    table {
+        margin: 10px 0px;
+    }
+
+    td,
+    th {
+        border: 1px solid $primary-color-light;
+        text-align: center;
+        padding: 2px;
+    }
+
+    th {
+        font-weight: bold;
+        width: 250px;
+    }
+
+    td {
+        color: black;
+    }
 
     h3 {
         margin-top: 17px;
         font-size: 22px;
-          color: $primary-color;
+        color: $primary-color;
+        font-weight: 500;
 
         @media(max-width:768px) {
             font-size: 17px;

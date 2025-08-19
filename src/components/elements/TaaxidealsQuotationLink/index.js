@@ -44,7 +44,7 @@ function TestA(props) {
         //`/${returnPathname.split("/")[2]}`, aplde return de var idi urls icin de burda yoxdu
         const urls = [linkurl]
         const urlss = [returnPathname, linkurl]
-        console.log({ urlss ,fetchdatas});
+        // console.log({ urlss ,fetchdatas});
 
         fetchPathnamePageDatas(urls);
 

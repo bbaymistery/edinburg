@@ -32,7 +32,7 @@ const NavbarLinkName = (props) => {
     const dispatch = useDispatch();
     const router = useRouter();
     const { linkname } = router.query; // Get the linkname parameter from the query string
-    console.log({ data });
+    // console.log({ data });
 
     // If server-side validation fails (data is "not found"), render the 404 page
     if (data === "not found") return <Error404 />;
@@ -40,7 +40,7 @@ const NavbarLinkName = (props) => {
 
 
 
-    console.log({ linkname });
+    // console.log({ linkname });
 
     useEffect(() => {
         // If not a "Quotation" link, find the matching item and update Redux state
@@ -101,7 +101,7 @@ async function handleQuotationLink(language, pathname, env,) {
 
         const url = `${env.apiDomain}/api/v1/taxi-deals/details`;
         const { status, data } = await postDataAPI({ url, body });
-        console.log({ status, data });
+        // console.log({ status, data });
 
 
         if (status === 205) return { redirect: { destination: data.redirectPathname, permanent: false } };
@@ -208,7 +208,7 @@ export const getServerSideProps = wrapper.getServerSideProps(store => async ({ r
         "/edinburgh-airport-to-st-andrews-taxi",
         "/st-andrews-to-edinburgh-airport-taxi",
     ];
-    console.log(pathname);
+    // console.log(pathname);
 
 
     if (taxiPricesLinks.includes(`${pathname}`)) {
