@@ -1,927 +1,664 @@
 export const htmlContentsPrivacy = {
     en: `
-    <h1>PRIVACY POLICY - APL TRANSFERS TÜRKİYE</h1>
-<p>APL Transfers Türkiye ("we", "us", or "our") respects your privacy and is committed to protecting your personal data. This Privacy Policy explains how we collect, use, and safeguard your personal information when you visit our website 
-<a href="https://apltransfers.com" target="_blank">https://apltransfers.com</a> or use our services.</p>
+  <h1>Privacy Policy</h1>
+  <p><em>Last updated: 19.08.2025</em></p>
+  <p>
+    At <strong>APL Edinburgh</strong> (<a href="https://www.apl-edinburgh.com" target="_blank" rel="noopener">www.apl-edinburgh.com</a>), we are committed to protecting your personal data and privacy. This Privacy Policy outlines how we collect, use, store, and protect the information you provide when using our website or services.
+  </p>
 
 
-<h2>1. INFORMATION WE COLLECT</h2>
-
-<h3>1.1 Personal Information</h3>
-<p>When you make a booking or contact us, we may collect the following personal information:</p>
-<ul>
-    <li><strong>Full Name</strong></li>
-    <li><strong>Contact Information:</strong> Email address, phone number, and WhatsApp contact.</li>
-    <li><strong>Payment Information:</strong> Credit/debit card details (processed securely by our payment partners).</li>
-    <li><strong>Travel Details:</strong> Pickup and drop-off locations, flight information, and passenger details.</li>
-    <li><strong>Special Requests:</strong> Such as child seats, extra luggage, or other requirements.</li>
-</ul>
-
-<h3>1.2 Automatically Collected Information</h3>
-<p>When you visit our website, we may automatically collect information about your device, including:</p>
-<ul>
-    <li><strong>IP Address</strong></li>
-    <li><strong>Browser Type</strong></li>
-    <li><strong>Operating System</strong></li>
-    <li><strong>Referring Website</strong></li>
-    <li><strong>Pages Viewed and Time Spent on Our Site</strong></li>
-</ul>
-
-<p>This information is collected using cookies and similar tracking technologies.</p>
-
-<h2>2. HOW WE USE YOUR INFORMATION</h2>
-
-<p>We use your personal information for the following purposes:</p>
-
-<ul>
-    <li><strong>Booking and Payment Processing:</strong> To confirm and manage your bookings and process payments securely.</li>
-    <li><strong>Customer Support:</strong> To communicate with you about your booking and respond to your inquiries.</li>
-    <li><strong>Personalization:</strong> To improve our website, services, and customer experience.</li>
-    <li><strong>Marketing and Promotions:</strong> To send you promotional offers and updates (you can opt out at any time).</li>
-    <li><strong>Legal Compliance:</strong> To comply with applicable laws, regulations, and legal processes.</li>
-</ul>
+  <h2>1. Who We Are</h2>
+  <p>APL Edinburgh is a private hire and airport transfer company offering door-to-door transport services across Scotland. We operate under the trading name <strong>Airport Pickups Edinburgh (APE)</strong>.</p>
 
 
+        <div>
+         <p>📞 Tel (UK): <a href="tel:+442086887744">+442086887744</a></p>
+         <p>📱 WhatsApp: +44 73 8790 1028</p>
+         <p>✉ Email: info@apl-edinburgh.com</p>
+         <p>🌍 Company website:</strong> <a href="https://www.apl-edinburgh.com" target="_blank" rel="noopener">www.apl-edinburgh.com</a></p>
+    </div>
+  <h2>2. What Personal Data We Collect</h2>
+  <p>We may collect and store the following types of information:</p>
+  <ul>
+    <li>Full name</li>
+    <li>Email address</li>
+    <li>Phone number</li>
+    <li>Pick-up and drop-off addresses</li>
+    <li>Flight details (if applicable)</li>
+    <li>Booking details and travel preferences</li>
+    <li>IP address and browser type (for website analytics)</li>
+  </ul>
+  <p>We do <strong>not</strong> store credit or debit card numbers on our servers. All online payments are securely handled by trusted third-party processors (e.g., Stripe or other providers).</p>
 
-<h2>3. LEGAL BASIS FOR PROCESSING</h2>
 
-<p>We process your personal information based on the following legal grounds:</p>
+  <h2>3. How We Use Your Information</h2>
+  <p>We collect and use your data for the following purposes:</p>
+  <ul>
+    <li>To confirm and manage your booking</li>
+    <li>To contact you regarding your reservation</li>
+    <li>To send you a confirmation email or SMS</li>
+    <li>To assign your transfer to a driver</li>
+    <li>To comply with legal obligations (e.g., regulatory or tax reporting)</li>
+    <li>To improve our services and website performance</li>
+  </ul>
+  <p>We do <strong>not</strong> sell, rent, or trade your personal information to third parties for marketing purposes.</p>
 
-<ul>
-    <li><strong>Contractual Necessity:</strong> To provide our services and fulfill our contract with you.</li>
-    <li><strong>Legitimate Interests:</strong> To improve our services and enhance customer experiences.</li>
-    <li><strong>Consent:</strong> For marketing communications (you can withdraw your consent at any time).</li>
-    <li><strong>Legal Obligation:</strong> To comply with legal requirements and respond to legal requests.</li>
-</ul>
 
-    <h2>4. SHARING YOUR INFORMATION</h2>
+  <h2>4. Legal Basis for Processing</h2>
+  <p>Under the UK GDPR, we rely on the following lawful bases for processing your data:</p>
+  <ul>
+    <li><strong>Contractual obligation</strong> – to fulfil your booking or quotation request</li>
+    <li><strong>Legal compliance</strong> – for record keeping and tax/accounting</li>
+    <li><strong>Legitimate interest</strong> – to improve customer experience and manage operations</li>
+    <li><strong>Consent</strong> – for marketing emails (only if you opt in)</li>
+  </ul>
 
-<p>We do not sell your personal information to third parties. However, we may share your information with:</p>
 
-<ul>
-    <li><strong>Service Providers:</strong> Third-party vendors who assist with payment processing, customer support, and marketing.</li>
-    <li><strong>Business Partners:</strong> Trusted partners involved in fulfilling your booking requests.</li>
-    <li><strong>Legal Authorities:</strong> When required by law or to protect our rights and safety.</li>
-</ul>
+  <h2>5. Data Retention</h2>
+  <p>We retain customer booking data for up to <strong>7 years</strong>, in line with UK tax and regulatory obligations. If you request deletion of your personal data and no legal obligation exists to retain it, we will delete it securely.</p>
 
-<h2>5. DATA SECURITY</h2>
 
-<p>We implement robust security measures to protect your personal data, including:</p>
+  <h2>6. Data Sharing</h2>
+  <p>We may share relevant booking details with:</p>
+  <ul>
+    <li>Your assigned driver or subcontracted licensed operator</li>
+    <li>Payment processing partners (e.g., Stripe)</li>
+    <li>HMRC or relevant regulatory bodies (when legally required)</li>
+  </ul>
+  <p>All third parties are required to handle your data securely and lawfully.</p>
 
-<ul>
-    <li><strong>SSL Encryption:</strong> Secure transmission of payment information.</li>
-    <li><strong>Access Controls:</strong> Limited access to your personal information to authorized personnel only.</li>
-    <li><strong>Data Retention:</strong> We retain personal data only as long as necessary to fulfill the purposes outlined in this policy.</li>
-</ul>
 
-<h2>6. COOKIES AND TRACKING TECHNOLOGIES</h2>
+  <h2>7. Your Data Protection Rights</h2>
+  <p>You have the right to:</p>
+  <ul>
+    <li>Access a copy of the personal data we hold about you</li>
+    <li>Request correction of inaccurate or incomplete data</li>
+    <li>Request deletion of your data (subject to retention laws)</li>
+    <li>Object to processing or request a restriction</li>
+    <li>Withdraw consent at any time (if processing was based on consent)</li>
+  </ul>
+  <p>To exercise any of these rights, please email us at <a href="mailto:info@apl-edinburgh.com">info@apl-edinburgh.com</a>.</p>
 
-<p>We use cookies and similar tracking technologies to enhance your browsing experience and analyze website traffic.</p>
 
-<ul>
-    <li><strong>Essential Cookies:</strong> Necessary for website functionality.</li>
-    <li><strong>Analytics Cookies:</strong> To analyze user behavior and improve our services.</li>
-    <li><strong>Advertising Cookies:</strong> To deliver relevant ads and marketing content.</li>
-</ul>
+  <h2>8. Cookies &amp; Website Tracking</h2>
+  <p>Our website uses cookies to enhance your experience and understand how visitors use our site. You can adjust cookie settings via your browser at any time. For more information, see our <a href="#">Cookie Policy</a> (if applicable).</p>
 
-<p>You can manage your cookie preferences through your browser settings.</p>
 
-<h2>7. YOUR DATA PROTECTION RIGHTS</h2>
+  <h2>9. Security Measures</h2>
+  <p>We take appropriate technical and organisational measures to protect your personal data from loss, misuse, unauthorised access, or disclosure. Our website uses HTTPS encryption and all booking data is stored securely.</p>
 
-<p>Under the <strong>General Data Protection Regulation (GDPR)</strong>, you have the following rights:</p>
 
-<ul>
-    <li><strong>Right to Access:</strong> Request a copy of your personal data.</li>
-    <li><strong>Right to Rectification:</strong> Correct inaccurate or incomplete data.</li>
-    <li><strong>Right to Erasure:</strong> Request deletion of your personal information.</li>
-    <li><strong>Right to Restriction:</strong> Limit the processing of your data.</li>
-    <li><strong>Right to Data Portability:</strong> Receive your data in a commonly used format.</li>
-    <li><strong>Right to Object:</strong> Object to the processing of your personal data for marketing purposes.</li>
-</ul>
+  <h2>10. Contact Us</h2>
+  <p>If you have any questions or concerns about how your data is handled, please contact us:</p>
+  <p><strong>Phone (UK):</strong> </p>
+         <div>
+         <p>📞 Tel (UK): <a href="tel:+442086887744">+442086887744</a></p>
+         <p>🌍 Tel (International): +44 208 688 7744</p>
+         <p>📱 WhatsApp: +44 73 8790 1028</p>
+         <p>✉ Email: info@apl-edinburgh.com</p>
+    </div>
+  <p>If you are unsatisfied with our response, you have the right to lodge a complaint with the <strong>UK Information Commissioner’s Office (ICO)</strong>: <a href="https://www.ico.org.uk" target="_blank" rel="noopener">www.ico.org.uk</a>.</p>
 
-<p>To exercise these rights, please contact us at <strong><a href="mailto:info@apltransfers.com">info@apltransfers.com</a></strong>.</p>
-
-<h2>8. INTERNATIONAL DATA TRANSFERS</h2>
-
-<p>We may transfer your personal data to third-party service providers located outside the <strong>European Economic Area (EEA)</strong>. In such cases, we ensure appropriate safeguards are in place to protect your information.</p>
-
-<h2>9. THIRD-PARTY LINKS</h2>
-
-<p>Our website may contain links to third-party websites. We are not responsible for their privacy practices. We encourage you to read their privacy policies before sharing your personal information.</p>
-
-<h2>10. CHILDREN'S PRIVACY</h2>
-
-<p>Our services are not intended for children under the age of 16. We do not knowingly collect personal information from children without parental consent.</p>
-
-<h2>11. CHANGES TO THIS PRIVACY POLICY</h2>
-
-<p>We may update this Privacy Policy from time to time to reflect changes in our practices or legal requirements. We will notify you of any significant changes by posting the updated policy on our website.</p>
-
-<h2>12. CONTACT US</h2>
-
-<p>If you have any questions, concerns, or requests related to this Privacy Policy or our data practices, please contact us at:</p>
-
-<div>
-<p>📞 <strong>24/7 Customer Support:</strong> +90 216 550 33 13</p>
-<p>🌍 <strong>From Europe:</strong> +44 203 325 9878</p>
-<p>📱 <strong>WhatsApp:</strong> +44 73 8790 1028</p>
-<p>✉ <strong>Email:</strong> info@apltransfers.com</p>
-</div>
-
-<h2>13. COMPLAINTS</h2>
-
-<p>If you believe we have violated your data protection rights, you have the right to lodge a complaint with the relevant supervisory authority, such as the <strong>Data Protection Authority (DPA)</strong> in your jurisdiction.</p>
-
-<p><strong>By using our website and services, you consent to the terms of this Privacy Policy.</strong></p>
-
-    `,
+ `,
     ar: `
-    <h1>سياسة الخصوصية - APL TRANSFERS TÜRKİYE</h1>
-<p>تحترم APL Transfers Türkiye ("نحن"، "لنا"، "خاصتنا") خصوصيتك وتلتزم بحماية بياناتك الشخصية. توضح سياسة الخصوصية هذه كيفية جمع معلوماتك الشخصية واستخدامها وحمايتها عند زيارة موقعنا الإلكتروني 
-<a href="https://apltransfers.com" target="_blank">https://apltransfers.com</a> أو استخدام خدماتنا.</p>
+  <h1>سياسة الخصوصية</h1>
+  <p><em>آخر تحديث: 19.08.2025</em></p>
+  <p>
+    في <strong>APL Edinburgh</strong> (<a href="https://www.apl-edinburgh.com" target="_blank" rel="noopener">www.apl-edinburgh.com</a>)، نحن ملتزمون بحماية بياناتك الشخصية وخصوصيتك. توضح سياسة الخصوصية هذه كيفية جمعنا واستخدامنا وتخزيننا وحمايتنا للمعلومات التي تقدمها عند استخدامك لموقعنا أو خدماتنا.
+  </p>
 
-<h2>1. المعلومات التي نجمعها</h2>
+  <h2>1. من نحن</h2>
+  <p>APL Edinburgh هي شركة نقل خاصة تقدم خدمات النقل من الباب إلى الباب في جميع أنحاء اسكتلندا. نحن نعمل تحت الاسم التجاري <strong>Airport Pickups Edinburgh (APE)</strong>.</p>
 
-<h3>1.1 المعلومات الشخصية</h3>
-<p>عند إجراء حجز أو الاتصال بنا، قد نقوم بجمع المعلومات الشخصية التالية:</p>
-<ul>
-    <li><strong>الاسم الكامل</strong></li>
-    <li><strong>معلومات الاتصال:</strong> عنوان البريد الإلكتروني، رقم الهاتف، وتواصل عبر WhatsApp.</li>
-    <li><strong>معلومات الدفع:</strong> تفاصيل بطاقة الائتمان/الخصم (تتم معالجتها بأمان من قبل شركائنا في الدفع).</li>
-    <li><strong>تفاصيل السفر:</strong> مواقع الاستلام والتوصيل، معلومات الرحلة، وتفاصيل الركاب.</li>
-    <li><strong>الطلبات الخاصة:</strong> مثل مقاعد الأطفال، الأمتعة الإضافية، أو أي متطلبات أخرى.</li>
-</ul>
+  <div>
+    <p>📞 الهاتف (المملكة المتحدة): <a href="tel:+442086887744">+442086887744</a></p>
+    <p>📱 واتساب: +44 73 8790 1028</p>
+    <p>✉ البريد الإلكتروني: info@apl-edinburgh.com</p>
+    <p>🌍 الموقع الإلكتروني: <a href="https://www.apl-edinburgh.com" target="_blank" rel="noopener">www.apl-edinburgh.com</a></p>
+  </div>
 
-<h3>1.2 المعلومات التي يتم جمعها تلقائيًا</h3>
-<p>عند زيارة موقعنا الإلكتروني، قد نقوم تلقائيًا بجمع معلومات حول جهازك، بما في ذلك:</p>
-<ul>
-    <li><strong>عنوان IP</strong></li>
-    <li><strong>نوع المتصفح</strong></li>
-    <li><strong>نظام التشغيل</strong></li>
-    <li><strong>الموقع الإلكتروني المُحال منه</strong></li>
-    <li><strong>الصفحات التي تم عرضها والوقت الذي تم قضاؤه على موقعنا</strong></li>
-</ul>
+  <h2>2. ما هي البيانات الشخصية التي نجمعها</h2>
+  <p>قد نقوم بجمع وتخزين الأنواع التالية من المعلومات:</p>
+  <ul>
+    <li>الاسم الكامل</li>
+    <li>عنوان البريد الإلكتروني</li>
+    <li>رقم الهاتف</li>
+    <li>عناوين الاستلام والتوصيل</li>
+    <li>تفاصيل الرحلة (إن وجدت)</li>
+    <li>تفاصيل الحجز وتفضيلات السفر</li>
+    <li>عنوان بروتوكول الإنترنت (IP) ونوع المتصفح (لتحليلات الموقع)</li>
+  </ul>
+  <p>نحن <strong>لا</strong> نخزن أرقام بطاقات الائتمان أو الخصم على خوادمنا. تتم جميع المدفوعات عبر الإنترنت بشكل آمن من خلال مزودي خدمات دفع موثوقين (مثل Stripe أو غيرهم).</p>
 
-<p>يتم جمع هذه المعلومات باستخدام ملفات تعريف الارتباط والتقنيات المشابهة.</p>
-<h2>2. كيف نستخدم معلوماتك</h2>
+  <h2>3. كيف نستخدم معلوماتك</h2>
+  <p>نقوم بجمع واستخدام بياناتك للأغراض التالية:</p>
+  <ul>
+    <li>تأكيد وإدارة حجزك</li>
+    <li>التواصل معك بشأن الحجز</li>
+    <li>إرسال بريد إلكتروني أو رسالة نصية لتأكيد الحجز</li>
+    <li>تخصيص سائق لنقلك</li>
+    <li>الامتثال للالتزامات القانونية (مثل الضرائب أو التقارير التنظيمية)</li>
+    <li>تحسين خدماتنا وأداء موقعنا</li>
+  </ul>
+  <p>نحن <strong>لا</strong> نبيع أو نؤجر أو نتاجر بمعلوماتك الشخصية لأطراف ثالثة لأغراض تسويقية.</p>
 
-<p>نستخدم معلوماتك الشخصية للأغراض التالية:</p>
 
-<ul>
-    <li><strong>معالجة الحجز والدفع:</strong> لتأكيد وإدارة حجوزاتك ومعالجة المدفوعات بأمان.</li>
-    <li><strong>دعم العملاء:</strong> للتواصل معك بشأن حجزك والرد على استفساراتك.</li>
-    <li><strong>التخصيص:</strong> لتحسين موقعنا الإلكتروني وخدماتنا وتجربة العملاء.</li>
-    <li><strong>التسويق والعروض الترويجية:</strong> لإرسال العروض الترويجية والتحديثات إليك (يمكنك إلغاء الاشتراك في أي وقت).</li>
-    <li><strong>الامتثال القانوني:</strong> للامتثال للقوانين واللوائح والإجراءات القانونية المعمول بها.</li>
-</ul>
+  <h2>4. الأساس القانوني لمعالجة البيانات</h2>
+  <p>بموجب اللائحة العامة لحماية البيانات في المملكة المتحدة (UK GDPR)، نعتمد على الأسس القانونية التالية لمعالجة بياناتك:</p>
+  <ul>
+    <li><strong>الالتزام التعاقدي</strong> – لتلبية طلب الحجز أو عرض الأسعار الخاص بك</li>
+    <li><strong>الامتثال القانوني</strong> – لحفظ السجلات والضرائب/المحاسبة</li>
+    <li><strong>المصلحة المشروعة</strong> – لتحسين تجربة العملاء وإدارة العمليات</li>
+    <li><strong>الموافقة</strong> – لرسائل البريد الإلكتروني التسويقية (فقط إذا اخترت ذلك)</li>
+  </ul>
 
-<h2>3. الأساس القانوني لمعالجة البيانات</h2>
+  <h2>5. الاحتفاظ بالبيانات</h2>
+  <p>نحتفظ ببيانات الحجز لمدة تصل إلى <strong>7 سنوات</strong>، وفقًا للقوانين واللوائح الضريبية في المملكة المتحدة. إذا طلبت حذف بياناتك الشخصية ولم يكن هناك التزام قانوني بالاحتفاظ بها، فسنقوم بحذفها بشكل آمن.</p>
 
-<p>نعالج معلوماتك الشخصية بناءً على الأسس القانونية التالية:</p>
+  <h2>6. مشاركة البيانات</h2>
+  <p>قد نشارك تفاصيل الحجز ذات الصلة مع:</p>
+  <ul>
+    <li>السائق المعين لك أو مشغل مرخص متعاقد</li>
+    <li>شركاء معالجة الدفع (مثل Stripe)</li>
+    <li>هيئة الضرائب HMRC أو الجهات التنظيمية ذات الصلة (عند الحاجة القانونية)</li>
+  </ul>
+  <p>يُطلب من جميع الأطراف الثالثة التعامل مع بياناتك بأمان وبطريقة قانونية.</p>
 
-<ul>
-    <li><strong>الضرورة التعاقدية:</strong> لتقديم خدماتنا وتنفيذ العقد المبرم بيننا وبينك.</li>
-    <li><strong>المصالح المشروعة:</strong> لتحسين خدماتنا وتعزيز تجربة العملاء.</li>
-    <li><strong>الموافقة:</strong> للاتصالات التسويقية (يمكنك سحب موافقتك في أي وقت).</li>
-    <li><strong>الالتزام القانوني:</strong> للامتثال للمتطلبات القانونية والاستجابة للطلبات القانونية.</li>
-</ul>
-<h2>4. مشاركة معلوماتك</h2>
+  <h2>7. حقوقك في حماية البيانات</h2>
+  <p>لديك الحق في:</p>
+  <ul>
+    <li>الوصول إلى نسخة من بياناتك الشخصية التي نحتفظ بها</li>
+    <li>طلب تصحيح البيانات غير الدقيقة أو غير الكاملة</li>
+    <li>طلب حذف بياناتك (وفقًا للقوانين)</li>
+    <li>الاعتراض على المعالجة أو طلب تقييدها</li>
+    <li>سحب موافقتك في أي وقت (إذا كانت المعالجة تستند إلى موافقتك)</li>
+  </ul>
+  <p>لممارسة أي من هذه الحقوق، يرجى مراسلتنا عبر البريد الإلكتروني: <a href="mailto:info@apl-edinburgh.com">info@apl-edinburgh.com</a>.</p>
 
-<p>نحن لا نبيع معلوماتك الشخصية لأطراف ثالثة. ومع ذلك، قد نشارك معلوماتك مع:</p>
+  <h2>8. ملفات تعريف الارتباط وتتبع الموقع</h2>
+  <p>يستخدم موقعنا ملفات تعريف الارتباط لتعزيز تجربتك وفهم كيفية استخدام الزوار لموقعنا. يمكنك تعديل إعدادات ملفات تعريف الارتباط عبر متصفحك في أي وقت. لمزيد من المعلومات، راجع <a href="#">سياسة ملفات تعريف الارتباط</a> (إن وجدت).</p>
 
-<ul>
-    <li><strong>مزودي الخدمات:</strong> البائعين الخارجيين الذين يساعدون في معالجة المدفوعات، دعم العملاء، والتسويق.</li>
-    <li><strong>شركاء الأعمال:</strong> شركاء موثوق بهم يشاركون في تلبية طلبات الحجز الخاصة بك.</li>
-    <li><strong>السلطات القانونية:</strong> عندما يتطلب القانون ذلك أو لحماية حقوقنا وسلامتنا.</li>
-</ul>
+  <h2>9. تدابير الأمان</h2>
+  <p>نتخذ التدابير التقنية والتنظيمية المناسبة لحماية بياناتك الشخصية من الفقدان أو سوء الاستخدام أو الوصول غير المصرح به أو الكشف. يستخدم موقعنا تشفير HTTPS ويتم تخزين جميع بيانات الحجز بشكل آمن.</p>
 
-<h2>5. أمن البيانات</h2>
+  <h2>10. اتصل بنا</h2>
+  <p>إذا كانت لديك أي أسئلة أو مخاوف بشأن كيفية التعامل مع بياناتك، يرجى الاتصال بنا:</p>
+  <div>
+    <p>📞 الهاتف (المملكة المتحدة): <a href="tel:+442086887744">+442086887744</a></p>
+    <p>🌍 الهاتف (دولي): +44 208 688 7744</p>
+    <p>📱 واتساب: +44 73 8790 1028</p>
+    <p>✉ البريد الإلكتروني: info@apl-edinburgh.com</p>
+  </div>
+  <p>إذا لم تكن راضيًا عن ردنا، لديك الحق في تقديم شكوى إلى <strong>مكتب مفوض المعلومات في المملكة المتحدة (ICO)</strong>: <a href="https://www.ico.org.uk" target="_blank" rel="noopener">www.ico.org.uk</a>.</p>
 
-<p>نقوم بتنفيذ تدابير أمان قوية لحماية بياناتك الشخصية، بما في ذلك:</p>
-
-<ul>
-    <li><strong>تشفير SSL:</strong> لضمان نقل آمن لمعلومات الدفع.</li>
-    <li><strong>ضوابط الوصول:</strong> تقييد الوصول إلى معلوماتك الشخصية للموظفين المخولين فقط.</li>
-    <li><strong>الاحتفاظ بالبيانات:</strong> نحتفظ بالبيانات الشخصية فقط طالما كان ذلك ضروريًا لتحقيق الأغراض المحددة في هذه السياسة.</li>
-</ul>
-
-<h2>6. ملفات تعريف الارتباط وتقنيات التتبع</h2>
-
-<p>نستخدم ملفات تعريف الارتباط وتقنيات التتبع المشابهة لتحسين تجربة التصفح الخاصة بك وتحليل حركة المرور على موقع الويب.</p>
-
-<ul>
-    <li><strong>ملفات تعريف الارتباط الأساسية:</strong> ضرورية لوظائف الموقع.</li>
-    <li><strong>ملفات تعريف الارتباط التحليلية:</strong> لتحليل سلوك المستخدم وتحسين خدماتنا.</li>
-    <li><strong>ملفات تعريف الارتباط الإعلانية:</strong> لتقديم إعلانات ذات صلة ومحتوى تسويقي.</li>
-</ul>
-
-<p>يمكنك إدارة تفضيلات ملفات تعريف الارتباط الخاصة بك من خلال إعدادات المتصفح.</p>
-<h2>7. حقوق حماية بياناتك</h2>
-
-<p>بموجب <strong>اللائحة العامة لحماية البيانات (GDPR)</strong>، لديك الحقوق التالية:</p>
-
-<ul>
-    <li><strong>حق الوصول:</strong> طلب نسخة من بياناتك الشخصية.</li>
-    <li><strong>حق التصحيح:</strong> تصحيح البيانات غير الدقيقة أو غير المكتملة.</li>
-    <li><strong>حق المسح:</strong> طلب حذف معلوماتك الشخصية.</li>
-    <li><strong>حق التقييد:</strong> الحد من معالجة بياناتك.</li>
-    <li><strong>حق نقل البيانات:</strong> استلام بياناتك بتنسيق شائع الاستخدام.</li>
-    <li><strong>حق الاعتراض:</strong> الاعتراض على معالجة بياناتك الشخصية لأغراض التسويق.</li>
-</ul>
-
-<p>لممارسة هذه الحقوق، يرجى الاتصال بنا عبر البريد الإلكتروني <strong><a href="mailto:info@apltransfers.com">info@apltransfers.com</a></strong>.</p>
-
-<h2>8. نقل البيانات الدولية</h2>
-
-<p>قد نقوم بنقل بياناتك الشخصية إلى مزودي الخدمات الخارجيين الموجودين خارج <strong>المنطقة الاقتصادية الأوروبية (EEA)</strong>. في مثل هذه الحالات، نتأكد من وجود تدابير حماية مناسبة لحماية معلوماتك.</p>
-
-<h2>9. روابط الطرف الثالث</h2>
-
-<p>قد يحتوي موقعنا الإلكتروني على روابط لمواقع ويب تابعة لجهات خارجية. نحن غير مسؤولين عن ممارسات الخصوصية الخاصة بهم. ننصحك بقراءة سياسات الخصوصية الخاصة بهم قبل مشاركة معلوماتك الشخصية.</p>
-
-<h2>10. خصوصية الأطفال</h2>
-
-<p>خدماتنا ليست مخصصة للأطفال دون سن 16 عامًا. نحن لا نجمع عن قصد معلومات شخصية من الأطفال دون موافقة الوالدين.</p>
-
-<h2>11. التغييرات على سياسة الخصوصية هذه</h2>
-
-<p>قد نقوم بتحديث سياسة الخصوصية هذه من وقت لآخر لتعكس التغييرات في ممارساتنا أو المتطلبات القانونية. سنقوم بإبلاغك بأي تغييرات كبيرة من خلال نشر السياسة المحدثة على موقعنا الإلكتروني.</p>
-<h2>12. اتصل بنا</h2>
-
-<p>إذا كان لديك أي أسئلة أو استفسارات أو طلبات تتعلق بسياسة الخصوصية هذه أو بممارساتنا في معالجة البيانات، يرجى الاتصال بنا عبر المعلومات التالية:</p>
-
-<div>
-<p>📞 <strong>دعم العملاء 24/7:</strong> +90 216 550 33 13</p>
-<p>🌍 <strong>من أوروبا:</strong> +44 203 325 9878</p>
-<p>📱 <strong>واتساب:</strong> +44 73 8790 1028</p>
-<p>✉ <strong>البريد الإلكتروني:</strong> info@apltransfers.com</p>
-</div>
-
-<h2>13. الشكاوى</h2>
-
-<p>إذا كنت تعتقد أننا قد انتهكنا حقوق حماية بياناتك، فلديك الحق في تقديم شكوى إلى الجهة الإشرافية المختصة، مثل <strong>هيئة حماية البيانات (DPA)</strong> في نطاق سلطتك القضائية.</p>
-
-<p><strong>باستخدام موقعنا الإلكتروني وخدماتنا، فإنك توافق على شروط سياسة الخصوصية هذه.</strong></p>
-
-    `,
+  `,
     tr: `
-    <h1>GİZLİLİK POLİTİKASI - APL TRANSFERS TÜRKİYE</h1>
-<p>APL Transfers Türkiye ("biz", "bize" veya "bizim") gizliliğinize saygı duyar ve kişisel verilerinizi korumayı taahhüt eder. Bu Gizlilik Politikası, web sitemizi ziyaret ettiğinizde 
-<a href="https://apltransfers.com" target="_blank">https://apltransfers.com</a> veya hizmetlerimizi kullandığınızda kişisel bilgilerinizi nasıl topladığımızı, kullandığımızı ve koruduğumuzu açıklar.</p>
+  <h1>Gizlilik Politikası</h1>
+  <p><em>Son güncelleme: 19.08.2025</em></p>
+  <p>
+    <strong>APL Edinburgh</strong> (<a href="https://www.apl-edinburgh.com" target="_blank" rel="noopener">www.apl-edinburgh.com</a>) olarak, kişisel verilerinizi ve gizliliğinizi korumayı taahhüt ediyoruz. Bu Gizlilik Politikası, web sitemizi veya hizmetlerimizi kullanırken sağladığınız bilgileri nasıl topladığımızı, kullandığımızı, sakladığımızı ve koruduğumuzu açıklar.
+  </p>
 
-<h2>1. TOPLADIĞIMIZ BİLGİLER</h2>
+  <h2>1. Biz Kimiz</h2>
+  <p>APL Edinburgh, İskoçya genelinde kapıdan kapıya transfer hizmeti sunan özel bir ulaşım şirketidir. <strong>Airport Pickups Edinburgh (APE)</strong> ticari adı altında faaliyet göstermektedir.</p>
 
-<h3>1.1 Kişisel Bilgiler</h3>
-<p>Rezervasyon yaptığınızda veya bizimle iletişime geçtiğinizde aşağıdaki kişisel bilgileri toplayabiliriz:</p>
-<ul>
-    <li><strong>Ad ve Soyad</strong></li>
-    <li><strong>İletişim Bilgileri:</strong> E-posta adresi, telefon numarası ve WhatsApp iletişim bilgisi.</li>
-    <li><strong>Ödeme Bilgileri:</strong> Kredi/banka kartı bilgileri (ödeme ortaklarımız tarafından güvenli bir şekilde işlenmektedir).</li>
-    <li><strong>Seyahat Detayları:</strong> Alış ve bırakış noktaları, uçuş bilgileri ve yolcu detayları.</li>
-    <li><strong>Özel Talepler:</strong> Çocuk koltuğu, ekstra bagaj veya diğer gereksinimler.</li>
-</ul>
+  <div>
+    <p>📞 Telefon (UK): <a href="tel:+442086887744">+442086887744</a></p>
+    <p>📱 WhatsApp: +44 73 8790 1028</p>
+    <p>✉ E-posta: info@apl-edinburgh.com</p>
+    <p>🌍 Web sitesi: <a href="https://www.apl-edinburgh.com" target="_blank" rel="noopener">www.apl-edinburgh.com</a></p>
+  </div>
 
-<h3>1.2 Otomatik Olarak Toplanan Bilgiler</h3>
-<p>Web sitemizi ziyaret ettiğinizde, cihazınız hakkında otomatik olarak aşağıdaki bilgileri toplayabiliriz:</p>
-<ul>
-    <li><strong>IP Adresi</strong></li>
-    <li><strong>Tarayıcı Türü</strong></li>
-    <li><strong>İşletim Sistemi</strong></li>
-    <li><strong>Yönlendiren Web Sitesi</strong></li>
-    <li><strong>Görüntülenen Sayfalar ve Sitemizde Geçirilen Süre</strong></li>
-</ul>
+  <h2>2. Hangi Kişisel Verileri Topluyoruz</h2>
+  <p>Aşağıdaki türde bilgileri toplayabilir ve saklayabiliriz:</p>
+  <ul>
+    <li>Tam ad</li>
+    <li>E-posta adresi</li>
+    <li>Telefon numarası</li>
+    <li>Alış ve bırakış adresleri</li>
+    <li>Uçuş bilgileri (varsa)</li>
+    <li>Rezervasyon detayları ve seyahat tercihleri</li>
+    <li>IP adresi ve tarayıcı türü (web analitiği için)</li>
+  </ul>
+  <p><strong>Kredi veya banka kartı numaralarını</strong> sunucularımızda saklamıyoruz. Tüm çevrimiçi ödemeler, güvenilir üçüncü taraf sağlayıcılar (ör. Stripe) aracılığıyla güvenli bir şekilde gerçekleştirilir.</p>
 
-<p>Bu bilgiler çerezler ve benzeri izleme teknolojileri kullanılarak toplanmaktadır.</p>
-<h2>2. BİLGİLERİNİZİ NASIL KULLANIYORUZ</h2>
+  <h2>3. Bilgilerinizi Nasıl Kullanıyoruz</h2>
+  <p>Verilerinizi şu amaçlarla toplar ve kullanırız:</p>
+  <ul>
+    <li>Rezervasyonunuzu onaylamak ve yönetmek</li>
+    <li>Sizinle rezervasyonunuz hakkında iletişim kurmak</li>
+    <li>Size onay e-postası veya SMS göndermek</li>
+    <li>Transferinizi bir sürücüye atamak</li>
+    <li>Yasal yükümlülüklere uymak (ör. vergi veya düzenleyici raporlama)</li>
+    <li>Hizmetlerimizi ve web sitemizin performansını iyileştirmek</li>
+  </ul>
+  <p>Kişisel bilgilerinizi <strong>pazarlama amacıyla üçüncü taraflara satmıyor, kiralamıyor veya paylaşmıyoruz</strong>.</p>
 
-<p>Kişisel bilgilerinizi aşağıdaki amaçlar için kullanıyoruz:</p>
 
-<ul>
-    <li><strong>Rezervasyon ve Ödeme İşlemleri:</strong> Rezervasyonlarınızı onaylamak, yönetmek ve ödemelerinizi güvenli bir şekilde işlemek.</li>
-    <li><strong>Müşteri Desteği:</strong> Rezervasyonunuz hakkında sizinle iletişim kurmak ve sorularınıza yanıt vermek.</li>
-    <li><strong>Kişiselleştirme:</strong> Web sitemizi, hizmetlerimizi ve müşteri deneyiminizi geliştirmek.</li>
-    <li><strong>Pazarlama ve Promosyonlar:</strong> Size promosyon teklifleri ve güncellemeler göndermek (dilediğiniz zaman abonelikten çıkabilirsiniz).</li>
-    <li><strong>Yasal Uygunluk:</strong> Geçerli yasa, yönetmelik ve yasal süreçlere uymak.</li>
-</ul>
+  <h2>4. Verilerin İşlenmesinin Yasal Dayanağı</h2>
+  <p>Birleşik Krallık GDPR kapsamında, verilerinizi işlememizin yasal dayanakları şunlardır:</p>
+  <ul>
+    <li><strong>Sözleşme yükümlülüğü</strong> – rezervasyonunuzu veya teklif talebinizi yerine getirmek için</li>
+    <li><strong>Yasal uyumluluk</strong> – kayıt tutma ve vergi/muhasebe için</li>
+    <li><strong>Meşru menfaat</strong> – müşteri deneyimini geliştirmek ve operasyonları yönetmek için</li>
+    <li><strong>Açık rıza</strong> – pazarlama e-postaları için (sadece onay verirseniz)</li>
+  </ul>
 
-<h2>3. VERİLERİN İŞLENMESİ İÇİN HUKUKİ DAYANAK</h2>
+  <h2>5. Veri Saklama</h2>
+  <p>Müşteri rezervasyon verilerini <strong>7 yıla</strong> kadar saklıyoruz, bu Birleşik Krallık vergi ve düzenleyici yükümlülüklerine uygundur. Eğer verilerinizin silinmesini talep ederseniz ve yasal bir yükümlülük yoksa, güvenli bir şekilde silinir.</p>
 
-<p>Kişisel bilgilerinizi aşağıdaki yasal dayanaklara göre işliyoruz:</p>
+  <h2>6. Veri Paylaşımı</h2>
+  <p>İlgili rezervasyon bilgilerini şu taraflarla paylaşabiliriz:</p>
+  <ul>
+    <li>Atanmış sürücünüz veya lisanslı taşeron işletmeci</li>
+    <li>Ödeme işleme ortakları (ör. Stripe)</li>
+    <li>HMRC veya diğer düzenleyici kurumlar (yasal olarak gerekli olduğunda)</li>
+  </ul>
+  <p>Tüm üçüncü taraflar, verilerinizi güvenli ve yasal şekilde işlemekle yükümlüdür.</p>
 
-<ul>
-    <li><strong>Sözleşmesel Zorunluluk:</strong> Hizmetlerimizi sağlamak ve sizinle olan sözleşmemizi yerine getirmek.</li>
-    <li><strong>Meşru Menfaatler:</strong> Hizmetlerimizi geliştirmek ve müşteri deneyimlerini iyileştirmek.</li>
-    <li><strong>Açık Rıza:</strong> Pazarlama iletişimleri için (dilediğiniz zaman onayınızı geri çekebilirsiniz).</li>
-    <li><strong>Yasal Yükümlülük:</strong> Yasal gerekliliklere uymak ve hukuki taleplere yanıt vermek.</li>
-</ul>
-<h2>4. BİLGİLERİNİZİ PAYLAŞMA</h2>
+  <h2>7. Veri Koruma Haklarınız</h2>
+  <p>Aşağıdaki haklara sahipsiniz:</p>
+  <ul>
+    <li>Sakladığımız kişisel verilerinizin bir kopyasına erişim</li>
+    <li>Hatalı veya eksik verilerin düzeltilmesini talep etme</li>
+    <li>Verilerinizin silinmesini talep etme (yasal sınırlamalara tabi)</li>
+    <li>İşlemeye itiraz etme veya kısıtlama talep etme</li>
+    <li>Rızanızı istediğiniz zaman geri çekme (işleme rızaya dayanıyorsa)</li>
+  </ul>
+  <p>Bu haklardan herhangi birini kullanmak için bize şu adresten yazabilirsiniz: <a href="mailto:info@apl-edinburgh.com">info@apl-edinburgh.com</a>.</p>
 
-<p>Kişisel bilgilerinizi üçüncü taraflara satmıyoruz. Ancak, aşağıdaki durumlarda bilgilerinizi paylaşabiliriz:</p>
+  <h2>8. Çerezler ve Web Sitesi Takibi</h2>
+  <p>Web sitemiz, deneyiminizi geliştirmek ve ziyaretçilerin sitemizi nasıl kullandığını anlamak için çerezler kullanır. Çerez ayarlarını tarayıcınız üzerinden istediğiniz zaman değiştirebilirsiniz. Daha fazla bilgi için bkz. <a href="#">Çerez Politikası</a> (varsa).</p>
 
-<ul>
-    <li><strong>Hizmet Sağlayıcılar:</strong> Ödeme işlemleri, müşteri desteği ve pazarlama konularında yardımcı olan üçüncü taraf tedarikçiler.</li>
-    <li><strong>İş Ortakları:</strong> Rezervasyon taleplerinizin yerine getirilmesine yardımcı olan güvenilir ortaklar.</li>
-    <li><strong>Yasal Makamlar:</strong> Kanunen gerekli olduğunda veya haklarımızı ve güvenliğimizi korumak için.</li>
-</ul>
+  <h2>9. Güvenlik Önlemleri</h2>
+  <p>Kişisel verilerinizi kayıp, kötüye kullanım, yetkisiz erişim veya ifşadan korumak için uygun teknik ve organizasyonel önlemler alıyoruz. Web sitemiz HTTPS şifrelemesi kullanır ve tüm rezervasyon verileri güvenli şekilde saklanır.</p>
 
-<h2>5. VERİ GÜVENLİĞİ</h2>
-
-<p>Kişisel verilerinizi korumak için güçlü güvenlik önlemleri uyguluyoruz, bunlar şunları içerir:</p>
-
-<ul>
-    <li><strong>SSL Şifreleme:</strong> Ödeme bilgilerinin güvenli bir şekilde iletilmesini sağlar.</li>
-    <li><strong>Erişim Kontrolleri:</strong> Kişisel bilgilerinize yalnızca yetkili personelin erişimi sağlanır.</li>
-    <li><strong>Veri Saklama:</strong> Kişisel verileri yalnızca bu politikada belirtilen amaçları yerine getirmek için gerekli olduğu sürece saklarız.</li>
-</ul>
-
-<h2>6. ÇEREZLER VE TAKİP TEKNOLOJİLERİ</h2>
-
-<p>Tarama deneyiminizi geliştirmek ve web sitesi trafiğini analiz etmek için çerezler ve benzeri takip teknolojileri kullanıyoruz.</p>
-
-<ul>
-    <li><strong>Temel Çerezler:</strong> Web sitesinin düzgün çalışması için gereklidir.</li>
-    <li><strong>Analiz Çerezleri:</strong> Kullanıcı davranışlarını analiz etmek ve hizmetlerimizi iyileştirmek için kullanılır.</li>
-    <li><strong>Reklam Çerezleri:</strong> İlgili reklam ve pazarlama içerikleri sunmak için kullanılır.</li>
-</ul>
-
-<p>Tarayıcı ayarlarınızdan çerez tercihlerinizi yönetebilirsiniz.</p>
-<h2>7. VERİ KORUMA HAKLARINIZ</h2>
-
-<p><strong>Genel Veri Koruma Yönetmeliği (GDPR)</strong> kapsamında aşağıdaki haklara sahipsiniz:</p>
-
-<ul>
-    <li><strong>Erişim Hakkı:</strong> Kişisel verilerinizin bir kopyasını talep etme.</li>
-    <li><strong>Düzeltme Hakkı:</strong> Yanlış veya eksik verileri düzeltme.</li>
-    <li><strong>Silme Hakkı:</strong> Kişisel bilgilerinizin silinmesini talep etme.</li>
-    <li><strong>İşlemeyi Kısıtlama Hakkı:</strong> Verilerinizin işlenmesini sınırlama.</li>
-    <li><strong>Veri Taşınabilirliği Hakkı:</strong> Verilerinizi yaygın olarak kullanılan bir formatta alma.</li>
-    <li><strong>İtiraz Hakkı:</strong> Kişisel verilerinizin pazarlama amacıyla işlenmesine itiraz etme.</li>
-</ul>
-
-<p>Bu haklarınızı kullanmak için lütfen bizimle <strong><a href="mailto:info@apltransfers.com">info@apltransfers.com</a></strong> adresinden iletişime geçin.</p>
-
-<h2>8. ULUSLARARASI VERİ AKTARIMLARI</h2>
-
-<p>Kişisel verilerinizi <strong>Avrupa Ekonomik Alanı (EEA)</strong> dışındaki üçüncü taraf hizmet sağlayıcılarına aktarabiliriz. Bu gibi durumlarda, bilgilerinizi korumak için uygun güvenlik önlemleri alındığından emin oluruz.</p>
-
-<h2>9. ÜÇÜNCÜ TARAF BAĞLANTILARI</h2>
-
-<p>Web sitemiz üçüncü taraf web sitelerine bağlantılar içerebilir. Bu sitelerin gizlilik uygulamalarından sorumlu değiliz. Kişisel bilgilerinizi paylaşmadan önce onların gizlilik politikalarını okumanızı öneririz.</p>
-
-<h2>10. ÇOCUKLARIN GİZLİLİĞİ</h2>
-
-<p>Hizmetlerimiz 16 yaşın altındaki çocuklar için tasarlanmamıştır. Ebeveyn izni olmadan çocuklardan bilerek kişisel bilgi toplamıyoruz.</p>
-
-<h2>11. BU GİZLİLİK POLİTİKASINDAKİ DEĞİŞİKLİKLER</h2>
-
-<p>Zaman zaman uygulamalarımızı veya yasal gereklilikleri yansıtmak için bu Gizlilik Politikasını güncelleyebiliriz. Önemli değişiklikler olması durumunda güncellenmiş politikayı web sitemizde yayınlayarak sizi bilgilendireceğiz.</p>
-<h2>12. BİZE ULAŞIN</h2>
-
-<p>Bu Gizlilik Politikası veya veri işleme uygulamalarımızla ilgili herhangi bir sorunuz, endişeniz veya talebiniz varsa, lütfen aşağıdaki iletişim bilgilerimizden bize ulaşın:</p>
-
-<div>
-<p>📞 <strong>7/24 Müşteri Desteği:</strong> +90 216 550 33 13</p>
-<p>🌍 <strong>Avrupa’dan Aramalar:</strong> +44 203 325 9878</p>
-<p>📱 <strong>WhatsApp:</strong> +44 73 8790 1028</p>
-<p>✉ <strong>E-posta:</strong> info@apltransfers.com</p>
-</div>
-
-<h2>13. ŞİKAYETLER</h2>
-
-<p>Eğer veri koruma haklarınızı ihlal ettiğimizi düşünüyorsanız, yetkili denetim makamına, örneğin <strong>Veri Koruma Otoritesine (DPA)</strong> şikayette bulunma hakkına sahipsiniz.</p>
-
-<p><strong>Web sitemizi ve hizmetlerimizi kullanarak, bu Gizlilik Politikasının şartlarını kabul etmiş olursunuz.</strong></p>
-
-    `,
+  <h2>10. İletişim</h2>
+  <p>Verilerinizin nasıl işlendiğiyle ilgili herhangi bir sorunuz veya endişeniz varsa bizimle iletişime geçebilirsiniz:</p>
+  <div>
+    <p>📞 Telefon (UK): <a href="tel:+442086887744">+442086887744</a></p>
+    <p>🌍 Telefon (Uluslararası): +44 208 688 7744</p>
+    <p>📱 WhatsApp: +44 73 8790 1028</p>
+    <p>✉ E-posta: info@apl-edinburgh.com</p>
+  </div>
+  <p>Yanıtımızdan memnun kalmazsanız, <strong>Birleşik Krallık Bilgi Komiserliği Ofisi (ICO)</strong>'na şikayette bulunma hakkınız vardır: <a href="https://www.ico.org.uk" target="_blank" rel="noopener">www.ico.org.uk</a>.</p>
+`,
     it: `
-    <h1>INFORMATIVA SULLA PRIVACY - APL TRANSFERS TÜRKİYE</h1>
-<p>APL Transfers Türkiye ("noi", "ci" o "nostro") rispetta la tua privacy ed è impegnata a proteggere i tuoi dati personali. Questa Informativa sulla Privacy spiega come raccogliamo, utilizziamo e proteggiamo le tue informazioni personali quando visiti il nostro sito web 
-<a href="https://apltransfers.com" target="_blank">https://apltransfers.com</a> o utilizzi i nostri servizi.</p>
+  <h1>Informativa sulla Privacy</h1>
+  <p><em>Ultimo aggiornamento: 19.08.2025</em></p>
+  <p>
+    Presso <strong>APL Edinburgh</strong> (<a href="https://www.apl-edinburgh.com" target="_blank" rel="noopener">www.apl-edinburgh.com</a>), ci impegniamo a proteggere i tuoi dati personali e la tua privacy. La presente Informativa sulla Privacy spiega come raccogliamo, utilizziamo, conserviamo e proteggiamo le informazioni che ci fornisci quando utilizzi il nostro sito web o i nostri servizi.
+  </p>
 
-<h2>1. INFORMAZIONI CHE RACCOGLIAMO</h2>
+  <h2>1. Chi Siamo</h2>
+  <p>APL Edinburgh è una società di trasporto privato che offre servizi porta a porta in tutta la Scozia. Operiamo con il nome commerciale <strong>Airport Pickups Edinburgh (APE)</strong>.</p>
 
-<h3>1.1 Informazioni Personali</h3>
-<p>Quando effettui una prenotazione o ci contatti, possiamo raccogliere le seguenti informazioni personali:</p>
-<ul>
-    <li><strong>Nome Completo</strong></li>
-    <li><strong>Informazioni di Contatto:</strong> Indirizzo email, numero di telefono e contatto WhatsApp.</li>
-    <li><strong>Informazioni di Pagamento:</strong> Dati della carta di credito/debito (elaborati in modo sicuro dai nostri partner di pagamento).</li>
-    <li><strong>Dettagli di Viaggio:</strong> Luoghi di ritiro e destinazione, informazioni sul volo e dettagli sui passeggeri.</li>
-    <li><strong>Richieste Speciali:</strong> Come seggiolini per bambini, bagagli extra o altre esigenze.</li>
-</ul>
+  <div>
+    <p>📞 Telefono (UK): <a href="tel:+442086887744">+442086887744</a></p>
+    <p>📱 WhatsApp: +44 73 8790 1028</p>
+    <p>✉ Email: info@apl-edinburgh.com</p>
+    <p>🌍 Sito web: <a href="https://www.apl-edinburgh.com" target="_blank" rel="noopener">www.apl-edinburgh.com</a></p>
+  </div>
 
-<h3>1.2 Informazioni Raccolte Automaticamente</h3>
-<p>Quando visiti il nostro sito web, possiamo raccogliere automaticamente informazioni sul tuo dispositivo, tra cui:</p>
-<ul>
-    <li><strong>Indirizzo IP</strong></li>
-    <li><strong>Tipo di Browser</strong></li>
-    <li><strong>Sistema Operativo</strong></li>
-    <li><strong>Sito Web di Riferimento</strong></li>
-    <li><strong>Pagine Visitate e Tempo Trascorso sul Nostro Sito</strong></li>
-</ul>
+  <h2>2. Quali Dati Personali Raccogliamo</h2>
+  <p>Potremmo raccogliere e conservare i seguenti tipi di informazioni:</p>
+  <ul>
+    <li>Nome completo</li>
+    <li>Indirizzo email</li>
+    <li>Numero di telefono</li>
+    <li>Indirizzi di ritiro e consegna</li>
+    <li>Dettagli del volo (se applicabile)</li>
+    <li>Dettagli della prenotazione e preferenze di viaggio</li>
+    <li>Indirizzo IP e tipo di browser (per analisi del sito)</li>
+  </ul>
+  <p><strong>Non</strong> memorizziamo i numeri di carte di credito o debito sui nostri server. Tutti i pagamenti online vengono elaborati in modo sicuro da fornitori terzi affidabili (es. Stripe).</p>
 
-<p>Queste informazioni vengono raccolte tramite cookie e tecnologie di tracciamento simili.</p>
+  <h2>3. Come Utilizziamo le Tue Informazioni</h2>
+  <p>Raccogliamo e utilizziamo i tuoi dati per i seguenti scopi:</p>
+  <ul>
+    <li>Confermare e gestire la tua prenotazione</li>
+    <li>Contattarti in merito alla tua prenotazione</li>
+    <li>Inviarti un'email o SMS di conferma</li>
+    <li>Assegnare il tuo trasferimento a un autista</li>
+    <li>Rispettare gli obblighi legali (es. fiscali o normativi)</li>
+    <li>Migliorare i nostri servizi e le prestazioni del sito web</li>
+  </ul>
+  <p><strong>Non</strong> vendiamo, affittiamo o condividiamo le tue informazioni personali con terze parti per scopi di marketing.</p>
 
-<h2>2. COME UTILIZZIAMO LE TUE INFORMAZIONI</h2>
 
-<p>Utilizziamo le tue informazioni personali per i seguenti scopi:</p>
+  <h2>4. Base Legale per il Trattamento dei Dati</h2>
+  <p>Ai sensi del GDPR del Regno Unito, ci basiamo sulle seguenti basi legali per trattare i tuoi dati:</p>
+  <ul>
+    <li><strong>Obbligo contrattuale</strong> – per adempiere alla tua prenotazione o richiesta di preventivo</li>
+    <li><strong>Conformità legale</strong> – per la tenuta dei registri e obblighi fiscali/contabili</li>
+    <li><strong>Interesse legittimo</strong> – per migliorare l'esperienza del cliente e gestire le operazioni</li>
+    <li><strong>Consenso</strong> – per email di marketing (solo se hai scelto di riceverle)</li>
+  </ul>
 
-<ul>
-    <li><strong>Gestione delle Prenotazioni e Pagamenti:</strong> Per confermare e gestire le tue prenotazioni e processare i pagamenti in modo sicuro.</li>
-    <li><strong>Assistenza Clienti:</strong> Per comunicare con te riguardo alla tua prenotazione e rispondere alle tue domande.</li>
-    <li><strong>Personalizzazione:</strong> Per migliorare il nostro sito web, i nostri servizi e l'esperienza del cliente.</li>
-    <li><strong>Marketing e Promozioni:</strong> Per inviarti offerte promozionali e aggiornamenti (puoi annullare l'iscrizione in qualsiasi momento).</li>
-    <li><strong>Conformità Legale:</strong> Per rispettare le leggi e normative applicabili.</li>
-</ul>
+  <h2>5. Conservazione dei Dati</h2>
+  <p>Conserviamo i dati delle prenotazioni dei clienti per un massimo di <strong>7 anni</strong>, in conformità con gli obblighi fiscali e normativi del Regno Unito. Se richiedi la cancellazione dei tuoi dati personali e non esiste alcun obbligo legale di conservarli, li elimineremo in modo sicuro.</p>
 
-<h2>3. BASE LEGALE PER IL TRATTAMENTO</h2>
+  <h2>6. Condivisione dei Dati</h2>
+  <p>Potremmo condividere i dettagli rilevanti della prenotazione con:</p>
+  <ul>
+    <li>L’autista assegnato o un operatore autorizzato subappaltato</li>
+    <li>Partner di elaborazione dei pagamenti (es. Stripe)</li>
+    <li>HMRC o enti regolatori competenti (quando richiesto dalla legge)</li>
+  </ul>
+  <p>Tutte le terze parti sono tenute a gestire i tuoi dati in modo sicuro e legittimo.</p>
 
-<p>Trattiamo le tue informazioni personali in base ai seguenti principi legali:</p>
+  <h2>7. I Tuoi Diritti in Materia di Protezione dei Dati</h2>
+  <p>Hai il diritto di:</p>
+  <ul>
+    <li>Accedere a una copia dei tuoi dati personali che conserviamo</li>
+    <li>Richiedere la correzione di dati inesatti o incompleti</li>
+    <li>Richiedere la cancellazione dei tuoi dati (soggetto a leggi di conservazione)</li>
+    <li>Opporti al trattamento o richiedere una limitazione</li>
+    <li>Revocare il consenso in qualsiasi momento (se il trattamento si basa sul consenso)</li>
+  </ul>
+  <p>Per esercitare uno qualsiasi di questi diritti, scrivici a: <a href="mailto:info@apl-edinburgh.com">info@apl-edinburgh.com</a>.</p>
 
-<ul>
-    <li><strong>Necessità Contrattuale:</strong> Per fornire i nostri servizi e adempiere al contratto con te.</li>
-    <li><strong>Interessi Legittimi:</strong> Per migliorare i nostri servizi e l'esperienza del cliente.</li>
-    <li><strong>Consenso:</strong> Per le comunicazioni di marketing (puoi revocare il tuo consenso in qualsiasi momento).</li>
-    <li><strong>Obblighi Legali:</strong> Per rispettare le normative legali e rispondere alle richieste legali.</li>
-</ul>
-<h2>2. COME UTILIZZIAMO LE TUE INFORMAZIONI</h2>
+  <h2>8. Cookie e Monitoraggio del Sito Web</h2>
+  <p>Il nostro sito utilizza i cookie per migliorare la tua esperienza e comprendere come i visitatori utilizzano il sito. Puoi modificare le impostazioni dei cookie tramite il tuo browser in qualsiasi momento. Per maggiori informazioni, consulta la nostra <a href="#">Cookie Policy</a> (se applicabile).</p>
 
-<p>Utilizziamo le tue informazioni personali per i seguenti scopi:</p>
+  <h2>9. Misure di Sicurezza</h2>
+  <p>Adottiamo misure tecniche e organizzative adeguate per proteggere i tuoi dati personali da perdita, uso improprio, accesso non autorizzato o divulgazione. Il nostro sito utilizza la crittografia HTTPS e tutti i dati delle prenotazioni vengono conservati in modo sicuro.</p>
 
-<ul>
-    <li><strong>Gestione delle prenotazioni e dei pagamenti:</strong> Per confermare e gestire le tue prenotazioni e processare i pagamenti in modo sicuro.</li>
-    <li><strong>Assistenza clienti:</strong> Per comunicare con te riguardo alla tua prenotazione e rispondere alle tue richieste.</li>
-    <li><strong>Personalizzazione:</strong> Per migliorare il nostro sito web, i nostri servizi e l'esperienza del cliente.</li>
-    <li><strong>Marketing e promozioni:</strong> Per inviarti offerte promozionali e aggiornamenti (puoi annullare l'iscrizione in qualsiasi momento).</li>
-    <li><strong>Conformità legale:</strong> Per rispettare le leggi, normative e procedure legali applicabili.</li>
-</ul>
-
-<h2>3. BASE LEGALE PER IL TRATTAMENTO</h2>
-
-<p>Trattiamo le tue informazioni personali in base ai seguenti principi legali:</p>
-
-<ul>
-    <li><strong>Necessità contrattuale:</strong> Per fornire i nostri servizi e adempiere al contratto con te.</li>
-    <li><strong>Interessi legittimi:</strong> Per migliorare i nostri servizi e l'esperienza del cliente.</li>
-    <li><strong>Consenso:</strong> Per le comunicazioni di marketing (puoi revocare il tuo consenso in qualsiasi momento).</li>
-    <li><strong>Obblighi legali:</strong> Per rispettare le normative legali e rispondere alle richieste legali.</li>
-</ul>
-<h2>4. CONDIVISIONE DELLE TUE INFORMAZIONI</h2>
-
-<p>Non vendiamo le tue informazioni personali a terze parti. Tuttavia, possiamo condividerle con:</p>
-
-<ul>
-    <li><strong>Fornitori di servizi:</strong> Partner terzi che assistono nella gestione dei pagamenti, supporto clienti e marketing.</li>
-    <li><strong>Partner commerciali:</strong> Partner fidati coinvolti nell'elaborazione delle tue richieste di prenotazione.</li>
-    <li><strong>Autorità legali:</strong> Quando richiesto dalla legge o per proteggere i nostri diritti e la nostra sicurezza.</li>
-</ul>
-
-<h2>5. SICUREZZA DEI DATI</h2>
-
-<p>Implementiamo misure di sicurezza avanzate per proteggere i tuoi dati personali, tra cui:</p>
-
-<ul>
-    <li><strong>Crittografia SSL:</strong> Trasmissione sicura delle informazioni di pagamento.</li>
-    <li><strong>Controlli di accesso:</strong> Accesso limitato ai tuoi dati personali solo al personale autorizzato.</li>
-    <li><strong>Conservazione dei dati:</strong> Conserviamo i dati personali solo per il tempo necessario a soddisfare gli scopi indicati in questa politica.</li>
-</ul>
-
-<h2>6. COOKIE E TECNOLOGIE DI TRACCIAMENTO</h2>
-
-<p>Utilizziamo cookie e tecnologie di tracciamento simili per migliorare la tua esperienza di navigazione e analizzare il traffico del sito web.</p>
-
-<ul>
-    <li><strong>Cookie essenziali:</strong> Necessari per il corretto funzionamento del sito web.</li>
-    <li><strong>Cookie analitici:</strong> Per analizzare il comportamento degli utenti e migliorare i nostri servizi.</li>
-    <li><strong>Cookie pubblicitari:</strong> Per fornire annunci e contenuti promozionali pertinenti.</li>
-</ul>
-
-<p>Puoi gestire le tue preferenze sui cookie tramite le impostazioni del tuo browser.</p>
-<h2>7. I TUOI DIRITTI SULLA PROTEZIONE DEI DATI</h2>
-
-<p>Ai sensi del <strong>Regolamento Generale sulla Protezione dei Dati (GDPR)</strong>, hai i seguenti diritti:</p>
-
-<ul>
-    <li><strong>Diritto di accesso:</strong> Richiedere una copia dei tuoi dati personali.</li>
-    <li><strong>Diritto di rettifica:</strong> Correggere dati inesatti o incompleti.</li>
-    <li><strong>Diritto alla cancellazione:</strong> Richiedere l'eliminazione delle tue informazioni personali.</li>
-    <li><strong>Diritto di limitazione:</strong> Limitare il trattamento dei tuoi dati.</li>
-    <li><strong>Diritto alla portabilità dei dati:</strong> Ricevere i tuoi dati in un formato di uso comune.</li>
-    <li><strong>Diritto di opposizione:</strong> Opporsi al trattamento dei tuoi dati personali per scopi di marketing.</li>
-</ul>
-
-<p>Per esercitare questi diritti, contattaci a <strong><a href="mailto:info@apltransfers.com">info@apltransfers.com</a></strong>.</p>
-
-<h2>8. TRASFERIMENTI INTERNAZIONALI DI DATI</h2>
-
-<p>Potremmo trasferire i tuoi dati personali a fornitori di servizi terzi situati al di fuori dello <strong>Spazio Economico Europeo (SEE)</strong>. In tali casi, garantiamo l'adozione di adeguate misure di sicurezza per proteggere le tue informazioni.</p>
-
-<h2>9. LINK A SITI DI TERZE PARTI</h2>
-
-<p>Il nostro sito web potrebbe contenere link a siti web di terze parti. Non siamo responsabili delle loro pratiche sulla privacy. Ti invitiamo a leggere le loro informative sulla privacy prima di condividere informazioni personali.</p>
-
-<h2>10. PRIVACY DEI MINORI</h2>
-
-<p>I nostri servizi non sono destinati a minori di 16 anni. Non raccogliamo consapevolmente informazioni personali da minori senza il consenso dei genitori.</p>
-
-<h2>11. MODIFICHE A QUESTA INFORMATIVA SULLA PRIVACY</h2>
-
-<p>Potremmo aggiornare questa Informativa sulla Privacy di tanto in tanto per riflettere cambiamenti nelle nostre pratiche o nei requisiti legali. Ti informeremo di eventuali modifiche significative pubblicando l'informativa aggiornata sul nostro sito web.</p>
-<h2>12. CONTATTACI</h2>
-
-<p>Se hai domande, dubbi o richieste relative a questa Informativa sulla Privacy o alle nostre pratiche sui dati, puoi contattarci ai seguenti recapiti:</p>
-
-<div>
-<p>📞 <strong>Assistenza clienti 24/7:</strong> +90 216 550 33 13</p>
-<p>🌍 <strong>Dall'Europa:</strong> +44 203 325 9878</p>
-<p>📱 <strong>WhatsApp:</strong> +44 73 8790 1028</p>
-<p>✉ <strong>Email:</strong> info@apltransfers.com</p>
-</div>
-
-<h2>13. RECLAMI</h2>
-
-<p>Se ritieni che i tuoi diritti sulla protezione dei dati siano stati violati, hai il diritto di presentare un reclamo all'autorità di controllo competente, come l'<strong>Autorità per la Protezione dei Dati (DPA)</strong> del tuo paese.</p>
-
-<p><strong>Utilizzando il nostro sito web e i nostri servizi, accetti i termini di questa Informativa sulla Privacy.</strong></p>
-
-    `,
+  <h2>10. Contatti</h2>
+  <p>Se hai domande o preoccupazioni su come gestiamo i tuoi dati, contattaci:</p>
+  <div>
+    <p>📞 Telefono (UK): <a href="tel:+442086887744">+442086887744</a></p>
+    <p>🌍 Telefono (Internazionale): +44 208 688 7744</p>
+    <p>📱 WhatsApp: +44 73 8790 1028</p>
+    <p>✉ Email: info@apl-edinburgh.com</p>
+  </div>
+  <p>Se non sei soddisfatto della nostra risposta, hai il diritto di presentare un reclamo all’<strong>Ufficio del Commissario per l’Informazione del Regno Unito (ICO)</strong>: <a href="https://www.ico.org.uk" target="_blank" rel="noopener">www.ico.org.uk</a>.</p>
+`,
     ru: `
-    <h1>ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ - APL TRANSFERS TÜRKİYE</h1>
-<p>APL Transfers Türkiye ("мы", "нас" или "наш") уважает вашу конфиденциальность и стремится защитить ваши персональные данные. Настоящая Политика конфиденциальности объясняет, как мы собираем, используем и защищаем вашу личную информацию при посещении нашего веб-сайта 
-<a href="https://apltransfers.com" target="_blank">https://apltransfers.com</a> или использовании наших услуг.</p>
+  <h1>Политика конфиденциальности</h1>
+  <p><em>Последнее обновление: 19.08.2025</em></p>
+  <p>
+    В компании <strong>APL Edinburgh</strong> (<a href="https://www.apl-edinburgh.com" target="_blank" rel="noopener">www.apl-edinburgh.com</a>) мы стремимся защищать ваши персональные данные и конфиденциальность. Настоящая Политика конфиденциальности объясняет, как мы собираем, используем, храним и защищаем информацию, которую вы предоставляете при использовании нашего веб-сайта или услуг.
+  </p>
 
-<h2>1. КАКУЮ ИНФОРМАЦИЮ МЫ СОБИРАЕМ</h2>
+  <h2>1. Кто мы</h2>
+  <p>APL Edinburgh — это частная транспортная компания, предлагающая услуги трансфера «от двери до двери» по всей Шотландии. Мы работаем под торговым названием <strong>Airport Pickups Edinburgh (APE)</strong>.</p>
 
-<h3>1.1 Персональная информация</h3>
-<p>При оформлении бронирования или обращении к нам мы можем собирать следующую личную информацию:</p>
-<ul>
-    <li><strong>Полное имя</strong></li>
-    <li><strong>Контактная информация:</strong> Адрес электронной почты, номер телефона и контакт WhatsApp.</li>
-    <li><strong>Платежная информация:</strong> Данные кредитной/дебетовой карты (обрабатываются безопасно нашими платежными партнёрами).</li>
-    <li><strong>Детали поездки:</strong> Места отправления и прибытия, информация о рейсе, данные о пассажирах.</li>
-    <li><strong>Особые запросы:</strong> Например, детские кресла, дополнительный багаж или другие требования.</li>
-</ul>
+  <div>
+    <p>📞 Телефон (Великобритания): <a href="tel:+442086887744">+442086887744</a></p>
+    <p>📱 WhatsApp: +44 73 8790 1028</p>
+    <p>✉ Электронная почта: info@apl-edinburgh.com</p>
+    <p>🌍 Веб-сайт: <a href="https://www.apl-edinburgh.com" target="_blank" rel="noopener">www.apl-edinburgh.com</a></p>
+  </div>
 
-<h3>1.2 Автоматически собираемая информация</h3>
-<p>При посещении нашего веб-сайта мы можем автоматически собирать информацию о вашем устройстве, включая:</p>
-<ul>
-    <li><strong>IP-адрес</strong></li>
-    <li><strong>Тип браузера</strong></li>
-    <li><strong>Операционная система</strong></li>
-    <li><strong>Референтный сайт</strong></li>
-    <li><strong>Просмотренные страницы и время, проведённое на сайте</strong></li>
-</ul>
+  <h2>2. Какие персональные данные мы собираем</h2>
+  <p>Мы можем собирать и хранить следующие типы информации:</p>
+  <ul>
+    <li>Полное имя</li>
+    <li>Адрес электронной почты</li>
+    <li>Номер телефона</li>
+    <li>Адреса отправления и прибытия</li>
+    <li>Данные рейса (если применимо)</li>
+    <li>Детали бронирования и предпочтения в поездках</li>
+    <li>IP-адрес и тип браузера (для аналитики сайта)</li>
+  </ul>
+  <p><strong>Мы не</strong> храним номера кредитных или дебетовых карт на наших серверах. Все онлайн-платежи обрабатываются безопасно надежными сторонними провайдерами (например, Stripe).</p>
 
-<p>Эта информация собирается с помощью файлов cookie и аналогичных технологий отслеживания.</p>
+  <h2>3. Как мы используем вашу информацию</h2>
+  <p>Мы собираем и используем ваши данные для следующих целей:</p>
+  <ul>
+    <li>Подтверждение и управление вашим бронированием</li>
+    <li>Связь с вами по поводу вашей брони</li>
+    <li>Отправка подтверждения по электронной почте или SMS</li>
+    <li>Назначение водителя для вашего трансфера</li>
+    <li>Соблюдение юридических обязательств (например, налоговая или регуляторная отчетность)</li>
+    <li>Улучшение наших услуг и работы сайта</li>
+  </ul>
+  <p><strong>Мы не</strong> продаём, не сдаём в аренду и не передаём ваши персональные данные третьим лицам в маркетинговых целях.</p>
 
-<h2>2. КАК МЫ ИСПОЛЬЗУЕМ ВАШИ ДАННЫЕ</h2>
 
-<p>Мы используем вашу персональную информацию для следующих целей:</p>
+  <h2>4. Правовые основания для обработки данных</h2>
+  <p>В соответствии с GDPR Великобритании мы полагаемся на следующие правовые основания для обработки ваших данных:</p>
+  <ul>
+    <li><strong>Договорное обязательство</strong> – для выполнения вашего бронирования или запроса на предложение</li>
+    <li><strong>Юридическое соответствие</strong> – для ведения учёта и налоговой/бухгалтерской отчетности</li>
+    <li><strong>Законный интерес</strong> – для улучшения качества обслуживания клиентов и управления операциями</li>
+    <li><strong>Согласие</strong> – для получения маркетинговых писем (только если вы дали согласие)</li>
+  </ul>
 
-<ul>
-    <li><strong>Обработка бронирований и платежей:</strong> Подтверждение и управление бронированиями, безопасная обработка платежей.</li>
-    <li><strong>Обслуживание клиентов:</strong> Связь с вами по поводу вашего бронирования и ответы на запросы.</li>
-    <li><strong>Персонализация:</strong> Ул
-<h2>2. КАК МЫ ИСПОЛЬЗУЕМ ВАШИ ДАННЫЕ</h2>
+  <h2>5. Хранение данных</h2>
+  <p>Мы храним данные о бронированиях клиентов до <strong>7 лет</strong> в соответствии с налоговыми и регуляторными требованиями Великобритании. Если вы запросите удаление ваших персональных данных и отсутствует юридическая необходимость их сохранения, мы удалим их безопасным способом.</p>
 
-<p>Мы используем вашу персональную информацию для следующих целей:</p>
+  <h2>6. Передача данных</h2>
+  <p>Мы можем передавать соответствующие данные о бронировании следующим лицам:</p>
+  <ul>
+    <li>Назначенному вам водителю или лицензированному подрядчику</li>
+    <li>Партнёрам по обработке платежей (например, Stripe)</li>
+    <li>HMRC или соответствующим регулирующим органам (когда это требуется по закону)</li>
+  </ul>
+  <p>Все третьи стороны обязаны обрабатывать ваши данные безопасно и законно.</p>
 
-<ul>
-    <li><strong>Обработка бронирований и платежей:</strong> Подтверждение и управление бронированиями, безопасная обработка платежей.</li>
-    <li><strong>Обслуживание клиентов:</strong> Связь с вами по поводу вашего бронирования и ответы на запросы.</li>
-    <li><strong>Персонализация:</strong> Улучшение работы нашего сайта, услуг и клиентского опыта.</li>
-    <li><strong>Маркетинг и акции:</strong> Отправка рекламных предложений и обновлений (вы можете отказаться в любое время).</li>
-    <li><strong>Юридическое соответствие:</strong> Соблюдение применимых законов и нормативных требований.</li>
-</ul>
+  <h2>7. Ваши права на защиту данных</h2>
+  <p>Вы имеете право:</p>
+  <ul>
+    <li>Получить копию персональных данных, которые мы храним</li>
+    <li>Запросить исправление неточных или неполных данных</li>
+    <li>Запросить удаление ваших данных (в соответствии с законом)</li>
+    <li>Возразить против обработки или запросить её ограничение</li>
+    <li>Отозвать согласие в любое время (если обработка основана на согласии)</li>
+  </ul>
+  <p>Чтобы воспользоваться любым из этих прав, пожалуйста, напишите нам на: <a href="mailto:info@apl-edinburgh.com">info@apl-edinburgh.com</a>.</p>
 
-<h2>3. ПРАВОВЫЕ ОСНОВАНИЯ ОБРАБОТКИ</h2>
+  <h2>8. Файлы cookie и отслеживание на сайте</h2>
+  <p>Наш сайт использует файлы cookie, чтобы улучшить ваш опыт и понять, как посетители используют наш сайт. Вы можете изменить настройки cookie в вашем браузере в любое время. Для получения дополнительной информации см. нашу <a href="#">Политику в отношении файлов cookie</a> (если применимо).</p>
 
-<p>Мы обрабатываем вашу персональную информацию на следующих правовых основаниях:</p>
+  <h2>9. Меры безопасности</h2>
+  <p>Мы принимаем соответствующие технические и организационные меры для защиты ваших персональных данных от потери, неправильного использования, несанкционированного доступа или раскрытия. Наш сайт использует шифрование HTTPS, и все данные о бронированиях хранятся безопасно.</p>
 
-<ul>
-    <li><strong>Необходимость выполнения договора:</strong> Для предоставления наших услуг и выполнения наших обязательств перед вами.</li>
-    <li><strong>Законные интересы:</strong> Улучшение наших услуг и клиентского опыта.</li>
-    <li><strong>Согласие:</strong> Для маркетинговых рассылок (вы можете отозвать согласие в любое время).</li>
-    <li><strong>Юридическое обязательство:</strong> Соблюдение законодательства и ответ на юридические запросы.</li>
-</ul>
-<h2>4. ПЕРЕДАЧА ВАШИХ ДАННЫХ</h2>
-
-<p>Мы не продаём вашу личную информацию третьим лицам. Однако мы можем передавать её следующим сторонам:</p>
-
-<ul>
-    <li><strong>Поставщики услуг:</strong> Сторонние компании, помогающие в обработке платежей, поддержке клиентов и маркетинге.</li>
-    <li><strong>Бизнес-партнёры:</strong> Надёжные партнёры, участвующие в выполнении ваших запросов на бронирование.</li>
-    <li><strong>Правоохранительные органы:</strong> В случаях, предусмотренных законом, или для защиты наших прав и безопасности.</li>
-</ul>
-
-<h2>5. БЕЗОПАСНОСТЬ ДАННЫХ</h2>
-
-<p>Мы применяем надёжные меры безопасности для защиты ваших персональных данных, включая:</p>
-
-<ul>
-    <li><strong>SSL-шифрование:</strong> Безопасная передача платёжной информации.</li>
-    <li><strong>Контроль доступа:</strong> Ограниченный доступ к вашей личной информации только для авторизованных сотрудников.</li>
-    <li><strong>Хранение данных:</strong> Мы сохраняем персональные данные только на период, необходимый для выполнения целей, указанных в данной политике.</li>
-</ul>
-
-<h2>6. ФАЙЛЫ COOKIE И ТЕХНОЛОГИИ ОТСЛЕЖИВАНИЯ</h2>
-
-<p>Мы используем файлы cookie и аналогичные технологии отслеживания для улучшения работы сайта и анализа трафика.</p>
-
-<ul>
-    <li><strong>Основные cookie:</strong> Необходимы для работы сайта.</li>
-    <li><strong>Аналитические cookie:</strong> Позволяют анализировать поведение пользователей и улучшать наши услуги.</li>
-    <li><strong>Рекламные cookie:</strong> Позволяют показывать релевантные объявления и рекламные материалы.</li>
-</ul>
-
-<p>Вы можете управлять настройками cookie в своём браузере.</p>
-<h2>7. ВАШИ ПРАВА НА ЗАЩИТУ ДАННЫХ</h2>
-
-<p>В соответствии с <strong>Общим регламентом по защите данных (GDPR)</strong> у вас есть следующие права:</p>
-
-<ul>
-    <li><strong>Право на доступ:</strong> Запросить копию ваших персональных данных.</li>
-    <li><strong>Право на исправление:</strong> Внести исправления в неточные или неполные данные.</li>
-    <li><strong>Право на удаление:</strong> Запросить удаление ваших персональных данных.</li>
-    <li><strong>Право на ограничение:</strong> Ограничить обработку ваших данных.</li>
-    <li><strong>Право на переносимость данных:</strong> Получить свои данные в широко используемом формате.</li>
-    <li><strong>Право на возражение:</strong> Возразить против обработки ваших персональных данных в маркетинговых целях.</li>
-</ul>
-
-<p>Чтобы воспользоваться этими правами, свяжитесь с нами по адресу <strong><a href="mailto:info@apltransfers.com">info@apltransfers.com</a></strong>.</p>
-
-<h2>8. МЕЖДУНАРОДНАЯ ПЕРЕДАЧА ДАННЫХ</h2>
-
-<p>Мы можем передавать ваши персональные данные сторонним поставщикам услуг, расположенным за пределами <strong>Европейской экономической зоны (EEA)</strong>. В таких случаях мы обеспечиваем надлежащие меры защиты ваших данных.</p>
-
-<h2>9. ССЫЛКИ НА СТОРОННИЕ РЕСУРСЫ</h2>
-
-<p>Наш сайт может содержать ссылки на сторонние веб-сайты. Мы не несем ответственности за их политику конфиденциальности. Мы рекомендуем вам ознакомиться с их правилами перед тем, как предоставлять личную информацию.</p>
-
-<h2>10. КОНФИДЕНЦИАЛЬНОСТЬ ДЕТЕЙ</h2>
-
-<p>Наши услуги не предназначены для детей младше 16 лет. Мы не собираем намеренно персональные данные детей без согласия родителей.</p>
-
-<h2>11. ОБНОВЛЕНИЯ ПОЛИТИКИ КОНФИДЕНЦИАЛЬНОСТЬ</h2>
-
-<p>Мы можем время от времени обновлять настоящую Политику конфиденциальности, чтобы учитывать изменения в наших процессах или законодательных требованиях. В случае значительных изменений мы уведомим вас, опубликовав обновленную версию на нашем веб-сайте.</p>
-<h2>12. СВЯЖИТЕСЬ С НАМИ</h2>
-
-<p>Если у вас есть вопросы, замечания или запросы, связанные с данной Политикой конфиденциальности или обработкой ваших данных, свяжитесь с нами:</p>
-
-<div>
-<p>📞 <strong>Круглосуточная поддержка клиентов:</strong> +90 216 550 33 13</p>
-<p>🌍 <strong>Из Европы:</strong> +44 203 325 9878</p>
-<p>📱 <strong>WhatsApp:</strong> +44 73 8790 1028</p>
-<p>✉ <strong>Email:</strong> info@apltransfers.com</p>
-</div>
-
-<h2>13. ЖАЛОБЫ</h2>
-
-<p>Если вы считаете, что ваши права на защиту данных были нарушены, вы имеете право подать жалобу в соответствующий надзорный орган, такой как <strong>Уполномоченный орган по защите данных (DPA)</strong> в вашей юрисдикции.</p>
-
-<p><strong>Используя наш веб-сайт и услуги, вы соглашаетесь с условиями данной Политики конфиденциальности.</strong></p>
-
-    `,
+  <h2>10. Контакты</h2>
+  <p>Если у вас есть вопросы или сомнения относительно того, как обрабатываются ваши данные, пожалуйста, свяжитесь с нами:</p>
+  <div>
+    <p>📞 Телефон (Великобритания): <a href="tel:+442086887744">+442086887744</a></p>
+    <p>🌍 Телефон (международный): +44 208 688 7744</p>
+    <p>📱 WhatsApp: +44 73 8790 1028</p>
+    <p>✉ Электронная почта: info@apl-edinburgh.com</p>
+  </div>
+  <p>Если вы остались недовольны нашим ответом, у вас есть право подать жалобу в <strong>Управление комиссара по информации Великобритании (ICO)</strong>: <a href="https://www.ico.org.uk" target="_blank" rel="noopener">www.ico.org.uk</a>.</p>
+`
+    ,
     zh: `
-    <h1>隐私政策 - APL TRANSFERS TÜRKİYE</h1>
-<p>APL Transfers Türkiye（“我们”或“我们的”）尊重您的隐私，并承诺保护您的个人数据。本隐私政策解释了当您访问我们的网站 
-<a href="https://apltransfers.com" target="_blank">https://apltransfers.com</a> 或使用我们的服务时，我们如何收集、使用和保护您的个人信息。</p>
+  <h1>隐私政策</h1>
+  <p><em>最后更新日期: 19.08.2025</em></p>
+  <p>
+    在 <strong>APL Edinburgh</strong> (<a href="https://www.apl-edinburgh.com" target="_blank" rel="noopener">www.apl-edinburgh.com</a>)，我们致力于保护您的个人数据和隐私。本隐私政策解释了我们在您使用我们的网站或服务时如何收集、使用、存储和保护您提供的信息。
+  </p>
 
-<h2>1. 我们收集的信息</h2>
+  <h2>1. 我们是谁</h2>
+  <p>APL Edinburgh 是一家私人接送公司，在整个苏格兰提供门到门的交通服务。我们以 <strong>Airport Pickups Edinburgh (APE)</strong> 的商业名称运营。</p>
 
-<h3>1.1 个人信息</h3>
-<p>当您进行预订或联系我们时，我们可能会收集以下个人信息：</p>
-<ul>
-    <li><strong>全名</strong></li>
-    <li><strong>联系方式：</strong> 电子邮件地址、电话号码和 WhatsApp 联系方式。</li>
-    <li><strong>支付信息：</strong> 信用卡/借记卡信息（由我们的支付合作伙伴安全处理）。</li>
-    <li><strong>旅行详情：</strong> 接送地点、航班信息和乘客详细信息。</li>
-    <li><strong>特殊请求：</strong> 例如儿童座椅、额外行李或其他需求。</li>
-</ul>
+  <div>
+    <p>📞 电话 (英国): <a href="tel:+442086887744">+442086887744</a></p>
+    <p>📱 微信 WhatsApp: +44 73 8790 1028</p>
+    <p>✉ 电子邮箱: info@apl-edinburgh.com</p>
+    <p>🌍 网站: <a href="https://www.apl-edinburgh.com" target="_blank" rel="noopener">www.apl-edinburgh.com</a></p>
+  </div>
 
-<h3>1.2 自动收集的信息</h3>
-<p>当您访问我们的网站时，我们可能会自动收集您的设备信息，包括：</p>
-<ul>
-    <li><strong>IP 地址</strong></li>
-    <li><strong>浏览器类型</strong></li>
-    <li><strong>操作系统</strong></li>
-    <li><strong>引荐网站</strong></li>
-    <li><strong>浏览的页面及在我们网站上的停留时间</strong></li>
-</ul>
+  <h2>2. 我们收集哪些个人数据</h2>
+  <p>我们可能会收集和存储以下类型的信息：</p>
+  <ul>
+    <li>全名</li>
+    <li>电子邮箱地址</li>
+    <li>电话号码</li>
+    <li>接送地址</li>
+    <li>航班信息 (如适用)</li>
+    <li>预订详情和出行偏好</li>
+    <li>IP 地址和浏览器类型 (用于网站分析)</li>
+  </ul>
+  <p><strong>我们不会</strong>在服务器上存储信用卡或借记卡号码。所有在线支付均由可信赖的第三方支付服务商 (如 Stripe) 安全处理。</p>
 
-<p>这些信息是通过 Cookie 和类似的跟踪技术收集的。</p>
-<h2>2. 我们如何使用您的信息</h2>
+  <h2>3. 我们如何使用您的信息</h2>
+  <p>我们收集并使用您的数据用于以下目的：</p>
+  <ul>
+    <li>确认并管理您的预订</li>
+    <li>就您的预订与您联系</li>
+    <li>向您发送确认邮件或短信</li>
+    <li>分配司机完成您的接送</li>
+    <li>遵守法律义务 (如税务或监管报告)</li>
+    <li>改进我们的服务和网站性能</li>
+  </ul>
+  <p><strong>我们不会</strong>将您的个人信息出售、出租或用于第三方的营销目的。</p>
+  <h2>4. 处理数据的法律依据</h2>
+  <p>根据英国《通用数据保护条例》(UK GDPR)，我们基于以下法律依据处理您的数据：</p>
+  <ul>
+    <li><strong>合同义务</strong> – 为履行您的预订或报价请求</li>
+    <li><strong>法律合规</strong> – 用于记录保存和税务/会计</li>
+    <li><strong>合法利益</strong> – 改善客户体验和管理运营</li>
+    <li><strong>同意</strong> – 用于发送营销邮件 (仅在您选择接收时)</li>
+  </ul>
 
-<p>我们使用您的个人信息用于以下目的：</p>
+  <h2>5. 数据保留</h2>
+  <p>我们保留客户预订数据最长 <strong>7 年</strong>，以符合英国的税务和监管要求。如果您要求删除您的个人数据，且没有法律义务需要保留，我们将安全删除。</p>
 
-<ul>
-    <li><strong>预订和支付处理：</strong> 确认和管理您的预订，并安全地处理支付。</li>
-    <li><strong>客户支持：</strong> 与您沟通您的预订信息，并回应您的咨询。</li>
-    <li><strong>个性化体验：</strong> 改进我们的网站、服务和客户体验。</li>
-    <li><strong>市场营销和促销：</strong> 向您发送促销优惠和最新信息（您可以随时选择退出）。</li>
-    <li><strong>法律合规：</strong> 遵守适用的法律、法规和法律程序。</li>
-</ul>
+  <h2>6. 数据共享</h2>
+  <p>我们可能会与以下对象共享相关预订信息：</p>
+  <ul>
+    <li>为您安排的司机或经许可的分包运营商</li>
+    <li>支付处理合作伙伴 (如 Stripe)</li>
+    <li>英国税务海关总署 (HMRC) 或相关监管机构 (法律要求时)</li>
+  </ul>
+  <p>所有第三方都必须以安全合法的方式处理您的数据。</p>
 
-<h2>3. 处理个人信息的法律依据</h2>
+  <h2>7. 您的数据保护权利</h2>
+  <p>您有权：</p>
+  <ul>
+    <li>获取我们保存的您的个人数据副本</li>
+    <li>请求更正不准确或不完整的数据</li>
+    <li>请求删除您的数据 (受法律限制)</li>
+    <li>反对处理或请求限制处理</li>
+    <li>随时撤回同意 (如果处理基于您的同意)</li>
+  </ul>
+  <p>若要行使上述任何权利，请通过以下邮箱联系我们: <a href="mailto:info@apl-edinburgh.com">info@apl-edinburgh.com</a>.</p>
 
-<p>我们依据以下法律基础处理您的个人信息：</p>
+  <h2>8. Cookie 与网站跟踪</h2>
+  <p>我们的网站使用 Cookie 来提升您的体验，并了解访客如何使用我们的网站。您可以随时通过浏览器更改 Cookie 设置。更多信息请参阅我们的 <a href="#">Cookie 政策</a> (如适用)。</p>
 
-<ul>
-    <li><strong>合同履行：</strong> 向您提供我们的服务并履行与您的合同。</li>
-    <li><strong>合法利益：</strong> 改进我们的服务并提升客户体验。</li>
-    <li><strong>同意：</strong> 用于市场营销沟通（您可以随时撤回同意）。</li>
-    <li><strong>法律义务：</strong> 遵守法律要求并回应法律请求。</li>
-</ul>
-<h2>4. 您的信息共享</h2>
+  <h2>9. 安全措施</h2>
+  <p>我们采取适当的技术和组织措施，保护您的个人数据免于丢失、滥用、未经授权的访问或披露。我们的网站使用 HTTPS 加密，所有预订数据均安全存储。</p>
 
-<p>我们不会向第三方出售您的个人信息。然而，我们可能会与以下方共享您的信息：</p>
-
-<ul>
-    <li><strong>服务提供商：</strong> 协助处理支付、客户支持和营销的第三方供应商。</li>
-    <li><strong>商业合作伙伴：</strong> 参与履行您预订请求的可信赖合作伙伴。</li>
-    <li><strong>法律机构：</strong> 当法律要求或为了保护我们的权利和安全时。</li>
-</ul>
-
-<h2>5. 数据安全</h2>
-
-<p>我们实施强大的安全措施来保护您的个人数据，包括：</p>
-
-<ul>
-    <li><strong>SSL 加密：</strong> 确保支付信息的安全传输。</li>
-    <li><strong>访问控制：</strong> 仅限授权人员访问您的个人信息。</li>
-    <li><strong>数据保留：</strong> 仅在必要期间保留您的个人数据，以实现本政策所述目的。</li>
-</ul>
-
-<h2>6. Cookie 和跟踪技术</h2>
-
-<p>我们使用 Cookie 和类似的跟踪技术来增强您的浏览体验并分析网站流量。</p>
-
-<ul>
-    <li><strong>必要 Cookie：</strong> 确保网站功能正常运行。</li>
-    <li><strong>分析 Cookie：</strong> 用于分析用户行为并改进我们的服务。</li>
-    <li><strong>广告 Cookie：</strong> 用于投放相关广告和营销内容。</li>
-</ul>
-
-<p>您可以通过浏览器设置管理您的 Cookie 偏好。</p>
-<h2>7. 您的数据保护权利</h2>
-
-<p>根据 <strong>《通用数据保护条例 (GDPR)》</strong>，您享有以下权利：</p>
-
-<ul>
-    <li><strong>访问权：</strong> 请求获取您的个人数据副本。</li>
-    <li><strong>更正权：</strong> 更正不准确或不完整的数据。</li>
-    <li><strong>删除权：</strong> 请求删除您的个人信息。</li>
-    <li><strong>限制处理权：</strong> 限制您的数据处理。</li>
-    <li><strong>数据可携带权：</strong> 以常见格式接收您的数据。</li>
-    <li><strong>反对权：</strong> 反对将您的个人数据用于营销目的。</li>
-</ul>
-
-<p>要行使这些权利，请通过 <strong><a href="mailto:info@apltransfers.com">info@apltransfers.com</a></strong> 联系我们。</p>
-
-<h2>8. 国际数据传输</h2>
-
-<p>我们可能会将您的个人数据传输给位于<strong>欧洲经济区 (EEA)</strong> 以外的第三方服务提供商。在这种情况下，我们将采取适当的保护措施来保护您的信息。</p>
-
-<h2>9. 第三方链接</h2>
-
-<p>我们的网站可能包含指向第三方网站的链接。我们不对其隐私做法负责。我们建议您在提供个人信息之前阅读他们的隐私政策。</p>
-
-<h2>10. 儿童隐私</h2>
-
-<p>我们的服务不适用于 16 岁以下的儿童。未经家长同意，我们不会故意收集儿童的个人信息。</p>
-
-<h2>11. 本隐私政策的变更</h2>
-
-<p>我们可能会不时更新本隐私政策，以反映我们的实践或法律要求的变化。如果有重大变更，我们将在网站上发布更新后的政策通知您。</p>
-<h2>12. 联系我们</h2>
-
-<p>如果您对本隐私政策或我们的数据处理方式有任何问题、疑虑或请求，请通过以下方式联系我们：</p>
-
-<div>
-<p>📞 <strong>24/7 客户支持:</strong> +90 216 550 33 13</p>
-<p>🌍 <strong>来自欧洲:</strong> +44 203 325 9878</p>
-<p>📱 <strong>WhatsApp:</strong> +44 73 8790 1028</p>
-<p>✉ <strong>电子邮件:</strong> info@apltransfers.com</p>
-</div>
-
-<h2>13. 投诉</h2>
-
-<p>如果您认为我们侵犯了您的数据保护权利，您有权向相关监管机构（如您所在司法管辖区的<strong>数据保护机构 (DPA)</strong>）提出投诉。</p>
-
-<p><strong>使用我们的网站和服务即表示您同意本隐私政策的条款。</strong></p>
-
-    `,
+  <h2>10. 联系我们</h2>
+  <p>如果您对我们如何处理您的数据有任何问题或疑虑，请联系我们：</p>
+  <div>
+    <p>📞 电话 (英国): <a href="tel:+442086887744">+442086887744</a></p>
+    <p>🌍 电话 (国际): +44 208 688 7744</p>
+    <p>📱 WhatsApp: +44 73 8790 1028</p>
+    <p>✉ 电子邮箱: info@apl-edinburgh.com</p>
+  </div>
+  <p>如果您对我们的回应不满意，您有权向<strong>英国信息专员办公室 (ICO)</strong> 提出投诉: <a href="https://www.ico.org.uk" target="_blank" rel="noopener">www.ico.org.uk</a>.</p>
+`
+    ,
     es: `
-    <h1>POLÍTICA DE PRIVACIDAD - APL TRANSFERS TÜRKİYE</h1>
-<p>APL Transfers Türkiye ("nosotros", "nuestro") respeta tu privacidad y se compromete a proteger tus datos personales. Esta Política de Privacidad explica cómo recopilamos, utilizamos y protegemos tu información personal cuando visitas nuestro sitio web 
-<a href="https://apltransfers.com" target="_blank">https://apltransfers.com</a> o utilizas nuestros servicios.</p>
+  <h1>Política de Privacidad</h1>
+  <p><em>Última actualización: 19.08.2025</em></p>
+  <p>
+    En <strong>APL Edinburgh</strong> (<a href="https://www.apl-edinburgh.com" target="_blank" rel="noopener">www.apl-edinburgh.com</a>), nos comprometemos a proteger sus datos personales y su privacidad. Esta Política de Privacidad explica cómo recopilamos, usamos, almacenamos y protegemos la información que usted proporciona al utilizar nuestro sitio web o nuestros servicios.
+  </p>
 
-<h2>1. INFORMACIÓN QUE RECOPILAMOS</h2>
+  <h2>1. Quiénes Somos</h2>
+  <p>APL Edinburgh es una empresa de transporte privado que ofrece servicios puerta a puerta en toda Escocia. Operamos bajo el nombre comercial <strong>Airport Pickups Edinburgh (APE)</strong>.</p>
 
-<h3>1.1 Información Personal</h3>
-<p>Cuando realizas una reserva o te pones en contacto con nosotros, podemos recopilar la siguiente información personal:</p>
-<ul>
-    <li><strong>Nombre completo</strong></li>
-    <li><strong>Información de contacto:</strong> Dirección de correo electrónico, número de teléfono y contacto de WhatsApp.</li>
-    <li><strong>Información de pago:</strong> Detalles de tarjeta de crédito/débito (procesados de manera segura por nuestros socios de pago).</li>
-    <li><strong>Detalles del viaje:</strong> Lugares de recogida y destino, información del vuelo y detalles de los pasajeros.</li>
-    <li><strong>Solicitudes especiales:</strong> Como asientos para niños, equipaje adicional u otros requisitos.</li>
-</ul>
+  <div>
+    <p>📞 Teléfono (Reino Unido): <a href="tel:+442086887744">+442086887744</a></p>
+    <p>📱 WhatsApp: +44 73 8790 1028</p>
+    <p>✉ Correo electrónico: info@apl-edinburgh.com</p>
+    <p>🌍 Sitio web: <a href="https://www.apl-edinburgh.com" target="_blank" rel="noopener">www.apl-edinburgh.com</a></p>
+  </div>
 
-<h3>1.2 Información recopilada automáticamente</h3>
-<p>Cuando visitas nuestro sitio web, podemos recopilar automáticamente información sobre tu dispositivo, incluyendo:</p>
-<ul>
-    <li><strong>Dirección IP</strong></li>
-    <li><strong>Tipo de navegador</strong></li>
-    <li><strong>Sistema operativo</strong></li>
-    <li><strong>Sitio web de referencia</strong></li>
-    <li><strong>Páginas visitadas y tiempo de permanencia en nuestro sitio</strong></li>
-</ul>
+  <h2>2. Qué Datos Personales Recopilamos</h2>
+  <p>Podemos recopilar y almacenar los siguientes tipos de información:</p>
+  <ul>
+    <li>Nombre completo</li>
+    <li>Dirección de correo electrónico</li>
+    <li>Número de teléfono</li>
+    <li>Direcciones de recogida y destino</li>
+    <li>Detalles del vuelo (si corresponde)</li>
+    <li>Detalles de la reserva y preferencias de viaje</li>
+    <li>Dirección IP y tipo de navegador (para análisis del sitio web)</li>
+  </ul>
+  <p><strong>No</strong> almacenamos los números de tarjetas de crédito o débito en nuestros servidores. Todos los pagos en línea son procesados de manera segura por proveedores externos de confianza (por ejemplo, Stripe).</p>
 
-<p>Esta información se recopila mediante cookies y tecnologías de seguimiento similares.</p>
-<h2>2. CÓMO UTILIZAMOS TU INFORMACIÓN</h2>
+  <h2>3. Cómo Usamos Su Información</h2>
+  <p>Recopilamos y utilizamos sus datos para los siguientes fines:</p>
+  <ul>
+    <li>Confirmar y gestionar su reserva</li>
+    <li>Contactarle respecto a su reserva</li>
+    <li>Enviar un correo electrónico o SMS de confirmación</li>
+    <li>Asignar su traslado a un conductor</li>
+    <li>Cumplir con obligaciones legales (por ejemplo, informes fiscales o regulatorios)</li>
+    <li>Mejorar nuestros servicios y el rendimiento de nuestro sitio web</li>
+  </ul>
+  <p><strong>No</strong> vendemos, alquilamos ni compartimos su información personal con terceros para fines de marketing.</p>
 
-<p>Usamos tu información personal para los siguientes propósitos:</p>
+  <hr/>
 
-<ul>
-    <li><strong>Gestión de reservas y pagos:</strong> Para confirmar y administrar tus reservas y procesar los pagos de forma segura.</li>
-    <li><strong>Atención al cliente:</strong> Para comunicarnos contigo sobre tu reserva y responder a tus consultas.</li>
-    <li><strong>Personalización:</strong> Para mejorar nuestro sitio web, servicios y experiencia del cliente.</li>
-    <li><strong>Marketing y promociones:</strong> Para enviarte ofertas promocionales y actualizaciones (puedes darte de baja en cualquier momento).</li>
-    <li><strong>Cumplimiento legal:</strong> Para cumplir con las leyes, regulaciones y procedimientos legales aplicables.</li>
-</ul>
+  <h2>4. Base Legal para el Tratamiento de Datos</h2>
+  <p>Según el RGPD del Reino Unido, nos basamos en las siguientes bases legales para procesar sus datos:</p>
+  <ul>
+    <li><strong>Obligación contractual</strong> – para cumplir con su reserva o solicitud de presupuesto</li>
+    <li><strong>Cumplimiento legal</strong> – para el mantenimiento de registros y obligaciones fiscales/contables</li>
+    <li><strong>Interés legítimo</strong> – para mejorar la experiencia del cliente y gestionar operaciones</li>
+    <li><strong>Consentimiento</strong> – para correos electrónicos de marketing (solo si usted lo autoriza)</li>
+  </ul>
 
-<h2>3. BASE LEGAL PARA EL TRATAMIENTO</h2>
+  <h2>5. Conservación de Datos</h2>
+  <p>Conservamos los datos de las reservas de los clientes hasta por <strong>7 años</strong>, de acuerdo con las obligaciones fiscales y regulatorias del Reino Unido. Si solicita la eliminación de sus datos personales y no existe obligación legal de retenerlos, los eliminaremos de manera segura.</p>
 
-<p>Procesamos tu información personal en base a los siguientes fundamentos legales:</p>
+  <h2>6. Compartición de Datos</h2>
+  <p>Podemos compartir la información relevante de su reserva con:</p>
+  <ul>
+    <li>Su conductor asignado o un operador autorizado subcontratado</li>
+    <li>Socios de procesamiento de pagos (por ejemplo, Stripe)</li>
+    <li>HMRC u organismos reguladores pertinentes (cuando la ley lo requiera)</li>
+  </ul>
+  <p>Terceros están obligados a manejar sus datos de forma segura y legal.</p>
 
-<ul>
-    <li><strong>Necesidad contractual:</strong> Para proporcionarte nuestros servicios y cumplir con nuestro contrato contigo.</li>
-    <li><strong>Intereses legítimos:</strong> Para mejorar nuestros servicios y mejorar la experiencia del cliente.</li>
-    <li><strong>Consentimiento:</strong> Para comunicaciones de marketing (puedes retirar tu consentimiento en cualquier momento).</li>
-    <li><strong>Obligación legal:</strong> Para cumplir con los requisitos legales y responder a solicitudes legales.</li>
-</ul>
-<h2>4. COMPARTIR TU INFORMACIÓN</h2>
+  <h2>7. Sus Derechos de Protección de Datos</h2>
+  <p>Usted tiene derecho a:</p>
+  <ul>
+    <li>Acceder a una copia de sus datos personales que mantenemos</li>
+    <li>Solicitar la corrección de datos inexactos o incompletos</li>
+    <li>Solicitar la eliminación de sus datos (sujeto a las leyes de conservación)</li>
+    <li>Oponerse al tratamiento o solicitar una restricción</li>
+    <li>Retirar su consentimiento en cualquier momento (si el tratamiento se basa en consentimiento)</li>
+  </ul>
+  <p>Para ejercer cualquiera de estos derechos, por favor escríbanos a: <a href="mailto:info@apl-edinburgh.com">info@apl-edinburgh.com</a>.</p>
 
-<p>No vendemos tu información personal a terceros. Sin embargo, podemos compartir tu información con:</p>
+  <h2>8. Cookies y Seguimiento del Sitio Web</h2>
+  <p>Nuestro sitio web utiliza cookies para mejorar su experiencia y comprender cómo los visitantes utilizan el sitio. Puede ajustar la configuración de cookies en su navegador en cualquier momento. Para más información, consulte nuestra <a href="#">Política de Cookies</a> (si aplica).</p>
 
-<ul>
-    <li><strong>Proveedores de servicios:</strong> Empresas externas que ayudan con el procesamiento de pagos, la atención al cliente y el marketing.</li>
-    <li><strong>Socios comerciales:</strong> Socios de confianza que participan en la gestión de tus solicitudes de reserva.</li>
-    <li><strong>Autoridades legales:</strong> Cuando lo exija la ley o para proteger nuestros derechos y seguridad.</li>
-</ul>
+  <h2>9. Medidas de Seguridad</h2>
+  <p>Adoptamos medidas técnicas y organizativas adecuadas para proteger sus datos personales contra pérdida, mal uso, acceso no autorizado o divulgación. Nuestro sitio web utiliza encriptación HTTPS y todos los datos de las reservas se almacenan de forma segura.</p>
 
-<h2>5. SEGURIDAD DE LOS DATOS</h2>
-
-<p>Implementamos medidas de seguridad sólidas para proteger tus datos personales, incluyendo:</p>
-
-<ul>
-    <li><strong>Cifrado SSL:</strong> Transmisión segura de información de pago.</li>
-    <li><strong>Controles de acceso:</strong> Acceso limitado a tu información personal solo para personal autorizado.</li>
-    <li><strong>Retención de datos:</strong> Conservamos los datos personales solo durante el tiempo necesario para cumplir con los fines descritos en esta política.</li>
-</ul>
-
-<h2>6. COOKIES Y TECNOLOGÍAS DE SEGUIMIENTO</h2>
-
-<p>Utilizamos cookies y tecnologías de seguimiento similares para mejorar tu experiencia de navegación y analizar el tráfico del sitio web.</p>
-
-<ul>
-    <li><strong>Cookies esenciales:</strong> Necesarias para el funcionamiento del sitio web.</li>
-    <li><strong>Cookies analíticas:</strong> Para analizar el comportamiento del usuario y mejorar nuestros servicios.</li>
-    <li><strong>Cookies publicitarias:</strong> Para mostrar anuncios relevantes y contenido de marketing.</li>
-</ul>
-
-<p>Puedes gestionar tus preferencias de cookies a través de la configuración de tu navegador.</p>
-<h2>12. CONTÁCTANOS</h2>
-
-<p>Si tienes alguna pregunta, inquietud o solicitud relacionada con esta Política de Privacidad o nuestras prácticas de datos, por favor contáctanos a través de:</p>
-
-<div>
-<p>📞 <strong>Soporte al cliente 24/7:</strong> +90 216 550 33 13</p>
-<p>🌍 <strong>Desde Europa:</strong> +44 203 325 9878</p>
-<p>📱 <strong>WhatsApp:</strong> +44 73 8790 1028</p>
-<p>✉ <strong>Correo electrónico:</strong> info@apltransfers.com</p>
-</div>
-
-<h2>13. QUEJAS</h2>
-
-<p>Si crees que hemos violado tus derechos de protección de datos, tienes derecho a presentar una queja ante la autoridad de supervisión correspondiente, como la <strong>Autoridad de Protección de Datos (DPA)</strong> en tu jurisdicción.</p>
-
-<p><strong>Al utilizar nuestro sitio web y servicios, aceptas los términos de esta Política de Privacidad.</strong></p>
-
-    `
+  <h2>10. Contacto</h2>
+  <p>Si tiene alguna pregunta o inquietud sobre cómo manejamos sus datos, por favor contáctenos:</p>
+  <div>
+    <p>📞 Teléfono (Reino Unido): <a href="tel:+442086887744">+442086887744</a></p>
+    <p>🌍 Teléfono (Internacional): +44 208 688 7744</p>
+    <p>📱 WhatsApp: +44 73 8790 1028</p>
+    <p>✉ Correo electrónico: info@apl-edinburgh.com</p>
+  </div>
+  <p>Si no está satisfecho con nuestra respuesta, tiene derecho a presentar una queja ante la <strong>Oficina del Comisionado de Información del Reino Unido (ICO)</strong>: <a href="https://www.ico.org.uk" target="_blank" rel="noopener">www.ico.org.uk</a>.</p>
+`
 }
 
 export const privacyKeywords = {
     "headTitle": {
-        "en": "Privacy Policy | APL Transfers Türkiye",
-        "tr": "Gizlilik Politikası | APL Transfers Türkiye",
-        "zh": "隐私政策 | APL Transfers Türkiye",
-        "ar": "سياسة الخصوصية | APL Transfers Türkiye",
-        "ru": "Политика конфиденциальности | APL Transfers Türkiye",
-        "es": "Política de Privacidad | APL Transfers Türkiye",
-        "it": "Informativa sulla Privacy | APL Transfers Türkiye"
+        "en": "Privacy Policy | APL Transfers Edinburgh",
+        "tr": "Gizlilik Politikası | APL Transfers Edinburgh",
+        "zh": "隐私政策 | APL Transfers Edinburgh",
+        "ar": "سياسة الخصوصية | APL Transfers Edinburgh",
+        "ru": "Политика конфиденциальности | APL Transfers Edinburgh",
+        "es": "Política de Privacidad | APL Transfers Edinburgh",
+        "it": "Informativa sulla Privacy | APL Transfers Edinburgh"
     },
     "keywords": {
         "en": "privacy policy, data protection, GDPR compliance, personal information security, APL Transfers privacy, data collection, online security",
@@ -933,12 +670,12 @@ export const privacyKeywords = {
         "it": "politica sulla privacy, protezione dei dati, conformità GDPR, sicurezza delle informazioni personali, privacy APL Transfers, raccolta dati, sicurezza online"
     },
     "metaDescription": {
-        "en": "Read the Privacy Policy of APL Transfers Türkiye. Learn how we collect, use, and protect your personal data in compliance with GDPR regulations.",
-        "tr": "APL Transfers Türkiye'nin Gizlilik Politikasını okuyun. Kişisel verilerinizi nasıl topladığımızı, kullandığımızı ve GDPR yönetmeliklerine uygun olarak nasıl koruduğumuzu öğrenin.",
-        "zh": "阅读 APL Transfers Türkiye 的隐私政策。了解我们如何收集、使用和保护您的个人数据，并遵守 GDPR 规定。",
-        "ar": "اقرأ سياسة الخصوصية الخاصة بـ APL Transfers Türkiye. تعرف على كيفية جمع بياناتك الشخصية واستخدامها وحمايتها وفقًا للوائح GDPR.",
-        "ru": "Прочитайте Политику конфиденциальности APL Transfers Türkiye. Узнайте, как мы собираем, используем и защищаем ваши персональные данные в соответствии с GDPR.",
-        "es": "Lee la Política de Privacidad de APL Transfers Türkiye. Descubre cómo recopilamos, usamos y protegemos tus datos personales cumpliendo con las regulaciones de GDPR.",
-        "it": "Leggi l'Informativa sulla Privacy di APL Transfers Türkiye. Scopri come raccogliamo, utilizziamo e proteggiamo i tuoi dati personali in conformità con il GDPR."
+        "en": "Read the Privacy Policy of APL Transfers Edinburgh. Learn how we collect, use, and protect your personal data in compliance with GDPR regulations.",
+        "tr": "APL Transfers Edinburgh'un Gizlilik Politikasını okuyun. Kişisel verilerinizi nasıl topladığımızı, kullandığımızı ve GDPR yönetmeliklerine uygun olarak nasıl koruduğumuzu öğrenin.",
+        "zh": "阅读 APL Transfers Edinburgh 的隐私政策。了解我们如何收集、使用和保护您的个人数据，并遵守 GDPR 规定。",
+        "ar": "اقرأ سياسة الخصوصية الخاصة بـ APL Transfers Edinburgh. تعرف على كيفية جمع بياناتك الشخصية واستخدامها وحمايتها وفقًا للوائح GDPR.",
+        "ru": "Прочитайте Политику конфиденциальности APL Transfers Edinburgh. Узнайте, как мы собираем, используем и защищаем ваши персональные данные в соответствии с GDPR.",
+        "es": "Lee la Política de Privacidad de APL Transfers Edinburgh. Descubre cómo recopilamos, usamos y protegemos tus datos personales cumpliendo con las regulaciones de GDPR.",
+        "it": "Leggi l'Informativa sulla Privacy di APL Transfers Edinburgh. Scopri come raccogliamo, utilizziamo e proteggiamo i tuoi dati personali in conformità con il GDPR."
     }
 }

@@ -1,5 +1,5 @@
 
-import React from "react";
+
 import { useSelector } from "react-redux";
 import GlobalLayout from "../../components/layouts/GlobalLayout";
 import styles from "./styles.module.scss";

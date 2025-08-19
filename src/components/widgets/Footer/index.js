@@ -60,14 +60,14 @@ const Footer = () => {
                                         +44 208 688 7744
                                     </a>
                                 </li>
-                                {/* <li className={styles.wp}>
+                                <li className={styles.wp}>
                                     <span>
                                         <Image src={"/images/others/WhatsAppp.webp"} alt="Edinburg transfers WhatsApp" width={25} height={25} />                                        {appData?.words["strWhatsAppUs"]}:
                                     </span>
                                     <a target="_blank" href="https://wa.me/447387901028">
                                         +44 738 790 1028
                                     </a>
-                                </li> */}
+                                </li>
                                 <li className={styles.mail}>
                                     <span>
                                         <Image src={"/images/others/mail.webp"} alt="Edinburg transfers Email" width={25} height={20} />                                        {appData.words["strEmail"]}:
