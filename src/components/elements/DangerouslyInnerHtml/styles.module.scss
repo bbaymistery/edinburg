@@ -4,7 +4,6 @@
     max-width: 990px;
     width: 100%;
     margin: 0 auto;
-    text-align: justify;
 
     p {
         padding: 4px 0px;
@@ -18,7 +17,7 @@
     }
 
     p {
-        font-size: 20px;
+        font-size: 18px;
         padding: 10px 0px;
 
         @media(max-width:768px) {
@@ -34,7 +33,7 @@
     }
 
     h1 {
-        font-size: 32px;
+        font-size: 30px;
         color: $primary-color;
 
         @media(max-width:768px) {

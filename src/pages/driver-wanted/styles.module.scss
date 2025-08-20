@@ -1,0 +1,66 @@
+@import '../../styles/variables.scss';
+
+.driverswanted {
+    height: 100%;
+    position: relative;
+    border: 1px solid $--color-light-1;
+    border-left: 0px;
+    border-right: 0px;
+    background-color: #ffffff;
+
+    &_section {
+        &_container {
+            .content {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 2rem;
+
+                @media (max-width: 1050px) {
+                    flex-direction: column;
+                }
+
+                .left {
+                    flex: 1;
+
+                }
+
+                .right {
+                    display: flex;
+                    position: sticky;
+                    top: 100px;
+                    align-self: flex-start;
+                    justify-content: center;
+
+                    @media (max-width: 1050px) {
+                        align-self: center;
+                    }
+
+                    .img_div {
+                        width: 300px;
+                        height: 600px;
+                        position: relative;
+                        display: flex;
+                        justify-content: center;
+                        flex-direction: row;
+                        align-items: center;
+                        position: relative;
+
+                        @media (max-width: 1050px) {
+                            width: 250px;
+                        }
+
+                        @media (max-width: 990px) {
+                            display: none;
+                        }
+
+                        img {
+                            width: 100%;
+                            border-radius: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

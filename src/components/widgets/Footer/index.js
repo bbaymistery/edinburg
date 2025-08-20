@@ -110,9 +110,9 @@ const Footer = () => {
                                 <a href={`${language === 'en' ? `/travel-agents` : `/${language}/travel-agents`}`} title={(appData || {}).words["strTravelNews"]}  >
                                     {(appData || {}).words["strTravelNews"]}
                                 </a>
-                                {/* <a href={"/tr/sofor-araniyor"} hrefLang="tr" title={generalAllTranslations.strDriverWanted[language]} >
+                                <a href={"/driver-wanted"} hrefLang="tr" title={generalAllTranslations.strDriverWanted[language]} >
                                     {generalAllTranslations.strDriverWanted[language]}
-                                </a> */}
+                                </a>
 
                                 <a href={`${language === 'en' ? `/sitemap` : `/${language}/sitemap`}`} title={generalAllTranslations.strSiteMap[language]} >
                                     {generalAllTranslations.strSiteMap[language]}

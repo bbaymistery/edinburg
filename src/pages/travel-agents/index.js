@@ -15,6 +15,7 @@ import { fetchConfig } from "../../resources/getEnvConfig";
 import styles from "./styles.module.scss";
 import Button from "../../components/elements/Button/Button";
 import { BUTTON_TYPES } from "../../components/elements/Button/ButtonTypes";
+import DangerouslyInnerHtml from "../../components/elements/DangerouslyInnerHtml";
 const TravelAgents = (props) => {
     let { metaDescription, keywords, headTitle } = props
 
@@ -32,6 +33,7 @@ const TravelAgents = (props) => {
                             <div className={styles.content}>
 
                                 <div className={styles.left}>
+                                    <br />
                                     <h1 className={styles.title}>
                                         {appData?.words["strTravelNews"]}
                                     </h1>
@@ -39,15 +41,13 @@ const TravelAgents = (props) => {
                                     <div className={styles.account_div}>
                                         <Link target='_blank' href="https://agency.apltransfers.com" >
                                             <Button type={BUTTON_TYPES.PRIMARY_OUTLINE} style={{ padding: "10px 28.5px", }} btnText={`${appData?.words["strLogin"]}`} />
-
                                         </Link>
                                         <a href={language === 'en' ? '/account-register' : `/${language}/account-register`} title="AccountRegister" >
                                             <Button type={BUTTON_TYPES.PRIMARY_OUTLINE} style={{ padding: "10px 28.5px", }} btnText={`${appData?.words["strRegister"]}`} />
                                         </a>
                                     </div>
+                                    <DangerouslyInnerHtml htmContent={htmlContentsTravelAgents[language]} />
 
-                                    <div className={styles.pageContent} dangerouslySetInnerHTML={{ __html: htmlContentsTravelAgents[language] }}>
-                                    </div>
                                 </div>
                                 <div className={styles.right}>
                                     <img src="/images/others/apl_family.png" alt="APL Transfers Travel Agents" />

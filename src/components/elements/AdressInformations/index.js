@@ -16,11 +16,12 @@ const AdressInformations = ({ direction, appData }) => {
                                     <i className="fa-solid fa-phone"></i>
                                     <h5 className="title font-size-16 pb-1">{appData?.words["appContactUsHotLine"]}</h5>
                                     {direction === 'rtl' ?
-                                        <a style={{ flexDirection: "row-reverse", justifyContent: "flex-end", display: 'flex' }} href="tel:+902127085540" >
-                                            <span>  + </span> 902127085540
+                                        <a style={{ flexDirection: "row-reverse", justifyContent: "flex-end", display: 'flex' }} href="tel:+442086887744" >
+                                            <span>   </span> 020 8688 7744
                                         </a>
                                         :
-                                        <a href="tel:+442086887744" > + 90 212 7085540</a>
+                                                                          <a href="tel:+442086887744">020 8688 7744</a>
+
                                     }
                                 </li>
                                 <li tabIndex="-1">
@@ -31,7 +32,9 @@ const AdressInformations = ({ direction, appData }) => {
                                             <span>  + </span> 442086887744
                                         </a>
                                         :
-                                        <a href="tel:+442086887744" >+44 208 6887744</a>
+                                             <a href="tel:+442086887744">
+                                        +44 208 688 7744
+                                    </a>
                                     }
                                 </li>
 
@@ -55,7 +58,7 @@ const AdressInformations = ({ direction, appData }) => {
                                 <li tabIndex="-1">
                                     <i className="fa-solid fa-envelope"></i>
                                     <h5 className="title font-size-16 pb-1">{appData?.words["appContactUsEmailAddress"]}</h5>
-                                    <a href="mailto: info@apltransfers.com"> info@apltransfers.com</a>
+                                                                       <a href="mailto:info@apl-edinburgh.com" >info@apl-edinburgh.com</a>
                                 </li>
 
                                 <li tabIndex="-1">

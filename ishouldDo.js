@@ -12,3 +12,6 @@
 //Keywords icine gel orda templateler degisicek
 
 //check out static routes on layout.js and website domain change on static routes
+
+
+//src\constants\keywordsAndContents\sofor-araniyor >>> metaTagsDriversWanted >degisdirilmeli ve src\pages\driver-wanted >buraya asagiya getserversidea entegre olunmali
