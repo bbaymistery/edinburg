@@ -5,7 +5,7 @@ import Image from "next/image";
 import { useSelector } from "react-redux";
 
 const CarsSlider = (props) => {
-  let { bggray } = props
+  let { bggray, showTitle = true } = props
   const { appData } = useSelector(state => state.initialReducer)
   const state = useSelector(state => state.pickUpDropOffActions)
   let { params: { direction, } } = state
@@ -92,7 +92,7 @@ const CarsSlider = (props) => {
 
   return (
     <div className={styles.car_section} bggray={String(bggray)}>
-      <h2 className={styles.header_title}>{appData.words["strOurFleet"]} </h2>
+      {showTitle ? <h2 className={styles.header_title}>{appData.words["strOurFleet"]} </h2> : <></>}
       <div className={styles.car_section_container}>
         <div className={styles.sliderContainer}>
           {/* Left Arrow  //! Move left on click */}

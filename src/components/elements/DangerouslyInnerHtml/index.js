@@ -1,7 +1,8 @@
 import styles from "./styles.module.scss"
-const DangerouslyInnerHtml = ({ htmContent, }) => {
+const DangerouslyInnerHtml = ({ htmContent, customStyles = {} }) => {
+
     return (
-        <div className={styles.dangerous_div} dangerouslySetInnerHTML={{ __html: htmContent }}></div>
+        <div className={styles.dangerous_div} style={customStyles} dangerouslySetInnerHTML={{ __html: htmContent }}></div>
     )
 }
 

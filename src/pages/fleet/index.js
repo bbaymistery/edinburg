@@ -5,17 +5,30 @@ import { isUrlLoverCase } from '../../helpers/isUrlLoverCase'
 import { checkLanguageAttributeOntheUrl } from '../../helpers/checkLanguageAttributeOntheUrl'
 import { parse } from 'url';
 import { adjustPathnameForLanguage } from '../../helpers/adjustedPageLanguage'
-import { fleetKeywords } from '../../constants/keywordsAndContents/fleet/keywordsAndContents'
+import { fleetHtmlContentBody, fleetHtmlContentHeader, fleetKeywords } from '../../constants/keywordsAndContents/fleet/keywordsAndContents'
 import { setNoCacheHeader } from '../../helpers/setNoCacheHeader'
 import { fetchConfig } from '../../resources/getEnvConfig'
+import { useSelector } from 'react-redux'
+import DangerouslyInnerHtml from '../../components/elements/DangerouslyInnerHtml'
 
 const Fleet = (props) => {
   let { metaDescription, keywords, headTitle } = props
+  const state = useSelector(state => state.pickUpDropOffActions)
+  let { params: { language } } = state
   return (
     <GlobalLayout title={headTitle} keywords={keywords} description={metaDescription} mainCanonical={props.mainCanonical}>
+
       <br /><br />
       <br /><br />
-      <CarsSlider />
+      <br /><br />
+      <div style={{ padding: '0 20px' }}>
+        <DangerouslyInnerHtml htmContent={fleetHtmlContentHeader[language]} customStyles={{ maxWidth: '1200px' }} />
+      </div>
+      <CarsSlider showTitle={false} />
+      <div style={{ paddingTop:'0px',paddingLeft:"20px",paddingRight:"20px",paddingBottom:"100px" }}>
+        <DangerouslyInnerHtml htmContent={fleetHtmlContentBody[language]} customStyles={{ maxWidth: '1200px' }} />
+      </div>
+
     </GlobalLayout>
   )
 }
@@ -39,11 +52,11 @@ export async function getServerSideProps({ req, res, query, resolvedUrl }) {
   let keywords = fleetKeywords.keywords[pageStartLanguage];
   let headTitle = fleetKeywords.headTitle[pageStartLanguage];
 
-    const env = await fetchConfig();
-    const mainCanonical = `${env.websiteDomain}${pageStartLanguage === 'en' ? "/fleet" : `/${pageStartLanguage}/fleet`}`
+  const env = await fetchConfig();
+  const mainCanonical = `${env.websiteDomain}${pageStartLanguage === 'en' ? "/fleet" : `/${pageStartLanguage}/fleet`}`
   return {
     //we pass tourdetails fot adding inside redux generally all together
-    props: { metaDescription, keywords, headTitle,mainCanonical }
+    props: { metaDescription, keywords, headTitle, mainCanonical }
   };
 
 
