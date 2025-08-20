@@ -1,0 +1,236 @@
+@import '../../styles/variables';
+
+
+.sofor_basvuru_formu {
+    height: 100%;
+    position: relative;
+    margin-top: 0px;
+    background-color: white !important;
+
+    &_section {
+        @media(max-width:1400px) {
+            margin: 0 auto !important;
+        }
+
+
+        &_container {
+
+            display: flex;
+            gap: 4rem;
+
+            @media(max-width:1400px) {
+                max-width: 100% !important;
+                width: 100%;
+                padding: 0px 50px !important;
+            }
+
+            @media(max-width:1200px) {
+                flex-direction: column;
+                gap: 1rem;
+            }
+
+            @media(max-width:650px) {
+                padding: 0px 20px !important;
+            }
+
+            .contact_area {
+                padding-top: 105px;
+                flex-basis: 70%;
+
+                @media(max-width:1200px) {
+                    flex-basis: 100%;
+                    padding-top: 20px;
+                }
+
+                .forms {
+                    background-color: white;
+                    border-radius: 8px;
+                    padding: 20px 20px;
+                    width: 100%;
+                    max-width: 900px;
+                    margin: 0 auto;
+                    box-shadow: $box-shadow-1;
+
+                    .form_card {
+                        padding: 20px 0px;
+                        width: 100%;
+                        max-width: 900px;
+                        margin: 0 auto;
+
+                        @media (max-width: 768px) {
+                            padding-bottom: 15px;
+                            padding-left: 0px;
+                            padding-right: 0px;
+                            padding-top: 15px;
+                        }
+
+                        .ps_note {
+                            font-size: 14px;
+                        }
+
+                        h2 {
+                            font-size: 22px;
+                            font-weight: 600;
+                            margin-bottom: 1rem;
+                            color: #1e1e1e;
+
+                            @media (max-width: 450px) {
+                                font-size: 15px;
+                            }
+                        }
+
+                        p {
+                            margin-bottom: 1.5rem;
+                            font-size: 14px;
+                        }
+
+                        .form {
+                            display: flex;
+                            flex-direction: column;
+                            gap: 1.5rem;
+
+                            @media (max-width: 768px) {
+                                gap: 1rem;
+                            }
+
+                            .input_box {
+                                display: flex;
+                                gap: 1rem;
+                                align-items: center;
+                                flex-wrap: wrap;
+
+                                @media (max-width: 768px) {
+                                    flex-direction: column;
+                                    gap: 1rem;
+                                }
+
+                                .input {
+                                    flex: 1;
+                                    margin-bottom: 0; // gap kullanıyoruz zaten
+                                }
+
+                                .ps_note {
+                                    font-size: 14px;
+                                    color: red;
+                                }
+
+                                .radio_group {
+                                    display: flex;
+                                    gap: 1.5rem;
+                                    align-items: center;
+
+                                    label {
+                                        font-size: 0.95rem;
+                                        cursor: pointer;
+
+                                        input[type="radio"] {
+                                            margin-right: 0.2rem;
+                                        }
+                                    }
+
+                                    @media (max-width: 768px) {
+                                        flex-direction: column;
+                                        align-items: flex-start;
+                                        gap: 0.3rem;
+                                    }
+                                }
+
+                                .checkbox_option {
+                                    font-size: 0.95rem;
+                                    cursor: pointer;
+                                    display: flex;
+                                    align-items: flex-start;
+                                    gap: 0.4rem;
+
+                                    input[type="checkbox"] {
+                                        margin-top: 0.3rem;
+                                    }
+
+                                    .other_input_text {
+                                        border: none;
+                                        border-bottom: 1px solid gray;
+                                        outline: none;
+
+                                        &:focus {
+                                            border-bottom: 1px solid $primary-color-light;
+                                        }
+                                    }
+                                }
+
+
+
+                                button {
+                                    background-color: transparent;
+                                    border: none;
+                                    color: red;
+                                    background-color: $--color-light-8;
+                                    height: 0px;
+                                }
+
+
+
+                            }
+
+                            // Tek input olan satırlar için
+                            .input_box:has(.input) {
+                                flex-wrap: nowrap;
+                            }
+
+
+                        }
+
+
+
+                        .form[boxtype='territory'] {
+                            @media (max-width: 768px) {
+                                .input_box {
+                                    gap: 0px;
+                                    margin-bottom: 0px;
+                                    align-items: flex-start;
+                                }
+                            }
+                        }
+
+                        .form[boxtype='personalinfo'] {
+                            .input_box {
+                                .input {
+                                    width: 100%;
+                                }
+                            }
+                        }
+
+                        .form[boxtype='vehicleinfo'] {
+                            .input_box:first-child {
+                                @media (max-width: 768px) {
+                                    gap: 0px;
+                                }
+                            }
+
+                            .input_box {
+                                align-items: baseline;
+
+                                .input {
+                                    width: 100%;
+                                }
+                            }
+                        }
+                    }
+
+
+                }
+
+            }
+
+            .address_area {
+                flex-basis: 30%;
+                padding-top: 105px;
+                position: relative;
+
+                @media(max-width:1200px) {
+                    padding-top: 0px;
+
+                }
+            }
+        }
+    }
+}

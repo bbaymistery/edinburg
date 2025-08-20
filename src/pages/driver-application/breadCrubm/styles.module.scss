@@ -1,0 +1,30 @@
+   .breadcrumb_area {
+       position: relative;
+       height: 250px;
+       position: relative;
+       z-index: 1;
+       background-image: url('/images/driversWanted/soforAraniyor.webp');
+       background-repeat: no-repeat;
+       background-size: 100%;
+       background-position: center;
+       width: 100%;
+
+       @media (max-width:800px) {
+           height: 200px;
+
+       }
+
+       .breadcrumb_container {
+           margin: 0 var(--window-margin);
+
+           &_title {
+               color: white;
+               max-width: 1200px;
+               margin: 0 auto;
+
+               @media (max-width:800px) {
+                   text-align: center;
+               }
+           }
+       }
+   }

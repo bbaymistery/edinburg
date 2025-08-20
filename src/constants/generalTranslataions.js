@@ -278,6 +278,429 @@ export const generalAllTranslations = {
     zh: "旅行社",
     ar: "وكلاء السفر"
   },
+  strFullName: {
+    en: "Full Name",
+    tr: "Ad Soyad",
+    ru: "ФИО",
+    es: "Nombre completo",
+    it: "Nome e Cognome",
+    zh: "姓名",
+    ar: "الاسم الكامل"
+  },
+
+  strEmail: {
+    en: "Email",
+    tr: "E-Posta",
+    ru: "Электронная почта",
+    es: "Correo electrónico",
+    it: "Email",
+    zh: "电子邮箱",
+    ar: "البريد الإلكتروني"
+  },
+
+  strPhone: {
+    en: "Phone",
+    tr: "Telefon",
+    ru: "Телефон",
+    es: "Teléfono",
+    it: "Telefono",
+    zh: "电话",
+    ar: "الهاتف"
+  },
+
+  strBirthDate: {
+    en: "Date of Birth",
+    tr: "Doğum Tarihi",
+    ru: "Дата рождения",
+    es: "Fecha de nacimiento",
+    it: "Data di nascita",
+    zh: "出生日期",
+    ar: "تاريخ الميلاد"
+  },
+
+  strAddress: {
+    en: "Address",
+    tr: "Adres",
+    ru: "Адрес",
+    es: "Dirección",
+    it: "Indirizzo",
+    zh: "地址",
+    ar: "العنوان"
+  },
+  strPersonalInfo: {
+    en: "Personal Information",
+    tr: "Kişisel Bilgiler",
+    ru: "Личная информация",
+    es: "Información personal",
+    it: "Informazioni personali",
+    zh: "个人信息",
+    ar: "المعلومات الشخصية"
+  },
+  strVehicleInfo: {
+    en: "Vehicle Information",
+    tr: "Araç Bilgileri",
+    ru: "Информация об автомобиле",
+    es: "Información del vehículo",
+    it: "Informazioni sul veicolo",
+    zh: "车辆信息",
+    ar: "معلومات المركبة"
+  },
+
+  strAreYouOwner: {
+    en: "Are you the owner of the vehicle?",
+    tr: "Aracın sahibi misiniz?",
+    ru: "Вы владелец автомобиля?",
+    es: "¿Es usted el propietario del vehículo?",
+    it: "Sei il proprietario del veicolo?",
+    zh: "您是该车辆的所有者吗？",
+    ar: "هل أنت مالك المركبة؟"
+  },
+
+  strYes: {
+    en: "Yes",
+    tr: "Evet",
+    ru: "Да",
+    es: "Sí",
+    it: "Sì",
+    zh: "是",
+    ar: "نعم"
+  },
+
+  strNo: {
+    en: "No",
+    tr: "Hayır",
+    ru: "Нет",
+    es: "No",
+    it: "No",
+    zh: "否",
+    ar: "لا"
+  },
+
+  strVehicleMakeModel: {
+    en: "Vehicle Make and Model",
+    tr: "Araç Markası ve Modeli",
+    ru: "Марка и модель автомобиля",
+    es: "Marca y modelo del vehículo",
+    it: "Marca e modello del veicolo",
+    zh: "车辆品牌和型号",
+    ar: "ماركة وطراز المركبة"
+  },
+
+  strModelYear: {
+    en: "Model Year",
+    tr: "Model Yılı",
+    ru: "Год выпуска",
+    es: "Año del modelo",
+    it: "Anno del modello",
+    zh: "出厂年份",
+    ar: "سنة الصنع"
+  },
+
+  strPlateNumber: {
+    en: "Plate Number",
+    tr: "Plaka Numarası",
+    ru: "Номерной знак",
+    es: "Número de matrícula",
+    it: "Numero di targa",
+    zh: "车牌号",
+    ar: "رقم اللوحة"
+  },
+
+  strPassengerCapacity: {
+    en: "Passenger Capacity",
+    tr: "Yolcu Kapasitesi",
+    ru: "Вместимость пассажиров",
+    es: "Capacidad de pasajeros",
+    it: "Capacità passeggeri",
+    zh: "乘客容量",
+    ar: "سعة الركاب"
+  },
+  strServiceArea: {
+    en: "Areas You Can Provide Service",
+    tr: "Hizmet Verebileceğiniz Bölgeler",
+    ru: "Районы, где вы можете предоставлять услуги",
+    es: "Áreas en las que puede prestar servicio",
+    it: "Aree in cui puoi fornire il servizio",
+    zh: "您可以提供服务的区域",
+    ar: "المناطق التي يمكنك تقديم الخدمة فيها"
+  },
+  strSelectServiceLocations: {
+    en: "Please tick the locations you are available to operate in:",
+    tr: "Lütfen hizmet verebileceğiniz bölgeleri işaretleyin:",
+    ru: "Отметьте регионы, в которых вы можете работать:",
+    es: "Marque las ubicaciones en las que está disponible para operar:",
+    it: "Seleziona le località in cui sei disponibile a operare:",
+    zh: "请选择您可以运营的地区：",
+    ar: "يرجى تحديد المواقع التي يمكنك العمل فيها:"
+  },
+  strSubmitApplication: {
+    en: "Submit Your Application",
+    tr: "Başvurunuzu Gönderin",
+    ru: "Отправьте свою заявку",
+    es: "Envíe su solicitud",
+    it: "Invia la tua domanda",
+    zh: "提交您的申请",
+    ar: "قدّم طلبك"
+  },
+  strDriverApplicationSubmitFormNote: {
+    en: "Please ensure all details are correct before submitting. Our driver recruitment team will contact you shortly to guide you through the next steps.",
+    tr: "Lütfen göndermeden önce tüm bilgilerin doğru olduğundan emin olun. Sürücü işe alım ekibimiz kısa süre içinde sizinle iletişime geçerek sonraki adımlar konusunda size rehberlik edecektir.",
+    ru: "Пожалуйста, убедитесь, что все данные верны перед отправкой. Наша команда по набору водителей свяжется с вами в ближайшее время, чтобы помочь вам с последующими шагами.",
+    es: "Por favor, asegúrese de que todos los datos sean correctos antes de enviar. Nuestro equipo de contratación de conductores se pondrá en contacto con usted en breve para guiarle en los próximos pasos.",
+    it: "Si prega di assicurarsi che tutti i dati siano corretti prima dell'invio. Il nostro team di reclutamento autisti la contatterà a breve per guidarla nei prossimi passaggi.",
+    zh: "请在提交前确保所有信息正确。我们的司机招聘团队将很快与您联系，指导您完成下一步。",
+    ar: "يرجى التأكد من أن جميع التفاصيل صحيحة قبل الإرسال. سيتواصل معك فريق توظيف السائقين لدينا قريبًا لإرشادك خلال الخطوات التالية."
+  },
+  strOther: {
+    en: "Other",
+    tr: "Diğer",
+    ru: "Другое",
+    es: "Otro",
+    it: "Altro",
+    zh: "其他",
+    ar: "أخرى"
+  },
+
+
+  strEdinburgh: {
+    en: "Edinburgh",
+    tr: "Edinburgh",
+    ru: "Эдинбург",
+    es: "Edimburgo",
+    it: "Edimburgo",
+    zh: "爱丁堡",
+    ar: "إدنبرة"
+  },
+  strGlasgow: {
+    en: "Glasgow",
+    tr: "Glasgow",
+    ru: "Глазго",
+    es: "Glasgow",
+    it: "Glasgow",
+    zh: "格拉斯哥",
+    ar: "غلاسكو"
+  },
+  strStAndrews: {
+    en: "St Andrews",
+    tr: "St Andrews",
+    ru: "Сент-Эндрюс",
+    es: "San Andrés",
+    it: "Sant'Andrea",
+    zh: "圣安德鲁斯",
+    ar: "سانت أندروز"
+  },
+  strInverness: {
+    en: "Inverness",
+    tr: "Inverness",
+    ru: "Инвернесс",
+    es: "Inverness",
+    it: "Inverness",
+    zh: "因弗内斯",
+    ar: "إنفرنيس"
+  },
+  strAberdeen: {
+    en: "Aberdeen",
+    tr: "Aberdeen",
+    ru: "Абердин",
+    es: "Aberdeen",
+    it: "Aberdeen",
+    zh: "阿伯丁",
+    ar: "أبردين"
+  },
+  strFortWilliam: {
+    en: "Fort William",
+    tr: "Fort William",
+    ru: "Форт-Уильям",
+    es: "Fuerte William",
+    it: "Forte William",
+    zh: "威廉堡",
+    ar: "فورت ويليام"
+  },
+  strDundee: {
+    en: "Dundee",
+    tr: "Dundee",
+    ru: "Данди",
+    es: "Dundee",
+    it: "Dundee",
+    zh: "邓迪",
+    ar: "دندي"
+  },
+  // strScotlandAirports: {
+  //   en: "All major airports and tourist areas in Scotland",
+  //   tr: "İskoçya’daki büyük havalimanları ve turistik merkezlere yakın tüm bölgeler",
+  //   ru: "Все крупные аэропорты и туристические зоны Шотландии",
+  //   es: "Todos los aeropuertos principales y zonas turísticas de Escocia",
+  //   it: "Tutti i principali aeroporti e le aree turistiche della Scozia",
+  //   zh: "苏格兰所有主要机场和旅游区",
+  //   ar: "جميع المطارات والمناطق السياحية الرئيسية في اسكتلندا"
+  // },
+  strSend: {
+    en: "Send",
+    tr: "Gönder",
+    ru: "Отправить",
+    es: "Enviar",
+    it: "Invia",
+    zh: "发送",
+    ar: "إرسال"
+  },
+  strHomeAddress: {
+    en: "Home Address",
+    tr: "Ev Adresi",
+    ru: "Домашний адрес",
+    es: "Dirección de casa",
+    it: "Indirizzo di casa",
+    zh: "家庭住址",
+    ar: "العنوان المنزلي"
+  },
+  strExcludingDriver: {
+    en: "Excluding driver",
+    tr: "Şoför hariç",
+    ru: "Без водителя",
+    es: "Excluyendo al conductor",
+    it: "Escluso il conducente",
+    zh: "不含司机",
+    ar: "باستثناء السائق"
+  },
+
+
+  //!@Errorrr
+  strErrorFullNameRequired: {
+    en: "Please enter your full name.",
+    tr: "Lütfen ad soyad girin.",
+    ru: "Пожалуйста, введите имя и фамилию.",
+    es: "Por favor ingrese su nombre completo.",
+    it: "Per favore inserisci nome e cognome.",
+    zh: "请输入您的全名。",
+    ar: "يرجى إدخال الاسم الكامل."
+  },
+  strErrorBirthDateRequired: {
+    en: "Birth date cannot be empty.",
+    tr: "Doğum tarihi boş bırakılamaz.",
+    ru: "Дата рождения не может быть пустой.",
+    es: "La fecha de nacimiento no puede estar vacía.",
+    it: "La data di nascita non può essere vuota.",
+    zh: "出生日期不能为空。",
+    ar: "تاريخ الميلاد لا يمكن أن يكون فارغاً."
+  },
+  strErrorPhoneRequired: {
+    en: "Phone number is required.",
+    tr: "Telefon numarası gerekli.",
+    ru: "Требуется номер телефона.",
+    es: "El número de teléfono es obligatorio.",
+    it: "Il numero di telefono è obbligatorio.",
+    zh: "需要电话号码。",
+    ar: "رقم الهاتف مطلوب."
+  },
+  strErrorEmailRequired: {
+    en: "Email address is required.",
+    tr: "E-posta adresi gerekli.",
+    ru: "Требуется адрес электронной почты.",
+    es: "La dirección de correo es obligatoria.",
+    it: "L'indirizzo email è obbligatorio.",
+    zh: "需要电子邮件地址。",
+    ar: "عنوان البريد الإلكتروني مطلوب."
+  },
+  strErrorEmailInvalid: {
+    en: "Please enter a valid email.",
+    tr: "Geçerli bir e-posta girin.",
+    ru: "Введите действительный адрес электронной почты.",
+    es: "Por favor ingrese un correo electrónico válido.",
+    it: "Inserisci un indirizzo email valido.",
+    zh: "请输入有效的电子邮件地址。",
+    ar: "يرجى إدخال بريد إلكتروني صالح."
+  },
+  strErrorAddressRequired: {
+    en: "Address is required.",
+    tr: "Adres gerekli.",
+    ru: "Адрес обязателен.",
+    es: "La dirección es obligatoria.",
+    it: "L'indirizzo è obbligatorio.",
+    zh: "需要地址。",
+    ar: "العنوان مطلوب."
+  },
+  strErrorIsOwnerRequired: {
+    en: "Please select whether you are the vehicle owner.",
+    tr: "Araç sahibi olup olmadığınızı seçin.",
+    ru: "Пожалуйста, укажите, являетесь ли вы владельцем автомобиля.",
+    es: "Seleccione si es el propietario del vehículo.",
+    it: "Seleziona se sei il proprietario del veicolo.",
+    zh: "请选择您是否是车辆所有者。",
+    ar: "يرجى تحديد ما إذا كنت مالك السيارة."
+  },
+  strErrorVehicleMakeModelRequired: {
+    en: "Vehicle make and model are required.",
+    tr: "Araç marka ve model bilgisi gerekli.",
+    ru: "Марка и модель автомобиля обязательны.",
+    es: "Se requiere la marca y el modelo del vehículo.",
+    it: "Marca e modello del veicolo sono obbligatori.",
+    zh: "需要填写车辆品牌和型号。",
+    ar: "مطلوب ماركة وطراز السيارة."
+  },
+  strErrorVehicleYearRequired: {
+    en: "Vehicle year is required.",
+    tr: "Model yılı gerekli.",
+    ru: "Требуется год выпуска автомобиля.",
+    es: "Se requiere el año del vehículo.",
+    it: "L'anno del veicolo è obbligatorio.",
+    zh: "需要填写车辆年份。",
+    ar: "سنة الموديل مطلوبة."
+  },
+  strErrorVehicleYearInvalid: {
+    en: "Vehicle year must be a 4-digit number.",
+    tr: "Model yılı 4 haneli bir sayı olmalıdır.",
+    ru: "Год выпуска должен быть 4-значным числом.",
+    es: "El año del vehículo debe tener 4 dígitos.",
+    it: "L'anno del veicolo deve essere un numero di 4 cifre.",
+    zh: "车辆年份必须是4位数字。",
+    ar: "يجب أن يكون سنة الموديل رقمًا مكونًا من 4 أرقام."
+  },
+  strErrorLicensePlateRequired: {
+    en: "License plate number is required.",
+    tr: "Plaka numarası gerekli.",
+    ru: "Номерной знак обязателен.",
+    es: "Se requiere el número de matrícula.",
+    it: "La targa è obbligatoria.",
+    zh: "需要车牌号。",
+    ar: "رقم اللوحة مطلوب."
+  },
+  strErrorVehicleCapacityRequired: {
+    en: "Passenger capacity is required.",
+    tr: "Yolcu kapasitesi gerekli.",
+    ru: "Требуется указать пассажировместимость.",
+    es: "Se requiere la capacidad de pasajeros.",
+    it: "La capacità passeggeri è obbligatoria.",
+    zh: "需要填写载客量。",
+    ar: "سعة الركاب مطلوبة."
+  },
+
+  strErrorOtherServiceArea: {
+    en: "Please specify the 'Other' location.",
+    tr: "Lütfen 'Diğer' konumunu belirtin.",
+    ru: "Пожалуйста, укажите вариант 'Другое'.",
+    es: "Por favor especifique la ubicación 'Otro'.",
+    it: "Si prega di specificare la posizione 'Altro'.",
+    zh: "请注明“其他”位置。",
+    ar: "يرجى تحديد الموقع 'أخرى'."
+  },
+
+  strErrorServiceAreaRequired: {
+    en: "Please select at least one service area.",
+    tr: "Lütfen en az bir hizmet bölgesi seçin.",
+    ru: "Пожалуйста, выберите хотя бы один район обслуживания.",
+    es: "Por favor seleccione al menos un área de servicio.",
+    it: "Seleziona almeno un'area di servizio.",
+    zh: "请至少选择一个服务区域。",
+    ar: "يرجى اختيار منطقة خدمة واحدة على الأقل."
+  },
+  strErrorServiceArea: {
+    en: "Please select at least one service area.",
+    tr: "Lütfen en az bir hizmet bölgesi seçin.",
+    ru: "Пожалуйста, выберите хотя бы один район обслуживания.",
+    es: "Por favor seleccione al menos un área de servicio.",
+    it: "Seleziona almeno un'area di servizio.",
+    zh: "请至少选择一个服务区域。",
+    ar: "يرجى اختيار منطقة خدمة واحدة على الأقل."
+  },
 
 
 };
