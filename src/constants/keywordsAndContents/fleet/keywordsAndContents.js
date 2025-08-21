@@ -28,59 +28,22 @@ export const fleetKeywords = {
   }
 }
 export const fleetHtmlContentHeader = {
-  en: `
-  <h2>Saloon / Sedan Vehicles</h2>
-  <p>Our saloon vehicles are ideal for solo travellers, couples, or small families.</p>
-  <p><strong>Capacity:</strong> 3 passengers with 3 medium-sized suitcases.</p>
-  <p>Comfortable and efficient, these cars are best for airport transfers, city trips, or short to mid-distance journeys. Perfect for business and leisure travel alike.</p>
-
-  <h2>MPVs, People Carriers and SUVs</h2>
-  <p>Designed for families or small groups, our MPVs and SUVs offer flexible seating and generous luggage space.</p>
-  <p><strong>Capacity:</strong> 4 to 6 passengers with up to 6 medium suitcases.</p>
-  <p>These vehicles are ideal for holiday travel, cruise port pickups, and longer inter-city journeys where comfort and space are essential.</p>
-
-  <h2>Minibuses (7 to 8 Seat Vehicles)</h2>
-  <p>Our minibuses are perfect for group travel, golf tours, ski trips, or corporate events.</p>
-  <p><strong>Capacity:</strong> Up to 8 passengers with 8 medium suitcases.</p>
-  <p>Spacious, practical, and ideal for long-distance routes, including transfers to Inverness, Fort William, or the Highlands.</p>
-
-  <h2>Executive Saloon Vehicles</h2>
-  <p>Our executive saloons are designed for business travellers and VIPs seeking premium comfort.</p>
-  <p><strong>Capacity:</strong> 3 passengers with 3 medium suitcases.</p>
-  <p>Expect a high-end experience with leather interiors, privacy, and a smooth, quiet ride. Popular for airport pickups, corporate events, and private tours.</p>
-
-  <h2>Executive MPVs and Executive Minibuses</h2>
-  <p>For luxury group travel, our executive MPVs and minibuses deliver comfort and style.</p>
-  <p><strong>Capacity:</strong> 6 to 8 passengers with 6 to 8 medium suitcases.</p>
-  <p>Perfect for wedding parties, business delegations, or clients who want to travel in high-spec vehicles. Vehicles such as the Mercedes V-Class offer a premium, professional experience.</p>
-
-  <h2>Child Seats Available on Request</h2>
-  <p>We provide child seats at no extra cost. Simply let us know when booking.</p>
-  <ul>
-    <li>Saloon vehicles: Up to 1 child seat</li>
-    <li>MPVs and SUVs: Up to 2 child seats</li>
-    <li>Minibuses: Up to 3 child seats</li>
-  </ul>
-
-  <h2>Why Choose APL Edinburgh’s Fleet?</h2>
-  <ul>
-    <li>All vehicles are fully licensed, insured, and spotlessly clean</li>
-    <li>Routine safety checks and professional servicing</li>
-    <li>Drivers are highly experienced, courteous, and punctual</li>
-    <li>We offer comfortable travel over any distance in Scotland</li>
-    <li>A wide range of vehicles for individuals, families, and groups</li>
-  </ul>
-  <p>Whether you are travelling to a hotel in the city, a university in St Andrews, a golf resort, or a remote Highland destination, APL Edinburgh has the ideal vehicle to suit your journey.</p>
-
-  <h2>Book the Right Vehicle for Your Journey</h2>
-  <p>Unsure about luggage space, passenger capacity, or vehicle suitability? Our friendly team is available 24/7 to help you choose the right vehicle.</p>
-  <ul>
-    <li><strong>Phone (UK):</strong> 020 8688 7744</li>
-    <li><strong>Phone (International):</strong> +44 208 688 7744</li>
-    <li><strong>WhatsApp:</strong> +44 73 8790 1028</li>
-    <li><strong>Email:</strong> info@apl-edinburgh.com</li>
-    <li><strong>Live Chat:</strong> Available on our website</li>
-  </ul>
+  en: `<h1>Our Fleet – APL Edinburgh</h1>
+  <p>
+    At APL Edinburgh, we offer a modern and versatile fleet of private hire vehicles, 
+    tailored to meet every transfer need across Scotland. Whether you’re booking an airport 
+    pickup for one person or organising a group transfer to the Highlands, we provide the 
+    comfort, space, and service quality you expect from a professional airport transfer company.
+  </p>
+  <p>
+    All our vehicles are fully licensed and insured, maintained to the highest safety standards, 
+    and driven by experienced, polite, and reliable drivers. Your comfort and safety are our 
+    top priorities.
+  </p>
+  <p>
+    We provide vehicle images and capacity details on this page to help you choose the right 
+    option for your journey.
+  </p>
 `
   ,
   tr: `
@@ -175,7 +138,6 @@ export const fleetHtmlContentHeader = {
 `,
 
 }
-
 export const fleetHtmlContentBody = {
   en: `
   <h2>Saloon / Sedan Vehicles</h2>

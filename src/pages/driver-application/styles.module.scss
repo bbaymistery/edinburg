@@ -27,11 +27,11 @@
             @media(max-width:1200px) {
                 flex-direction: column;
                 gap: 1rem;
+                padding: 0px 20px !important;
+
             }
 
-            @media(max-width:650px) {
-                padding: 0px 20px !important;
-            }
+
 
             .contact_area {
                 padding-top: 105px;
@@ -48,14 +48,26 @@
                     padding: 20px 20px;
                     width: 100%;
                     max-width: 900px;
-                    margin: 0 auto;
                     box-shadow: $box-shadow-1;
+
+                    @media(max-width:1200px) {
+                        max-width: 1200px;
+
+                    }
 
                     .form_card {
                         padding: 20px 0px;
                         width: 100%;
                         max-width: 900px;
                         margin: 0 auto;
+
+                        @media(max-width:1200px) {
+                            padding: 20px 10px;
+                            max-width: 1200px;
+                            margin: 0;
+
+
+                        }
 
                         @media (max-width: 768px) {
                             padding-bottom: 15px;

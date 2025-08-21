@@ -15,92 +15,26 @@ import BreadCrumb from './breadCrubm';
 import Alert from '../../components/elements/alert/Alert';
 import AdressInformations from '../../components/elements/AdressInformations';
 import { currentDate } from '../../helpers/getDates';
-import React from 'react';
+import React, { useState } from 'react';
 import DriverPersonalInfoForm from './DriverPersonalInfoForm';
 import DriverVehicleInfoForm from './DriverVehicleInfoForm';
 import Button from '../../components/elements/Button/Button';
 import { BUTTON_TYPES } from '../../components/elements/Button/ButtonTypes';
 import DriverPreferredLocationForm from './DriverPreferredLocationForm';
 import { generalAllTranslations } from '../../constants/generalTranslataions';
-const validateForm = (formState, language) => {
-  const errors = {};
+import { htmlContentDriverResult, htmlTemplate, validateForm } from './driverAplicationConstants';
+import DangerouslyInnerHtml from '../../components/elements/DangerouslyInnerHtml';
 
-  // Driver Personal Info
-  if (!formState.fullname.trim()) {
-    errors.fullname = generalAllTranslations.strErrorFullNameRequired[language];
-  }
-
-  if (!formState.birthdate) {
-    errors.birthdate = generalAllTranslations.strErrorBirthDateRequired[language];
-  }
-
-  if (!formState.phone.trim()) {
-    errors.phone = generalAllTranslations.strErrorPhoneRequired[language];
-  }
-
-  if (!formState.email.trim()) {
-    errors.email = generalAllTranslations.strErrorEmailRequired[language];
-  } else if (!/\S+@\S+\.\S+/.test(formState.email)) {
-    errors.email = generalAllTranslations.strErrorEmailInvalid[language];
-  }
-
-  if (!formState.address.trim()) {
-    errors.address = generalAllTranslations.strErrorAddressRequired[language];
-  }
-
-  // Driver Vehicle Info
-  if (!formState.isOwner || (formState.isOwner !== 'yes' && formState.isOwner !== 'no')) {
-    errors.isOwner = generalAllTranslations.strErrorIsOwnerRequired[language];
-  }
-
-  if (!formState.vehicleMakeModel.trim()) {
-    errors.vehicleMakeModel = generalAllTranslations.strErrorVehicleMakeModelRequired[language];
-  }
-
-  if (!formState.vehicleYear.trim()) {
-    errors.vehicleYear = generalAllTranslations.strErrorVehicleYearRequired[language];
-  } else if (!/^\d{4}$/.test(formState.vehicleYear)) {
-    errors.vehicleYear = generalAllTranslations.strErrorVehicleYearInvalid[language];
-  }
-
-  if (!formState.licensePlate.trim()) {
-    errors.licensePlate = generalAllTranslations.strErrorLicensePlateRequired[language];
-  }
-
-  if (!formState.passengerCapacity.trim()) {
-    errors.passengerCapacity = generalAllTranslations.strErrorVehicleCapacityRequired[language];
-  }
-
-  // --- Service areas (checkbox group) - unified validation ---
-  const hasSelection = Array.isArray(formState.preferredLocation) && formState.preferredLocation.length > 0;
-
-  const selectedOther = hasSelection && formState.preferredLocation.includes("other");
-
-  const otherTextGiven = !!(formState.otherLocation && formState.otherLocation.trim());
-
-  // Tercih edilen mesaj: "Lütfen en az bir hizmet bölgesi seçin veya 'Diğer'i belirtin."
-  // Eğer bu stringi eklemediysen fallback olarak strErrorServiceArea'yı kullanır.
-
-  if (!hasSelection) {
-    // Hiç seçim yok -> hata
-    errors.preferredLocation = generalAllTranslations.strErrorServiceAreaRequired[language];
-  } else if (selectedOther && !otherTextGiven) {
-    // "Other" seçili ama metin boş -> aynı hatayı preferredLocation'a yaz
-    errors.preferredLocation = generalAllTranslations.strErrorOtherServiceArea[language];
-  }
-  // --- /Service areas ---
-
-  return errors;
-};
 
 
 const SoforBasvuruFormu = (props) => {
   let { metaDescription, keywords, headTitle } = props
 
   const state = useSelector(state => state.pickUpDropOffActions)
-  let { params: { direction, language } } = state
+  let { params: { direction, language = "en" } } = state
 
   const { appData } = useSelector(state => state.initialReducer)
+
   const initialState = {
     fullname: "",
     birthdate: currentDate(),
@@ -115,8 +49,10 @@ const SoforBasvuruFormu = (props) => {
     preferredLocation: [],
     otherLocation: ""
   };
+
   const [internalState, setInternalState] = React.useReducer((s, o) => ({ ...s, ...o }), initialState);
 
+  const [templateWasSent, setTemplateWasSent] = useState(false);
 
   const [error, setError] = React.useState({});
   const dispatch = useDispatch();
@@ -178,18 +114,8 @@ const SoforBasvuruFormu = (props) => {
       setError((prev) => ({ ...prev, [name]: "" }));
     }
   }, [internalState.preferredLocation, error, setInternalState, setError]);
-  console.log({ error });
 
-  // Debug için log
-  console.log({ internalState });
-
-
-  console.log({ internalState });
-
-
-
-  const initializeState = (par) => setTimeout(() => { setInternalState(initialState) }, 2500);
-
+  const initializeState = () => setTimeout(() => { setInternalState(initialState) }, 2500);
 
   const handleSend = async () => {
     const validationErrors = validateForm(internalState, language);
@@ -197,49 +123,19 @@ const SoforBasvuruFormu = (props) => {
       setError(validationErrors);
       return;
     }
+    const HTML_TEMPLATE = htmlTemplate(internalState);
+    sendDriverForm(HTML_TEMPLATE);
 
-    const htmlTemplate = `
-    <h2 style="color:#333;">Şoför Başvuru Formu</h2>
-
-    <h3>Kişisel Bilgiler</h3>
-    <ul>
-      <li><strong>Ad Soyad:</strong> ${internalState.fullname}</li>
-      <li><strong>Doğum Tarihi:</strong> ${internalState.birthdate}</li>
-      <li><strong>Telefon:</strong> ${internalState.phone}</li>
-      <li><strong>Email:</strong> ${internalState.email}</li>
-      <li><strong>Adres:</strong> ${internalState.address}</li>
-    </ul>
-
-    <h3>Araç Bilgileri</h3>
-    <ul>
-      <li><strong>Araç Sahibi mi?:</strong> ${internalState.isOwner === 'yes' ? 'Evet' : 'Hayır'}</li>
-      <li><strong>Marka / Model:</strong> ${internalState.vehicleMakeModel}</li>
-      <li><strong>Model Yılı:</strong> ${internalState.vehicleYear}</li>
-      <li><strong>Plaka:</strong> ${internalState.licensePlate}</li>
-      <li><strong>Yolcu Kapasitesi:</strong> ${internalState.passengerCapacity}</li>
-      <li><strong>Tercih Edilen Lokasyon:</strong> ${internalState.preferredLocation}</li>
-    </ul>
-    <hr />
-    <p style="font-size: 12px; color: #888;">Gönderim tarihi: ${new Date().toLocaleString("tr-TR")}</p>
-  `;
-
-    sendDriverForm(htmlTemplate); // ayrı fonksiyon
   };
-  const sendDriverForm = async (htmlTemplate) => {
-    const env = await fetchConfig(); // eğer async değilse doğrudan çağır
 
+  const sendDriverForm = async (htmlTemplate) => {
+    const env = await fetchConfig();
     try {
       dispatch({ type: "ALERT", payload: { loading: true } })
-
       const reqOptions = {
         method: "POST",
         headers: { "Accept": "application/json, text/plain, */*", "Content-Type": "application/json" },
-        body: JSON.stringify({
-          senderId: 7,
-          reciverMails: ["info@apltransfers.com"],
-          subject: "Yeni Şoför Başvurusu",
-          mailContent: htmlTemplate
-        })
+        body: JSON.stringify({ senderId: 7, reciverMails: ["info@apl-edinburgh.com"], subject: "New Driver Application", mailContent: htmlTemplate })
       };
 
       fetch(`${env.apiDomain}/tools/mailer`, reqOptions)
@@ -247,7 +143,11 @@ const SoforBasvuruFormu = (props) => {
           console.log(res);
           dispatch({ type: "ALERT", payload: { loading: false } })
           if (res.status === 200) {
-            dispatch({ type: "ALERT", payload: { success: "Başvurunuz başarıyla alındı. En kısa sürede sizinle iletişime geçeceğiz." } })
+            setTemplateWasSent(true);
+            setTimeout(() => {
+              setTemplateWasSent(false)
+            })
+            dispatch({ type: "ALERT", payload: { success: "Your application has been successfully received. We will contact you as soon as possible." } })
           }
           initializeState()
         })
@@ -279,14 +179,19 @@ const SoforBasvuruFormu = (props) => {
           <Alert />
           <div className={`${styles.sofor_basvuru_formu_section_container} page_section_container`}>
             <div className={styles.contact_area}>
-              <div className={styles.forms}>
-                <DriverPersonalInfoForm internalState={internalState} onChangeHandler={onChangeHandler} error={error} language={language} />
-                <DriverVehicleInfoForm internalState={internalState} onChangeHandler={onChangeHandler} error={error} language={language} />
-                <DriverPreferredLocationForm selectedLocation={internalState.preferredLocation} onChangeHandler={onChangeHandler} language={language} error={error} />
-                <div>
-                  <Button onBtnClick={handleSend} type={BUTTON_TYPES.PRIMARY} style={{ padding: "10px 28.5px", width: '100%' }} btnText={generalAllTranslations.strSend[language]} />
+              {templateWasSent ?
+                <div className={styles.forms}>
+                  <DangerouslyInnerHtml htmContent={htmlContentDriverResult[language]} />
                 </div>
-              </div>
+                :
+                <div className={styles.forms}>
+                  <DriverPersonalInfoForm internalState={internalState} onChangeHandler={onChangeHandler} error={error} language={language} />
+                  <DriverVehicleInfoForm internalState={internalState} onChangeHandler={onChangeHandler} error={error} language={language} />
+                  <DriverPreferredLocationForm selectedLocation={internalState.preferredLocation} onChangeHandler={onChangeHandler} language={language} error={error} />
+                  <div>
+                    <Button onBtnClick={handleSend} type={BUTTON_TYPES.PRIMARY} style={{ padding: "10px 28.5px", width: '100%' }} btnText={generalAllTranslations.strSend[language]} />
+                  </div>
+                </div>}
             </div>
             <div className={styles.address_area}>
               <AdressInformations direction={direction} appData={appData} />
