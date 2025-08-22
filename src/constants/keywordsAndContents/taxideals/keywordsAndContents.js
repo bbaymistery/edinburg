@@ -2753,7 +2753,7 @@ Our service is fully door-to-door. You will be greeted inside the terminal by yo
   Elija <strong>APL Edinburgh</strong> para su traslado desde el <strong>Aeropuerto de Edimburgo a St Andrews</strong> y disfrute de un viaje privado y relajante a lo largo de la hermosa costa este de Escocia.
 </p>
 `,
-it: `
+    it: `
 <h1>Transfer in taxi dall'Aeroporto di Edimburgo a St Andrews</h1>
 <p>
   Cerchi un taxi privato e affidabile dall’<strong>Aeroporto di Edimburgo a St Andrews</strong>? Che tu sia diretto all’Università di St Andrews, stia pianificando un viaggio di golf o voglia esplorare la costa orientale della Scozia, <strong>APL Edinburgh</strong> offre trasferimenti comodi da porta a porta con tariffe fisse e autisti professionali.
@@ -2835,7 +2835,91 @@ it: `
 <p>
   Scegli <strong>APL Edinburgh</strong> per il tuo trasferimento dall’<strong>Aeroporto di Edimburgo a St Andrews</strong> e goditi un viaggio privato e rilassante lungo la splendida costa orientale della Scozia.
 </p>
+`,
+    zh: `
+<h1>从爱丁堡机场到圣安德鲁斯的出租车接送服务</h1>
+<p>
+  想要从<strong>爱丁堡机场到圣安德鲁斯</strong>的可靠私人出租车吗？无论您是前往圣安德鲁斯大学、计划高尔夫之旅，还是探索苏格兰东海岸，<strong>APL Edinburgh</strong>都为您提供舒适的门到门接送服务，价格固定，并配有专业司机。
+</p>
+<p>
+  我们的服务<strong>全天 24 小时、一周 7 天</strong>可用，为您提供一个比公共汽车、火车或租车更顺畅、更省心的选择。
+</p>
+
+<h2>直达圣安德鲁斯的私人接送</h2>
+<p>
+  抵达爱丁堡机场后，司机将在到达大厅举着写有您名字的接机牌迎接您，并协助搬运行李。这项<strong>免费接机服务</strong>确保您的旅程顺利开始。
+</p>
+<p>
+  之后我们将直接送您到<strong>圣安德鲁斯</strong> — 无需等待、无需与陌生人共享、也无需中途换乘。无论您是独自旅行还是团体出行，我们都能保证私密性、舒适性和高效性。
+</p>
+
+<h2>行程时间与服务范围</h2>
+<p>
+  从<strong>爱丁堡机场到圣安德鲁斯</strong>的平均行程约为 <strong>1小时20分钟至1小时40分钟</strong>，具体取决于交通和天气情况。
+</p>
+<p>我们提供以下地区的服务：</p>
+<ul>
+  <li>圣安德鲁斯市中心</li>
+  <li>圣安德鲁斯大学（所有校区和学生宿舍）</li>
+  <li>Old Course Hotel、Rusacks、Fairmont 及其他高尔夫度假村</li>
+  <li>Kingsbarns、Crail 和 Guardbridge 等附近村庄</li>
+  <li>法夫地区内的家庭旅馆、私人住所和宾馆</li>
+</ul>
+<p>往返接送和当日行程也可根据需求提供。</p>
+
+<h2>多种舒适车辆选择</h2>
+<p>APL Edinburgh 提供多种车辆，适合所有类型的乘客：</p>
+<ul>
+  <li><strong>轿车</strong> — 适合个人或情侣</li>
+  <li><strong>MPV、多功能车、SUV</strong> — 适合家庭或行李较多的小团体</li>
+  <li><strong>行政轿车</strong> — 适合商务或 VIP 客户</li>
+  <li><strong>7–8 座小型巴士</strong> — 适合团队接送或高尔夫团体</li>
+</ul>
+<p>
+  所有车辆均持有正式牌照，干净、宽敞并配有空调。我们还提供<strong>免费儿童座椅</strong>（需提前预订）—— 非常适合携带小孩的家庭。
+</p>
+
+<h2>您的接送服务包含</h2>
+<ul>
+  <li>固定全包价格 — 无隐藏费用</li>
+  <li>爱丁堡机场免费接机</li>
+  <li>航班监控 — 航班提前或延误时自动调整接机时间</li>
+  <li>航班到达后 30 分钟免费等待</li>
+  <li>门到门行李协助服务</li>
+  <li>免费儿童座椅（需提前预订）</li>
+  <li>全年无休，24/7 服务（包括公共假期）</li>
+</ul>
+
+<h2>为什么选择 APL Edinburgh？</h2>
+<ul>
+  <li>苏格兰长途接送的本地专家</li>
+  <li>受到国际游客、学生、高尔夫球手和企业客户的信赖</li>
+  <li>通过电话、电子邮件、WhatsApp 或在线聊天轻松预订</li>
+  <li>因准时、客户服务和车辆质量而备受好评</li>
+  <li>友好且专业的司机，熟悉当地情况</li>
+</ul>
+<p>
+  无论您是去圣安德鲁斯一天、一周还是一个学期，我们都会确保您舒适准时到达。
+</p>
+
+<h2>立即预订从爱丁堡机场到圣安德鲁斯的出租车</h2>
+<p>
+  我们全天候提供服务 <strong>24/7</strong> — 建议提前预订以确保车辆可用并锁定固定价格。
+</p>
+<p>立即联系我们，获取报价或确认您的预订：</p>
+<ul>
+  <li><strong>电话（英国）:</strong> <a href="tel:02086887744">020 8688 7744</a></li>
+  <li><strong>电话（国际）:</strong> <a href="tel:+442086887744">+44 208 688 7744</a></li>
+  <li><strong>WhatsApp:</strong> <a href="https://wa.me/447387901028">+44 73 8790 1028</a></li>
+  <li><strong>电子邮件:</strong> <a href="mailto:info@apl-edinburgh.com">info@apl-edinburgh.com</a></li>
+  <li><strong>在线聊天:</strong> 可通过我们的网站使用</li>
+</ul>
+
+<p>
+  选择 <strong>APL Edinburgh</strong>，享受从<strong>爱丁堡机场到圣安德鲁斯</strong>的轻松、私密之旅，领略苏格兰美丽的东海岸。
+</p>
 `
+
 
 
   },
@@ -2929,6 +3013,540 @@ it: `
 </p>
 `
     ,
+    tr: `
+<h1>Edinburgh Havaalanı'ndan Fort William'a Taksi Transferleri</h1>
+<p>
+  <strong>Edinburgh Havaalanı'ndan Fort William'a</strong> mı seyahat ediyorsunuz? İster Highlands bölgesine yürüyüş, kayak, gezi ya da dinlenme için gidin, 
+  <strong>APL Edinburgh</strong> size havaalanından doğrudan <strong>Fort William</strong> veya yakın bölgedeki konaklamanıza konforlu, özel taksi transferi sunar.
+</p>
+<p>
+  Profesyonel şoförler, sabit fiyatlar ve geniş araçlarımız ile İskoçya’nın güzel batı kıyısı boyunca uzun yolculuğunuzu kolay ve stressiz hale getiriyoruz.
+</p>
+
+<h2>Edinburgh Havaalanı'ndan Fort William'a Özel Transferler</h2>
+<p>
+  Şoförünüz sizi terminalin içinde, üzerinde adınız yazılı kişisel karşılama tabelasıyla karşılayacaktır. 
+  Bu <strong>ücretsiz karşılama hizmeti</strong>, uçuşunuz gecikse bile yolculuğunuza sorunsuz bir başlangıç yapmanızı sağlar — tüm uçuşlar gerçek zamanlı olarak takip edilir ve karşılama saatleri buna göre ayarlanır.
+</p>
+<p>
+  Şoförünüz bagajınıza yardımcı olduktan sonra sizi doğrudan özel bir yolculukla Fort William’a götürecektir. Böylece otobüs değişiklikleri, tren gecikmeleri veya bilmediğiniz yollarda araç kullanma stresi yaşamazsınız.
+</p>
+
+<h2>Yolculuk Süresi ve Kapsam</h2>
+<p>
+  <strong>Edinburgh Havaalanı'ndan Fort William'a</strong> yolculuk genellikle <strong>3 saat 15 dakika ile 3 saat 45 dakika</strong> arasında sürer. Bu süre trafiğe ve hava durumuna göre değişiklik gösterebilir.
+</p>
+<p>Hizmet verdiğimiz bölgeler şunlardır:</p>
+<ul>
+  <li>Fort William şehir merkezi</li>
+  <li>Ben Nevis bölgesi, Glen Nevis ve ziyaretçi merkezleri</li>
+  <li>Yerel oteller, pansiyonlar ve konukevleri</li>
+  <li>Spear Bridge, Corpach ve yakın Highland köyleri</li>
+  <li>Glencoe veya Lochaber (isteğe bağlı)</li>
+</ul>
+<p>Ayrıca gidiş-dönüş transferleri ve özel turlar veya etkinlikler için aynı gün gidiş-dönüş hizmeti de sunuyoruz.</p>
+
+<h2>Araç Seçenekleri</h2>
+<p>Temiz ve modern araç filomuzdan seçim yapabilirsiniz:</p>
+<ul>
+  <li><strong>Salon araçlar</strong> – bireyler veya çiftler için ideal</li>
+  <li><strong>MPV’ler / Aile Araçları / SUV’lar</strong> – bagajı olan aileler veya gruplar için mükemmel</li>
+  <li><strong>Executive sedanlar</strong> – VIP veya iş seyahati yapan müşteriler için</li>
+  <li><strong>7-8 kişilik minibüsler</strong> – grup maceraları veya outdoor ekipman için uygun</li>
+</ul>
+<p>
+  Tüm araçlar klimalıdır, lisanslıdır ve yüksek standartlarda bakımları yapılır. 
+  Ayrıca talep üzerine <strong>çocuk koltukları</strong> ücretsiz olarak sağlanır.
+</p>
+
+<h2>Transferinize Dahil Olanlar</h2>
+<ul>
+  <li>Sabit fiyatlı özel taksi — gizli ücret yok, sürpriz yok</li>
+  <li>Edinburgh Havaalanı’nda ücretsiz karşılama</li>
+  <li>Gerçek zamanlı uçuş takibi ve ayarlanan karşılama saati</li>
+  <li>İnişten sonra 30 dakika ücretsiz bekleme süresi</li>
+  <li>Fort William veya çevresine doğrudan kapıdan kapıya bırakma</li>
+  <li>Ücretsiz çocuk koltukları (talep üzerine)</li>
+  <li>Dostane ve deneyimli şoförler</li>
+  <li>7/24 müşteri desteği (telefon, e-posta, WhatsApp ve canlı sohbet)</li>
+</ul>
+
+<h2>Neden APL Edinburgh?</h2>
+<ul>
+  <li>İskoçya genelinde uzun mesafe taksi transferlerinde uzman</li>
+  <li>Turistler, dağcılar, aileler ve iş seyahati yapanlar tarafından tercih ediliyor</li>
+  <li>Hızlı, kolay rezervasyon ve güvenli ödeme</li>
+  <li>Yerel bilgiye sahip, müşteri odaklı hizmet</li>
+  <li>Temiz, güvenli ve özel ulaşım — paylaşımlı yolculuk yok</li>
+</ul>
+<p>
+  Fort William, İskoçya’nın en güzel ve en maceralı destinasyonlarından biridir — biz sizi konforla oraya ulaştıralım.
+</p>
+
+<h2>Edinburgh Havaalanı'ndan Fort William Taksi Rezervasyonu</h2>
+<p>
+  Uzun mesafeli yolculuklar için aracınızı garanti altına almak ve fiyatınızı onaylatmak adına önceden rezervasyon yapmanızı öneriyoruz.
+</p>
+<p>Rezervasyon yapmak veya fiyat teklifi almak için hemen bizimle iletişime geçin:</p>
+<ul>
+  <li><strong>Telefon (UK):</strong> <a href="tel:02086887744">020 8688 7744</a></li>
+  <li><strong>Telefon (Uluslararası):</strong> <a href="tel:+442086887744">+44 208 688 7744</a></li>
+  <li><strong>WhatsApp:</strong> <a href="https://wa.me/447387901028">+44 73 8790 1028</a></li>
+  <li><strong>Email:</strong> <a href="mailto:info@apl-edinburgh.com">info@apl-edinburgh.com</a></li>
+  <li><strong>Canlı Sohbet:</strong> Web sitemizde 7/24 kullanılabilir</li>
+</ul>
+
+<p>
+  <strong>APL Edinburgh</strong> ile <strong>Edinburgh Havaalanı’ndan Fort William’a taksi transferinizi</strong> seçin ve Highlands’in keyfini konfor, güvenlik ve huzur içinde çıkarın.
+</p>
+`,
+    ru: `
+<h1>Такси из аэропорта Эдинбурга в Форт-Уильям</h1>
+<p>
+  Путешествуете из <strong>аэропорта Эдинбурга в Форт-Уильям</strong>? 
+  Независимо от того, отправляетесь ли вы в Хайлендс для пеших прогулок, катания на лыжах, экскурсий или отдыха, 
+  <strong>APL Edinburgh</strong> предлагает комфортабельные частные трансферы на такси прямо из аэропорта 
+  до вашего места проживания в <strong>Форт-Уильяме</strong> или его окрестностях.
+</p>
+<p>
+  С профессиональными водителями, фиксированными тарифами и просторными автомобилями мы делаем длительное путешествие по живописному западному побережью Шотландии простым и беззаботным.
+</p>
+
+<h2>Частные трансферы в Форт-Уильям из аэропорта Эдинбурга</h2>
+<p>
+  Водитель встретит вас в зале прибытия с табличкой с вашим именем. 
+  Эта <strong>бесплатная услуга встречи</strong> обеспечит отличный старт вашей поездке, даже если рейс задержан — 
+  мы отслеживаем все рейсы в реальном времени и корректируем время подачи автомобиля.
+</p>
+<p>
+  После помощи с багажом водитель доставит вас напрямую в Форт-Уильям, избавив от стресса, связанного с пересадками на автобусах, задержками поездов или самостоятельной поездкой по незнакомым дорогам.
+</p>
+
+<h2>Время в пути и зоны обслуживания</h2>
+<p>
+  Поездка из <strong>аэропорта Эдинбурга в Форт-Уильям</strong> обычно занимает <strong>от 3 часов 15 минут до 3 часов 45 минут</strong>, 
+  в зависимости от дорожных условий и погоды.
+</p>
+<p>Мы выполняем высадки по всему региону, включая:</p>
+<ul>
+  <li>Центр города Форт-Уильям</li>
+  <li>Район Бен-Невис, Глен-Невис и туристические центры</li>
+  <li>Местные отели, B&B и гостевые дома</li>
+  <li>Спир-бридж, Корпах и близлежащие деревни Хайлендс</li>
+  <li>Гленко или Лохабер (по запросу)</li>
+</ul>
+<p>Мы также предлагаем обратные трансферы и однодневные поездки туда-обратно для частных туров или мероприятий.</p>
+
+<h2>Выбор автомобилей</h2>
+<p>Выберите из нашего автопарка современных, чистых автомобилей:</p>
+<ul>
+  <li><strong>Седаны</strong> – идеальны для одного или пары</li>
+  <li><strong>Минивэны / внедорожники / семейные автомобили</strong> – отлично подходят для семей или групп с багажом</li>
+  <li><strong>Бизнес-седаны</strong> – идеальны для VIP или деловых клиентов</li>
+  <li><strong>Микроавтобусы на 7–8 мест</strong> – для групповых поездок или спортивного снаряжения</li>
+</ul>
+<p>
+  Все автомобили лицензированы, оснащены кондиционером и обслуживаются на высоком уровне. 
+  По запросу предоставляются <strong>детские кресла</strong> бесплатно.
+</p>
+
+<h2>Что включено в трансфер</h2>
+<ul>
+  <li>Фиксированная цена — без скрытых платежей и надбавок</li>
+  <li>Бесплатная встреча в аэропорту Эдинбурга</li>
+  <li>Отслеживание рейсов в реальном времени и корректировка времени подачи</li>
+  <li>30 минут бесплатного ожидания после посадки</li>
+  <li>Доставка от двери до двери в Форт-Уильяме или окрестностях</li>
+  <li>Бесплатные детские кресла (по запросу)</li>
+  <li>Дружелюбные и опытные водители</li>
+  <li>Круглосуточная поддержка по телефону, email, WhatsApp и онлайн-чату</li>
+</ul>
+
+<h2>Почему выбирают APL Edinburgh?</h2>
+<ul>
+  <li>Специалисты по трансферам на дальние расстояния по всей Шотландии</li>
+  <li>Нам доверяют туристы, альпинисты, семьи и корпоративные клиенты</li>
+  <li>Быстрое бронирование и безопасная оплата</li>
+  <li>Знание местности и внимание к каждому клиенту</li>
+  <li>Чистый, безопасный и частный транспорт — никаких поездок с попутчиками</li>
+</ul>
+<p>
+  Форт-Уильям — одно из самых живописных и увлекательных мест Шотландии. Мы доставим вас туда с комфортом.
+</p>
+
+<h2>Забронируйте такси из аэропорта Эдинбурга в Форт-Уильям</h2>
+<p>
+  Мы рекомендуем бронировать заранее для поездок на дальние расстояния, чтобы гарантировать необходимый автомобиль и цену.
+</p>
+<p>Свяжитесь с нами для бронирования или получения цены:</p>
+<ul>
+  <li><strong>Телефон (Великобритания):</strong> <a href="tel:02086887744">020 8688 7744</a></li>
+  <li><strong>Телефон (Международный):</strong> <a href="tel:+442086887744">+44 208 688 7744</a></li>
+  <li><strong>WhatsApp:</strong> <a href="https://wa.me/447387901028">+44 73 8790 1028</a></li>
+  <li><strong>Email:</strong> <a href="mailto:info@apl-edinburgh.com">info@apl-edinburgh.com</a></li>
+  <li><strong>Онлайн-чат:</strong> доступен на нашем сайте 24/7</li>
+</ul>
+
+<p>
+  Выбирайте <strong>APL Edinburgh</strong> для вашего <strong>трансфера на такси из аэропорта Эдинбурга в Форт-Уильям</strong> — с комфортом, безопасностью и спокойствием.
+</p>
+`,
+    es: `
+<h1>Traslados en Taxi desde el Aeropuerto de Edimburgo a Fort William</h1>
+<p>
+  ¿Viajas desde el <strong>Aeropuerto de Edimburgo a Fort William</strong>? Ya sea que te dirijas a las Highlands para hacer senderismo, esquiar, hacer turismo o descansar, 
+  <strong>APL Edinburgh</strong> ofrece traslados privados en taxi cómodos directamente desde el aeropuerto hasta tu alojamiento en <strong>Fort William</strong> o áreas cercanas.
+</p>
+<p>
+  Con conductores profesionales, precios fijos y vehículos espaciosos, hacemos que el largo viaje por la hermosa costa oeste de Escocia sea fácil y sin estrés.
+</p>
+
+<h2>Traslados Privados a Fort William desde el Aeropuerto de Edimburgo</h2>
+<p>
+  Tu conductor te recibirá dentro de la terminal de llegadas con un cartel personalizado con tu nombre. 
+  Este servicio de <strong>recepción gratuita</strong> garantiza un inicio sin complicaciones para tu viaje, incluso si tu vuelo se retrasa — 
+  monitoreamos todos los vuelos en tiempo real y ajustamos el horario de recogida en consecuencia.
+</p>
+<p>
+  Después de ayudarte con tu equipaje, tu conductor te llevará en un viaje privado y directo a Fort William, evitando el estrés de los cambios de autobús, retrasos de trenes o conducir por carreteras desconocidas.
+</p>
+
+<h2>Tiempo de Viaje y Cobertura</h2>
+<p>
+  El viaje típico desde el <strong>Aeropuerto de Edimburgo a Fort William</strong> dura aproximadamente <strong>3 horas 15 minutos a 3 horas 45 minutos</strong>, 
+  dependiendo del tráfico y el clima.
+</p>
+<p>Ofrecemos traslados a las siguientes áreas:</p>
+<ul>
+  <li>Centro de Fort William</li>
+  <li>Zona de Ben Nevis, Glen Nevis y centros de visitantes</li>
+  <li>Hoteles locales, B&Bs y casas de huéspedes</li>
+  <li>Spear Bridge, Corpach y pueblos cercanos de las Highlands</li>
+  <li>Glencoe o Lochaber (a petición)</li>
+</ul>
+<p>También ofrecemos traslados de ida y vuelta y viajes de un día para excursiones privadas o eventos.</p>
+
+<h2>Opciones de Vehículos</h2>
+<p>Elige entre nuestra flota de vehículos modernos y limpios:</p>
+<ul>
+  <li><strong>Coches tipo sedán</strong> – ideales para individuos o parejas</li>
+  <li><strong>MPVs / Monovolúmenes / SUVs</strong> – perfectos para familias o grupos con equipaje</li>
+  <li><strong>Sedanes ejecutivos</strong> – ideales para VIPs o clientes de negocios</li>
+  <li><strong>Minibuses de 7 a 8 plazas</strong> – adecuados para aventuras en grupo o equipamiento al aire libre</li>
+</ul>
+<p>
+  Todos los vehículos están climatizados, tienen licencia y se mantienen con altos estándares. 
+  También ofrecemos <strong>sillas para niños</strong> de forma gratuita bajo petición.
+</p>
+
+<h2>Qué Incluye tu Traslado</h2>
+<ul>
+  <li>Taxi privado a precio fijo — sin cargos ocultos ni recargos</li>
+  <li>Recepción gratuita en el Aeropuerto de Edimburgo</li>
+  <li>Monitoreo de vuelos en tiempo real y ajuste del horario de recogida</li>
+  <li>30 minutos de espera gratuita después del aterrizaje</li>
+  <li>Entrega directa puerta a puerta en Fort William o alrededores</li>
+  <li>Sillas infantiles gratuitas (bajo petición)</li>
+  <li>Conductores amables y experimentados</li>
+  <li>Atención al cliente 24/7 por teléfono, correo electrónico, WhatsApp y chat en vivo</li>
+</ul>
+
+<h2>¿Por Qué Elegir APL Edinburgh?</h2>
+<ul>
+  <li>Especialistas en traslados de larga distancia en taxi por toda Escocia</li>
+  <li>De confianza para turistas, excursionistas, familias y viajeros corporativos</li>
+  <li>Reserva rápida, sencilla y pago seguro</li>
+  <li>Conocimiento local y compromiso con el cliente</li>
+  <li>Transporte privado, limpio y seguro — sin viajes compartidos</li>
+</ul>
+<p>
+  Fort William es uno de los destinos más pintorescos y aventureros de Escocia — déjanos llevarte allí con total comodidad.
+</p>
+
+<h2>Reserva tu Taxi del Aeropuerto de Edimburgo a Fort William</h2>
+<p>
+  Recomendamos reservar con antelación los viajes de larga distancia para asegurar tu vehículo preferido y confirmar el precio.
+</p>
+<p>Contáctanos ahora para reservar tu traslado o solicitar un presupuesto:</p>
+<ul>
+  <li><strong>Teléfono (Reino Unido):</strong> <a href="tel:02086887744">020 8688 7744</a></li>
+  <li><strong>Teléfono (Internacional):</strong> <a href="tel:+442086887744">+44 208 688 7744</a></li>
+  <li><strong>WhatsApp:</strong> <a href="https://wa.me/447387901028">+44 73 8790 1028</a></li>
+  <li><strong>Email:</strong> <a href="mailto:info@apl-edinburgh.com">info@apl-edinburgh.com</a></li>
+  <li><strong>Chat en Vivo:</strong> Disponible en nuestro sitio web, 24/7</li>
+</ul>
+
+<p>
+  Elige <strong>APL Edinburgh</strong> para tu <strong>traslado en taxi desde el Aeropuerto de Edimburgo a Fort William</strong>, 
+  y disfruta de las Highlands con comodidad, seguridad y tranquilidad.
+</p>
+`,
+    it: `
+<h1>Trasferimenti in Taxi dall'Aeroporto di Edimburgo a Fort William</h1>
+<p>
+  Viaggi dall'<strong>Aeroporto di Edimburgo a Fort William</strong>? Che tu stia andando nelle Highlands per fare escursioni, sciare, visitare luoghi turistici o rilassarti, 
+  <strong>APL Edinburgh</strong> offre trasferimenti privati in taxi comodi e diretti dall'aeroporto al tuo alloggio a <strong>Fort William</strong> o nelle zone vicine.
+</p>
+<p>
+  Con autisti professionali, tariffe fisse e veicoli spaziosi, rendiamo il lungo viaggio lungo la splendida costa occidentale della Scozia facile e senza stress.
+</p>
+
+<h2>Trasferimenti Privati a Fort William dall'Aeroporto di Edimburgo</h2>
+<p>
+  Il tuo autista ti aspetterà all'interno del terminal arrivi con un cartello personalizzato con il tuo nome. 
+  Questo servizio di <strong>accoglienza gratuita</strong> garantisce un inizio senza problemi al tuo viaggio, anche in caso di ritardo del volo — 
+  monitoriamo tutti i voli in tempo reale e adeguiamo di conseguenza l'orario di ritiro.
+</p>
+<p>
+  Dopo averti aiutato con i bagagli, l'autista ti accompagnerà in un viaggio privato e diretto a Fort William, evitando lo stress dei cambi di autobus, dei ritardi dei treni o della guida su strade sconosciute.
+</p>
+
+<h2>Durata del Viaggio e Aree Coperte</h2>
+<p>
+  Il viaggio tipico dall'<strong>Aeroporto di Edimburgo a Fort William</strong> dura circa <strong>3 ore e 15 minuti - 3 ore e 45 minuti</strong>, 
+  a seconda del traffico e delle condizioni meteo.
+</p>
+<p>Effettuiamo trasferimenti nelle seguenti aree:</p>
+<ul>
+  <li>Centro di Fort William</li>
+  <li>Zona di Ben Nevis, Glen Nevis e centri visitatori</li>
+  <li>Hotel locali, B&B e guesthouse</li>
+  <li>Spear Bridge, Corpach e villaggi vicini delle Highlands</li>
+  <li>Glencoe o Lochaber (su richiesta)</li>
+</ul>
+<p>Offriamo inoltre trasferimenti di andata e ritorno e viaggi giornalieri per tour privati o eventi.</p>
+
+<h2>Opzioni di Veicoli</h2>
+<p>Scegli tra la nostra flotta di veicoli moderni e puliti:</p>
+<ul>
+  <li><strong>Auto berlina</strong> – ideali per singoli o coppie</li>
+  <li><strong>MPV / Monovolume / SUV</strong> – perfetti per famiglie o gruppi con bagagli</li>
+  <li><strong>Berlina executive</strong> – ideale per VIP o clienti business</li>
+  <li><strong>Minibus da 7-8 posti</strong> – adatti per avventure di gruppo o attrezzature outdoor</li>
+</ul>
+<p>
+  Tutti i veicoli sono climatizzati, autorizzati e mantenuti secondo standard elevati. 
+  Offriamo anche <strong>seggiolini per bambini</strong> gratuiti su richiesta.
+</p>
+
+<h2>Cosa è Incluso nel Trasferimento</h2>
+<ul>
+  <li>Taxi privato a prezzo fisso — nessun costo nascosto</li>
+  <li>Accoglienza gratuita all'Aeroporto di Edimburgo</li>
+  <li>Monitoraggio voli in tempo reale e regolazione orario di ritiro</li>
+  <li>30 minuti di attesa gratuita dopo l'atterraggio</li>
+  <li>Servizio porta a porta diretto a Fort William o nelle aree circostanti</li>
+  <li>Seggiolini per bambini gratuiti (su richiesta)</li>
+  <li>Autisti cordiali ed esperti</li>
+  <li>Assistenza clienti 24/7 via telefono, email, WhatsApp e chat live</li>
+</ul>
+
+<h2>Perché Scegliere APL Edinburgh?</h2>
+<ul>
+  <li>Specialisti nei trasferimenti in taxi a lunga distanza in tutta la Scozia</li>
+  <li>Scelti da turisti, escursionisti, famiglie e viaggiatori d'affari</li>
+  <li>Prenotazione facile, veloce e pagamento sicuro</li>
+  <li>Conoscenza locale e attenzione al cliente</li>
+  <li>Trasporto privato, sicuro e pulito — nessun viaggio condiviso</li>
+</ul>
+<p>
+  Fort William è una delle destinazioni più panoramiche e avventurose della Scozia — lasciati accompagnare da noi con il massimo comfort.
+</p>
+
+<h2>Prenota Ora il Tuo Taxi dall'Aeroporto di Edimburgo a Fort William</h2>
+<p>
+  Raccomandiamo di prenotare in anticipo i viaggi a lunga distanza per garantire il tuo veicolo preferito e confermare il prezzo.
+</p>
+<p>Contattaci subito per prenotare il tuo trasferimento o richiedere un preventivo:</p>
+<ul>
+  <li><strong>Telefono (UK):</strong> <a href="tel:02086887744">020 8688 7744</a></li>
+  <li><strong>Telefono (Internazionale):</strong> <a href="tel:+442086887744">+44 208 688 7744</a></li>
+  <li><strong>WhatsApp:</strong> <a href="https://wa.me/447387901028">+44 73 8790 1028</a></li>
+  <li><strong>Email:</strong> <a href="mailto:info@apl-edinburgh.com">info@apl-edinburgh.com</a></li>
+  <li><strong>Chat Live:</strong> Disponibile sul nostro sito 24/7</li>
+</ul>
+
+<p>
+  Scegli <strong>APL Edinburgh</strong> per il tuo <strong>trasferimento in taxi dall'Aeroporto di Edimburgo a Fort William</strong> — sicuro, affidabile e confortevole.
+</p>
+`
+    ,
+    ar: `
+<h1>خدمة التاكسي من مطار إدنبرة إلى فورت ويليام</h1>
+<p>
+  هل تسافر من <strong>مطار إدنبرة إلى فورت ويليام</strong>؟ سواء كنت متوجهاً إلى المرتفعات من أجل المشي لمسافات طويلة، التزلج، السياحة أو الاسترخاء، 
+  فإن <strong>APL Edinburgh</strong> تقدم لك خدمة سيارات أجرة خاصة ومريحة مباشرة من المطار إلى مكان إقامتك في <strong>فورت ويليام</strong> أو المناطق القريبة.
+</p>
+<p>
+  مع سائقين محترفين، أسعار ثابتة، ومركبات واسعة، نجعل رحلتك الطويلة عبر الساحل الغربي الجميل لاسكتلندا سهلة وخالية من التوتر.
+</p>
+
+<h2>خدمة نقل خاصة إلى فورت ويليام من مطار إدنبرة</h2>
+<p>
+  سيقابلك السائق داخل صالة الوصول وهو يحمل لافتة باسمك. 
+  تضمن لك هذه <strong>خدمة الاستقبال المجانية</strong> بداية سلسة لرحلتك، حتى إذا تأخرت رحلتك — حيث نقوم بمراقبة جميع الرحلات في الوقت الفعلي وتعديل وقت الاستقبال وفقاً لذلك.
+</p>
+<p>
+  بعد المساعدة في حمل أمتعتك، سينقلك السائق مباشرة إلى فورت ويليام في رحلة خاصة، متجنباً عناء الحافلات، تأخيرات القطارات أو القيادة في طرق غير مألوفة بنفسك.
+</p>
+
+<h2>مدة الرحلة والمناطق المشمولة</h2>
+<p>
+  عادة ما تستغرق الرحلة من <strong>مطار إدنبرة إلى فورت ويليام</strong> حوالي <strong>3 ساعات و15 دقيقة إلى 3 ساعات و45 دقيقة</strong>، 
+  وذلك حسب حركة المرور والطقس.
+</p>
+<p>نقوم بالتوصيل في جميع أنحاء المنطقة بما في ذلك:</p>
+<ul>
+  <li>مركز مدينة فورت ويليام</li>
+  <li>منطقة بن نيفيس، جلين نيفيس والمراكز السياحية</li>
+  <li>الفنادق المحلية وبيوت الضيافة</li>
+  <li>سبير بريدج، كورباتش والقرى القريبة في المرتفعات</li>
+  <li>جلينكو أو لوخابر (حسب الطلب)</li>
+</ul>
+<p>كما نقدم أيضاً خدمة النقل ذهاباً وإياباً والرحلات اليومية لجولات خاصة أو فعاليات.</p>
+
+<h2>خيارات المركبات</h2>
+<p>اختر من أسطولنا الحديث والنظيف من المركبات:</p>
+<ul>
+  <li><strong>سيارات الصالون</strong> – مثالية للأفراد أو الأزواج</li>
+  <li><strong>المركبات العائلية / MPV / SUVs</strong> – مثالية للعائلات أو المجموعات مع أمتعة</li>
+  <li><strong>السيارات التنفيذية</strong> – مناسبة لكبار الشخصيات أو العملاء من رجال الأعمال</li>
+  <li><strong>حافلات صغيرة 7-8 مقاعد</strong> – مناسبة للمغامرات الجماعية أو المعدات الخارجية</li>
+</ul>
+<p>
+  جميع المركبات مكيفة ومرخصة ويتم صيانتها وفقاً لأعلى المعايير. 
+  كما نوفر <strong>مقاعد أطفال</strong> مجاناً عند الطلب.
+</p>
+
+<h2>ما الذي يتضمنه نقلك</h2>
+<ul>
+  <li>سعر ثابت لسيارة أجرة خاصة — بدون رسوم خفية أو زيادات</li>
+  <li>خدمة استقبال مجانية في مطار إدنبرة</li>
+  <li>مراقبة الرحلات في الوقت الفعلي وتعديل وقت الاستقبال</li>
+  <li>30 دقيقة انتظار مجانية بعد الهبوط</li>
+  <li>توصيل مباشر من الباب إلى الباب في فورت ويليام أو المناطق المحيطة</li>
+  <li>مقاعد أطفال مجانية (حسب الطلب)</li>
+  <li>سائقون ودودون وذوو خبرة</li>
+  <li>دعم عملاء 24/7 عبر الهاتف، البريد الإلكتروني، واتساب والدردشة المباشرة</li>
+</ul>
+
+<h2>لماذا تختار APL Edinburgh؟</h2>
+<ul>
+  <li>خبراء في خدمات النقل لمسافات طويلة عبر اسكتلندا</li>
+  <li>موثوق به من قبل السياح، المتنزهين، العائلات والمسافرين من رجال الأعمال</li>
+  <li>حجز سريع وسهل مع دفع آمن</li>
+  <li>معرفة محلية والتزام بخدمة العملاء</li>
+  <li>وسائل نقل نظيفة وآمنة وخاصة — بدون مشاركة مع آخرين</li>
+</ul>
+<p>
+  فورت ويليام هي واحدة من أكثر الوجهات جمالاً ومغامرة في اسكتلندا — دعنا نوصلك إليها براحة تامة.
+</p>
+
+<h2>احجز سيارة أجرتك من مطار إدنبرة إلى فورت ويليام الآن</h2>
+<p>
+  نوصي بالحجز المسبق للرحلات الطويلة لضمان الحصول على المركبة المفضلة وتأكيد السعر.
+</p>
+<p>اتصل بنا الآن لحجز نقلك أو لطلب عرض سعر:</p>
+<ul>
+  <li><strong>الهاتف (المملكة المتحدة):</strong> <a href="tel:02086887744">020 8688 7744</a></li>
+  <li><strong>الهاتف (دولي):</strong> <a href="tel:+442086887744">+44 208 688 7744</a></li>
+  <li><strong>واتساب:</strong> <a href="https://wa.me/447387901028">+44 73 8790 1028</a></li>
+  <li><strong>البريد الإلكتروني:</strong> <a href="mailto:info@apl-edinburgh.com">info@apl-edinburgh.com</a></li>
+  <li><strong>الدردشة المباشرة:</strong> متاحة على موقعنا 24/7</li>
+</ul>
+
+<p>
+  اختر <strong>APL Edinburgh</strong> لرحلة تاكسي <strong>من مطار إدنبرة إلى فورت ويليام</strong> — آمنة، موثوقة ومريحة.
+</p>
+`
+    ,
+    zh: `
+<h1>爱丁堡机场至威廉堡出租车接送服务</h1>
+<p>
+  您是否要从<strong>爱丁堡机场前往威廉堡 (Fort William)</strong>？无论是去高地徒步、滑雪、观光还是休闲， 
+  <strong>APL Edinburgh</strong>都为您提供舒适的私人出租车接送服务，从机场直达<strong>威廉堡</strong>或周边地区的住宿地。
+</p>
+<p>
+  我们的专业司机、固定价格和宽敞车辆，让您沿着苏格兰美丽西海岸的长途旅程轻松无忧。
+</p>
+
+<h2>从爱丁堡机场到威廉堡的私人接送</h2>
+<p>
+  您的司机将在到达大厅举着写有您姓名的接机牌迎接您。 
+  这项<strong>免费接机服务</strong>确保您的行程顺利开始，即使航班延误——我们会实时监控航班，并自动调整接送时间。
+</p>
+<p>
+  在协助搬运行李后，司机会直接送您前往威廉堡，避免了换乘巴士、火车延误或在陌生道路上自驾的麻烦。
+</p>
+
+<h2>行程时间与服务范围</h2>
+<p>
+  从<strong>爱丁堡机场到威廉堡</strong>的平均行程时间约为<strong>3小时15分钟至3小时45分钟</strong>，具体取决于交通和天气情况。
+</p>
+<p>我们提供的下车区域包括：</p>
+<ul>
+  <li>威廉堡市中心</li>
+  <li>本尼维斯山 (Ben Nevis)、格伦尼维斯 (Glen Nevis) 及游客中心</li>
+  <li>当地酒店、民宿和旅馆</li>
+  <li>Spear Bridge、Corpach 及周边高地村庄</li>
+  <li>格伦科 (Glencoe) 或洛哈伯 (Lochaber)（按需提供）</li>
+</ul>
+<p>我们还提供返程接送和当日往返行程，适合私人游览或活动。</p>
+
+<h2>车辆选择</h2>
+<p>您可以从我们干净、现代化的车队中选择：</p>
+<ul>
+  <li><strong>轿车</strong> — 适合单人或情侣</li>
+  <li><strong>MPV / 多功能车 / SUV</strong> — 适合家庭或携带大量行李的团队</li>
+  <li><strong>行政轿车</strong> — 适合商务旅客或贵宾</li>
+  <li><strong>7至8座小型巴士</strong> — 适合团体出行或户外装备</li>
+</ul>
+<p>
+  所有车辆均配备空调、持有合法牌照，并保持高标准维护。 
+  可根据要求免费提供<strong>儿童座椅</strong>。
+</p>
+
+<h2>接送服务包含内容</h2>
+<ul>
+  <li>固定价格私人出租车 — 无隐藏费用</li>
+  <li>爱丁堡机场免费接机服务</li>
+  <li>实时航班跟踪与接送时间调整</li>
+  <li>航班到达后30分钟免费等待</li>
+  <li>威廉堡及周边地区门到门直达服务</li>
+  <li>免费儿童座椅（需提前申请）</li>
+  <li>友好且经验丰富的司机</li>
+  <li>24/7全天候客户支持（电话、电子邮件、WhatsApp和在线聊天）</li>
+</ul>
+
+<h2>为什么选择 APL Edinburgh？</h2>
+<ul>
+  <li>苏格兰长途出租车接送专家</li>
+  <li>深受游客、徒步者、家庭和商务旅客信赖</li>
+  <li>快捷预订与安全支付</li>
+  <li>本地知识与优质客户服务</li>
+  <li>干净、安全、私密的交通 — 无需拼车</li>
+</ul>
+<p>
+  威廉堡是苏格兰最美丽、最富冒险精神的目的地之一 — 让我们带您舒适抵达。
+</p>
+
+<h2>立即预订爱丁堡机场至威廉堡的出租车</h2>
+<p>
+  我们建议您提前预订长途行程，以确保所需车辆并锁定价格。
+</p>
+<p>立即联系我们预订或获取报价：</p>
+<ul>
+  <li><strong>电话 (英国):</strong> <a href="tel:02086887744">020 8688 7744</a></li>
+  <li><strong>电话 (国际):</strong> <a href="tel:+442086887744">+44 208 688 7744</a></li>
+  <li><strong>WhatsApp:</strong> <a href="https://wa.me/447387901028">+44 73 8790 1028</a></li>
+  <li><strong>电子邮箱:</strong> <a href="mailto:info@apl-edinburgh.com">info@apl-edinburgh.com</a></li>
+  <li><strong>在线聊天:</strong> 可通过我们的网站24/7使用</li>
+</ul>
+
+<p>
+  选择 <strong>APL Edinburgh</strong> 的<strong>爱丁堡机场至威廉堡出租车接送</strong>服务 — 安全、可靠、舒适。
+</p>
+`
   }
 
 };

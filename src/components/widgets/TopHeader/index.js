@@ -31,10 +31,8 @@ const Header = () => {
   const { appData } = useSelector(state => state.initialReducer)
   const [translatedAppData, setTranslatedAppData] = useState(appData)
   let [internalState, setInternalState] = React.useReducer((s, o) => ({ ...s, ...o }), {
-
     "error-booking-message-0": "",
     "error-booking-message-1": ""
-
   })
 
   let size = useWindowSize();
