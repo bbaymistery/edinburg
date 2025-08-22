@@ -330,5 +330,13 @@ export const airportTaxiLinks = [
     //     type: "cell",
     //     hasTaxiDeals: "INV-EDI",
     //     strInnerText: "strInvernessToEdinburghAirport",
+    //   },
+      //   {
+    //     innerText: "Edinburgh to Fort William ",
+    //     path: "/edinburgh-airport-to-fort-william",
+    //     title: "strEdinburghAirportToFortWilliam",
+    //     type: "cell",
+    //     hasTaxiDeals: "EDI-FWT",
+    //     strInnerText: "strEdinburghAirportToFortWilliam",
     //   }
 ];

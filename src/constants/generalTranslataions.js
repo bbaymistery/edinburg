@@ -3,7 +3,7 @@ const airportTranslations = {
   en: {
     strEdinburghAirportToCityCentre: "Edinburgh Airport – City",
     strCityCentreToEdinburghAirport: "City – Edinburgh Airport",
-    strEdinburghAirportToGlasgow: "Edinburgh Airport – Glasgow",
+    strEdinburghAirportToGlasgow: "Edinburgh Airport – Glasgow", // ! ✅
     strGlasgowToEdinburghAirport: "Glasgow – Edinburgh Airport",
     strEdinburghAirportToStAndrews: "Edinburgh Airport – St Andrews",
     strStAndrewsToEdinburghAirport: "St Andrews – Edinburgh Airport",
@@ -11,9 +11,12 @@ const airportTranslations = {
     strDundeeToEdinburghAirport: "Dundee – Edinburgh Airport",
     strEdinburghAirportToAberdeen: "Edinburgh Airport – Aberdeen",
     strAberdeenToEdinburghAirport: "Aberdeen – Edinburgh Airport",
-    strEdinburghAirportToInverness: "Edinburgh Airport – Inverness",
+    strEdinburghAirportToInverness: "Edinburgh Airport – Inverness", // ! ✅
     strInvernessToEdinburghAirport: "Inverness – Edinburgh Airport",
     strIstanbulAirportPrices: "Istanbul Airport Taxi Prices",
+    strEdinburghAirportToFortWilliam: "Edinburgh – Fort William",
+    strFortWilliamToEdinburghAirport: "Fort William – Edinburgh"
+
   }
   ,
   tr: {
@@ -28,7 +31,10 @@ const airportTranslations = {
     strEdinburghAirportToAberdeen: "Edinburgh HL - Aberdeen",
     strAberdeenToEdinburghAirport: "Aberdeen - Edinburgh HL",
     strEdinburghAirportToInverness: "Edinburgh HL - Inverness",
-    strInvernessToEdinburghAirport: "Inverness - Edinburgh HL"
+    strInvernessToEdinburghAirport: "Inverness - Edinburgh HL",
+    strEdinburghAirportToFortWilliam: "Edinburgh – Fort William",
+    strFortWilliamToEdinburghAirport: "Fort William – Edinburgh"
+
   },
 
   it: {
@@ -43,7 +49,9 @@ const airportTranslations = {
     strEdinburghAirportToAberdeen: "Aeroporto Edimburgo - Aberdeen",
     strAberdeenToEdinburghAirport: "Aberdeen - Aeroporto Edimburgo",
     strEdinburghAirportToInverness: "Aeroporto Edimburgo - Inverness",
-    strInvernessToEdinburghAirport: "Inverness - Aeroporto Edimburgo"
+    strInvernessToEdinburghAirport: "Inverness - Aeroporto Edimburgo",
+    strEdinburghAirportToFortWilliam: "Aeroporto Edimburgo - Fort William",
+    strFortWilliamToEdinburghAirport: "Fort William - Aeroporto Edimburgo"
   }
   ,
 
@@ -59,7 +67,9 @@ const airportTranslations = {
     strEdinburghAirportToAberdeen: "Эдинбург Аэропорт – Абердин",
     strAberdeenToEdinburghAirport: "Абердин – Эдинбург Аэропорт",
     strEdinburghAirportToInverness: "Эдинбург Аэропорт – Инвернесс",
-    strInvernessToEdinburghAirport: "Инвернесс – Эдинбург Аэропорт"
+    strInvernessToEdinburghAirport: "Инвернесс – Эдинбург Аэропорт",
+    strEdinburghAirportToFortWilliam: "Эдинбург Аэропорт – Форт-Уильям",
+    strFortWilliamToEdinburghAirport: "Форт-Уильям – Эдинбург Аэропорт"
   }
   ,
   ar: {
@@ -75,6 +85,9 @@ const airportTranslations = {
     strAberdeenToEdinburghAirport: "أبردين - مطار إدنبرة",
     strEdinburghAirportToInverness: "مطار إدنبرة - إنفرنيس",
     strInvernessToEdinburghAirport: "إنفرنيس - مطار إدنبرة"
+    ,
+    strEdinburghAirportToFortWilliam: "مطار إدنبرة - فورت ويليام",
+    strFortWilliamToEdinburghAirport: "فورت ويليام - مطار إدنبرة"
   }
   ,
   zh: {
@@ -89,7 +102,9 @@ const airportTranslations = {
     strEdinburghAirportToAberdeen: "爱丁堡机场 - 阿伯丁",
     strAberdeenToEdinburghAirport: "阿伯丁 - 爱丁堡机场",
     strEdinburghAirportToInverness: "爱丁堡机场 - 因弗内斯",
-    strInvernessToEdinburghAirport: "因弗内斯 - 爱丁堡机场"
+    strInvernessToEdinburghAirport: "因弗内斯 - 爱丁堡机场",
+    strEdinburghAirportToFortWilliam: "爱丁堡机场 - 福特威廉",
+    strFortWilliamToEdinburghAirport: "福特威廉 - 爱丁堡机场"
   }
   ,
   es: {
@@ -104,7 +119,9 @@ const airportTranslations = {
     strEdinburghAirportToAberdeen: "Aeropuerto Edimburgo - Aberdeen",
     strAberdeenToEdinburghAirport: "Aberdeen - Aeropuerto Edimburgo",
     strEdinburghAirportToInverness: "Aeropuerto Edimburgo - Inverness",
-    strInvernessToEdinburghAirport: "Inverness - Aeropuerto Edimburgo"
+    strInvernessToEdinburghAirport: "Inverness - Aeropuerto Edimburgo",
+    strEdinburghAirportToFortWilliam: "Aeropuerto Edimburgo - Fort William",
+    strFortWilliamToEdinburghAirport: "Fort William - Aeropuerto Edimburgo"
   }
 };
 
