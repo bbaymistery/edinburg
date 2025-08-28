@@ -18,3 +18,5 @@
 //yukardakinin aynisi driver-aplication page icinde gecerli
             // "<meta name=\"twitter:title\" content=\"Şoför Aranıyor | APL Transfers Türkiye\">",
 // /metataglarida elave translate et  !Facebook tweitter falan sehfesini bilennen sonra  
+
+// matchingitems icindeki resimler yarisin sil ve eskiden kaalan  "/gazipasha-alanya-airport-taxi-prices"  bunlarida kaldir
