@@ -36,8 +36,8 @@ import RESELECT_POINTS_FROM_STORE from "./RESELECT_POINTS_FROM_STORE";
 
 let initialReservationState = [{
   reservationDetails: {
-    channelId: 12,
-    accountId: 2964,
+    channelId: 13,
+    accountId: 3055,
   },
   selectedPickupPoints: [],
   selectedDropoffPoints: [],
@@ -78,7 +78,7 @@ const INITIAL_STATE = {
     passengerDetailsStatus: true,//checkbox status on transferdetails page
     tokenForArchieve: "",
     pointsModalStatus: false,//we use it on taxi deals component
-    hasTaxiDeals: "IST",
+    hasTaxiDeals: "EDH",
 
   }
 };

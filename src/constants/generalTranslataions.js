@@ -13,7 +13,6 @@ const airportTranslations = {
     strAberdeenToEdinburghAirport: "Aberdeen – Edinburgh Airport",
     strEdinburghAirportToInverness: "Edinburgh Airport – Inverness", // ! ✅
     strInvernessToEdinburghAirport: "Inverness – Edinburgh Airport",
-    strIstanbulAirportPrices: "Istanbul Airport Taxi Prices",
     strEdinburghAirportToFortWilliam: "Edinburgh – Fort William",
     strFortWilliamToEdinburghAirport: "Fort William – Edinburgh"
 
@@ -477,6 +476,15 @@ export const generalAllTranslations = {
     zh: "其他",
     ar: "أخرى"
   },
+  strTaxiPrices: {
+    en: "Taxi Prices",
+    tr: "Taksi Fiyatları",
+    ru: "Цены на такси",
+    es: "Precios de Taxi",
+    it: "Prezzi del Taxi",
+    zh: "出租车价格",
+    ar: "أسعار التاكسي"
+  },
 
 
   strEdinburgh: {
@@ -542,15 +550,6 @@ export const generalAllTranslations = {
     zh: "邓迪",
     ar: "دندي"
   },
-  // strScotlandAirports: {
-  //   en: "All major airports and tourist areas in Scotland",
-  //   tr: "İskoçya’daki büyük havalimanları ve turistik merkezlere yakın tüm bölgeler",
-  //   ru: "Все крупные аэропорты и туристические зоны Шотландии",
-  //   es: "Todos los aeropuertos principales y zonas turísticas de Escocia",
-  //   it: "Tutti i principali aeroporti e le aree turistiche della Scozia",
-  //   zh: "苏格兰所有主要机场和旅游区",
-  //   ar: "جميع المطارات والمناطق السياحية الرئيسية في اسكتلندا"
-  // },
   strSend: {
     en: "Send",
     tr: "Gönder",

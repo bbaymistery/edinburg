@@ -14,6 +14,7 @@ import { fetchConfig } from '../resources/getEnvConfig';
 const Testimonials = dynamic(() => import('../components/widgets/Testimonials'), { loading: () => <div>Loading...</div>, ssr: false });
 const CarsSlider = dynamic(() => import('../components/widgets/CarsSlider'), { loading: () => <div>Loading...</div>, ssr: false });
 const WhyChoice = dynamic(() => import('../components/widgets/WhyChoice'), { loading: () => <div>Loading...</div>, ssr: false });
+const PopularDestinations = dynamic(() => import("../components/widgets/PopularDestnations"), { loading: () => <div>Loading...</div>, ssr: false });
 
 export default function Home(props) {
   const [hasScrolled, setHasScrolled] = useState(false);
@@ -33,7 +34,7 @@ export default function Home(props) {
     <GlobalLayout title={props?.seoDatas?.title} keywords={props?.seoDatas?.keywords} description={props?.seoDatas?.description} mainCanonical={props.mainCanonical}>
       <Hero env={props.env} />
       <WhyChoice />
-      {/* <PopularDestinations env={props.env} /> */}
+      <PopularDestinations env={props.env} />
       {/* {hasScrolled && <Tours insideGlobalLayout={false} />} */}
       {hasScrolled && <CarsSlider />}
       <Testimonials />
