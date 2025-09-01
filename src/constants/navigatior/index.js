@@ -23,13 +23,10 @@ export const navigator = [
         list: [
             {
                 innerText: "Edinburgh Airport to City Centre",
-                // path: "/edinburgh-airport-to-city-centre-taxi",
-                path: "/istanbul-airport-to-taksim-taxi",
-
+                path: "/edinburgh-airport-to-edinburgh-city-centre-taxi",
                 title: "strEdinburghAirportToCityCentre",
                 type: "cell",
-                // hasTaxiDeals: "EDI-CITY",
-                hasTaxiDeals: "IST",
+                hasTaxiDeals: "EDH",
                 strInnerText: "strEdinburghAirportToCityCentre",
             },
             {
@@ -37,7 +34,7 @@ export const navigator = [
                 path: "/city-centre-to-edinburgh-airport-taxi",
                 title: "strCityCentreToEdinburghAirport",
                 type: "cell",
-                hasTaxiDeals: "CITY-EDI",
+                hasTaxiDeals: "EDH",
                 strInnerText: "strCityCentreToEdinburghAirport",
             },
             {
@@ -45,7 +42,7 @@ export const navigator = [
                 path: "/edinburgh-airport-to-glasgow-taxi",
                 title: "strEdinburghAirportToGlasgow",
                 type: "cell",
-                hasTaxiDeals: "EDI-GLA",
+                             hasTaxiDeals: "EDH",
                 strInnerText: "strEdinburghAirportToGlasgow",
             },
             {
@@ -58,7 +55,7 @@ export const navigator = [
             },
             {
                 innerText: "Edinburgh Airport to St Andrews",
-                path: "/edinburgh-airport-to-st-andrews-taxi",
+                path: "/edinburgh-airport-to-standrews-taxi",
                 title: "strEdinburghAirportToStAndrews",
                 type: "cell",
                 hasTaxiDeals: "EDI-STD",
@@ -331,7 +328,7 @@ export const airportTaxiLinks = [
     //     hasTaxiDeals: "INV-EDI",
     //     strInnerText: "strInvernessToEdinburghAirport",
     //   },
-      //   {
+    //   {
     //     innerText: "Edinburgh to Fort William ",
     //     path: "/edinburgh-airport-to-fort-william",
     //     title: "strEdinburghAirportToFortWilliam",

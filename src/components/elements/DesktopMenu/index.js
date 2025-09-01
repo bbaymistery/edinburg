@@ -45,13 +45,16 @@ const DesktopMenu = ({ language, journeyType, airportTranslations, expandedMenu 
 
                             {type === 'list' && (
                                 <ul className={styles.hoverUl}>
-                                    {list.map(({ path: listPath, hasTaxiDeals, strInnerText }) => (
-                                        <li key={strInnerText} className={styles.li_item} onClick={() => handleSubMenuClick(listPath, hasTaxiDeals)}   >
-                                            <p title={airportTranslations[language][strInnerText]}>
-                                                <span>{airportTranslations[language][strInnerText]}</span>
-                                            </p>
-                                        </li>
-                                    ))}
+                                    {list.map(({ path, hasTaxiDeals, strInnerText }) => {
+                                        const fullPathList = isEnglish ? path : `/${language}${path}`;
+                                        return (
+                                            <li key={strInnerText} className={styles.li_item}>
+                                                <a href={fullPathList} title={airportTranslations[language][strInnerText]}  >
+                                                    <span>{airportTranslations[language][strInnerText]}</span>
+                                                </a>
+                                            </li>
+                                        );
+                                    })}
                                 </ul>
                             )}
                         </li>

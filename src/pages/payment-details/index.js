@@ -33,7 +33,7 @@ const PaymentDetails = (props) => {
     const carObject = appData?.carsTypes?.reduce((obj, item) => ({ ...obj, [item.id]: item, }), {});
 
     const tourActionState = useSelector(state => state.tourActions) || {}; // Add a fallback to an empty object
-    let { selectedTour, seatLists, seatListPrice,isPound } = tourActionState;
+    let { selectedTour, seatLists, seatListPrice, isPound } = tourActionState;
     const numberOfAdults = seatLists[0].minNum
     const numberOfChildren = seatLists[1].minNum
     const numberOfInfants = seatLists[2].minNum
@@ -80,7 +80,7 @@ const PaymentDetails = (props) => {
                     router.push("/");
                     return;
                 } else {
-                    const newQuotationsResponse = await collectQuotationsAsync({ reservations, journeyType, env,  });
+                    const newQuotationsResponse = await collectQuotationsAsync({ reservations, journeyType, env, });
 
                     if (newQuotationsResponse.status === 200 && !quotations[0].taxiDeal) {
                         const newQuotations = newQuotationsResponse.data[index] || {};
@@ -89,8 +89,9 @@ const PaymentDetails = (props) => {
                         const newQuotation = newQuotationOptions.find(item => item.carId === previousQuotation.carId);
 
                         if (newQuotation) {
-                            let prevQuotationDetails = getPriceDetailsFromQuotation({ 'quotation': previousQuotation }).data || {};
-                            let newQuotationDetails = getPriceDetailsFromQuotation({ 'quotation': newQuotation }).data || {};
+                            let prevQuotationDetails = getPriceDetailsFromQuotation({ 'quotation': previousQuotation, qtype: previousQuotation.qtype }).data || {};
+                            let newQuotationDetails = getPriceDetailsFromQuotation({ 'quotation': newQuotation, qtype: newQuotation.qtype }).data || {};
+
                             console.log({ prevQuotationDetails, newQuotationDetails });
 
                             if (newQuotationDetails.price !== prevQuotationDetails.price) {
@@ -439,7 +440,7 @@ const PaymentDetails = (props) => {
                                                     <div className={styles.card_info}>
                                                         <div className={styles.info}>
                                                             <ul>
-                                                  
+
                                                                 {
                                                                     (selectedTour?.length > 0 ? toursPassengerDetailsConfig.slice(0, 4) : passengerDetailsConfig.slice(0, 4)).map((detail, idx) => (
                                                                         // simply we dont add boder bottom for last element of toursPassengerDetailsConfig

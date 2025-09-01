@@ -89,14 +89,14 @@ const handleStandartContent = (params = {}) => {
 
 
 async function handleQuotationLink(language, pathname, env,) {
-    
+
     let pickUps = []
     let dropoffs = []
     let review = {}
     let schemas = []
     //!nneww Pathname yox idi direk yazilirdi 
     if (pathname) {
-        const body = { language, checkRedirect: true, taxiDealPathname: pathname, withoutExprectedPoints: true,  currencyId: 2, "channelId": 12 };
+        const body = { language, checkRedirect: true, taxiDealPathname: pathname, withoutExprectedPoints: true, "channelId": 13, "checkRedirect": false, };
         let { breadcrumbs } = urlToTitle({ url: pathname, pathnamePage: true })
 
         const url = `${env.apiDomain}/api/v1/taxi-deals/details`;
@@ -193,6 +193,8 @@ export const getServerSideProps = wrapper.getServerSideProps(store => async ({ r
     // Destructure updated values from adjustment function
     pageStartLanguage = adjusted.pageStartLanguage;
     pathname = adjusted.pathname;
+    console.log({ pathname });
+
     const taxiPricesLinks = [
         //navbarda hover edende gorunen kisim (icerisinnen tikliyanda link olur)
         // "/istanbul-airport-taxi-prices",
@@ -211,12 +213,14 @@ export const getServerSideProps = wrapper.getServerSideProps(store => async ({ r
     // console.log(pathname);
 
 
-    if (taxiPricesLinks.includes(`${pathname}`)) {
-        return handleStandartContent({ pageStartLanguage, pathname, env, });
-    } else {
-        return handleQuotationLink(pageStartLanguage, pathname, env,);
-        // return { props: { data: "not found", } }
-    }
+    // if (taxiPricesLinks.includes(`${pathname}`)) {
+    //     // return handleStandartContent({ pageStartLanguage, pathname, env, });
+    //     return { props: { data: "not found", } }
+
+    // } else {
+    return handleQuotationLink(pageStartLanguage, pathname, env,);
+    // return { props: { data: "not found", } }
+    // }
 
 
 });

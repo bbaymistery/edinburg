@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react'
 import styles from "./cardItems.styles.module.scss"
 import { quotationImagesObjWebp } from '../../../../constants/quotationImages';
 import Image from 'next/image';
-import { getPriceDetailsFromQuotation } from '../../../../helpers/getPriceDetailsFromQuotation';
 
 const CardItems = ({ datas, selectedQuotation, handleClickForMobile, carObject, direction, appData, setQuotationHandleClick }) => {
 
@@ -17,7 +16,8 @@ const CardItems = ({ datas, selectedQuotation, handleClickForMobile, carObject, 
 
 
         const isSelected = Number(selectedQuotation?.carId) === Number(quotationImagesObjWebp[item?.carId].id)
-        const _item_details = getPriceDetailsFromQuotation({ quotation: item }).data || {};
+     
+
 
         const dataId = index === 0 ? "first_car" : (index === 1 ? "second_car" : "")
         return (
@@ -62,7 +62,7 @@ const CardItems = ({ datas, selectedQuotation, handleClickForMobile, carObject, 
                                         <span>{appData?.words["strFreeCancellation24h"]}</span>
                                     </span>
                                     <span className={styles.price_span}>
-                                        {`£${String(_item_details?.normalPrice || '').split('.')[0]}.`}
+                                        {`£${String(item?.price || '').split('.')[0]}.`}
 
                                         <span>00</span>
                                     </span>
@@ -73,7 +73,7 @@ const CardItems = ({ datas, selectedQuotation, handleClickForMobile, carObject, 
 
                     <div className={`${direction === 'rtl' ? styles.thirdcolumnDirection : ""} ${styles.column_third}`}>
                         <div className={styles.price}>
-                            {`£${String(_item_details?.normalPrice || '').split('.')[0]}.`}
+                            {`£${String(item?.price || '').split('.')[0]}.`}
 
                             <span>00</span>
                         </div>

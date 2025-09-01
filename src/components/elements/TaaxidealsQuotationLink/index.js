@@ -1,4 +1,3 @@
-import React from 'react'
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import Error404 from '../../../pages/404/index'
@@ -8,7 +7,7 @@ import { fetchPathnamePageDatas } from '../../../helpers/fetchPathnamePageDatas'
 
 function TestA(props) {
     const state = useSelector(state => state.pickUpDropOffActions)
-    let { reservations, params: { journeyType, quotations, language: reduxLanguage,  } } = state
+    let { reservations, params: { journeyType, quotations, language: reduxLanguage, } } = state
 
     const dispatch = useDispatch()
     const { appData } = useSelector(state => state.initialReducer)
@@ -22,6 +21,7 @@ function TestA(props) {
             pageContent = "", returnHeadTitle = "", returnPageTitle = "", duration = "", distance = "", quotationOptions = [], breadcrumbs = [], linkurl = "", review = {} } = fetchdatas
 
     if (data === "not found") return <Error404 />
+    console.log({ returnHeadTitle, returnPageTitle, returnPathname });
 
     useEffect(() => {
 
@@ -43,7 +43,7 @@ function TestA(props) {
         }
         //`/${returnPathname.split("/")[2]}`, aplde return de var idi urls icin de burda yoxdu
         const urls = [linkurl]
-        const urlss = [returnPathname, linkurl]
+        // const urlss = [returnPathname, linkurl]
         // console.log({ urlss ,fetchdatas});
 
         fetchPathnamePageDatas(urls);
@@ -61,7 +61,7 @@ function TestA(props) {
 
             setFetchDatas(JSON.parse(cache)[cacheKey]);
         }
-    }, [reduxLanguage,  linkurl]);
+    }, [reduxLanguage, linkurl]);
 
     return <QuotationResultsTaxiDeal
         isTaxiDeal={true}

@@ -130,7 +130,7 @@
                  }
 
                  .has_children:hover {
-                     a {
+                     a:hover {
                          background-color: $gray-color-light !important;
                          border-radius: 20px;
                          transition: 0.2s;

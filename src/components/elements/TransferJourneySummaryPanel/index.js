@@ -6,7 +6,7 @@ import styles from "./styles.module.scss"
 import { splitAndTranslateDuration } from '../../../helpers/splitHelper'
 import { getPriceDetailsFromQuotation } from '../../../helpers/getPriceDetailsFromQuotation'
 const TransferJourneySummaryPanel = (props) => {
-    let { index, quotation, selectedPickupPoints, selectedDropoffPoints, splitedDate, splitedHour, splitedMinute, isTaxiDeal = false,  language, setOpenModal } = props
+    let { index, quotation, selectedPickupPoints, selectedDropoffPoints, splitedDate, splitedHour, splitedMinute, isTaxiDeal = false, language, setOpenModal } = props
 
     let state = useSelector((state) => state.pickUpDropOffActions)
     let { params: { quotations, direction } } = state
@@ -19,7 +19,7 @@ const TransferJourneySummaryPanel = (props) => {
     const distanceInMiles = quotations[index].distance ? parseFloat(quotations[index].distance.replace(' mile', '')) : null;
     const distanceInKm = distanceInMiles ? (distanceInMiles * 1.60934).toFixed(2) : null;
     // Format the duration based on the language
-    let _quotationDetails = getPriceDetailsFromQuotation({ quotation }).data || {}
+    let _quotationDetails = getPriceDetailsFromQuotation({ quotation, qtype: quotation.qtype }).data || {}
 
     useEffect(() => {
         if (quotations[index]?.duration && language && appData) {

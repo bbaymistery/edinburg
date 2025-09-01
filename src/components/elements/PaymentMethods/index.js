@@ -216,8 +216,8 @@ const PaymentMethods = (props) => {
 
 
         if (newQuotation) {
-          let prevQuotationDetails = getPriceDetailsFromQuotation({ 'quotation': previousQuotation }).data || {};
-          let newQuotationDetails = getPriceDetailsFromQuotation({ 'quotation': newQuotation }).data || {};
+        let prevQuotationDetails = getPriceDetailsFromQuotation({ 'quotation': previousQuotation, qtype: previousQuotation.qtype }).data || {};
+          let newQuotationDetails = getPriceDetailsFromQuotation({ 'quotation': newQuotation, qtype: newQuotation.qtype }).data || {};
           if (newQuotationDetails.price !== prevQuotationDetails.price && !statusToken) {
             dispatch({ type: "GET_QUOTATION", data: { results: newQuotationsResponse, journeyType } });
             dispatch({ type: "SET_QUOTATION_ON_SPECIAL_CASE", data: { quotation: newQuotation, journeyType: index } });
