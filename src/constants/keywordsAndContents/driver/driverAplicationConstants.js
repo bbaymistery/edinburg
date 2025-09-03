@@ -1,4 +1,4 @@
-import { generalAllTranslations } from "../../constants/generalTranslataions";
+import { generalAllTranslations } from "../../generalTranslataions";
 
 export const validateForm = (formState, language) => {
   const errors = {};

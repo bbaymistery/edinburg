@@ -1,6 +1,6 @@
 import styles from './styles.module.scss';
 import { generalAllTranslations } from '../../constants/generalTranslataions';
-import { getLocationOptions } from './driverAplicationConstants';
+import { getLocationOptions } from '../../constants/keywordsAndContents/driver/driverAplicationConstants';
 
 
 const DriverPreferredLocationForm = ({ selectedLocation, onChangeHandler, language = "en", error }) => {

@@ -22,7 +22,7 @@ import Button from '../../components/elements/Button/Button';
 import { BUTTON_TYPES } from '../../components/elements/Button/ButtonTypes';
 import DriverPreferredLocationForm from './DriverPreferredLocationForm';
 import { generalAllTranslations } from '../../constants/generalTranslataions';
-import { htmlContentDriverResult, htmlTemplate, validateForm } from './driverAplicationConstants';
+import { htmlContentDriverResult, htmlTemplate, validateForm } from '../../constants/keywordsAndContents/driver/driverAplicationConstants';
 import DangerouslyInnerHtml from '../../components/elements/DangerouslyInnerHtml';
 
 

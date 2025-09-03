@@ -1,4 +1,3 @@
-import { useDispatch } from 'react-redux';
 import { useRouter } from 'next/router';
 import styles from './styles.module.scss';
 
@@ -6,21 +5,11 @@ import { navigator, expandedNavigatorDesktop } from '../../../constants/navigati
 import { generalAllTranslations } from '../../../constants/generalTranslataions';
 
 const DesktopMenu = ({ language, journeyType, airportTranslations, expandedMenu }) => {
-    const dispatch = useDispatch();
     const router = useRouter();
 
     const isEnglish = language === 'en';
 
-    const handleSubMenuClick = (listPath, hasTaxiDeals) => {
-        const targetPath = isEnglish ? listPath : `/${language}${listPath}`;
-
-        if (router.asPath !== targetPath) {
-            router.push(targetPath);
-            // dispatch({ type: 'SET_NAVBAR_TAXI_DEALS', data: { hasTaxiDeals } });
-            dispatch({ type: 'RESET_SELECTED_POINTS', data: { journeyType } });
-        }
-    };
-
+  
     return (
         <div className={styles.header_menu_content}>
             <ul>
