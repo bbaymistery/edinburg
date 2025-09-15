@@ -91,7 +91,7 @@ const SelectedCardItem = ({
                                 <span>{appData?.words["strFreeCancellation24h"]}</span>
                             </span>
                             <span className={styles.price_span}>
-                                {quotationLoading ? "..." : `£${String(_item_details?.normalPrice || '').split('.')[0]}.`}
+                                {quotationLoading ? "..." : `£${String(_item_details?.price || '').split('.')[0]}.`}
                                 <span>00</span>
                             </span>
                         </p>

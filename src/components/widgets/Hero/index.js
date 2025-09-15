@@ -213,6 +213,7 @@ const Hero = (props) => {
                                                 direction={direction}
                                                 appData={appData}
                                                 onChangeSetDateTimeHandler={onChangeSetDateTimeHandler}
+                                                transferDateTimeString={transferDateTimeString}
                                             />
 
                                             {/* when jtype is 1  button not gonna be visible on transfer details point */}

@@ -1,4 +1,4 @@
-const collectQuotations = (params = { 'reservations': Object(), 'journeyType': Number(), 'env': Object(),  }, callback = () => { }) => {
+const collectQuotations = (params = { 'reservations': Object(), 'journeyType': Number(), 'env': Object(), }, callback = () => { }) => {
 
   let { reservations, journeyType, env, } = params
 
@@ -52,7 +52,7 @@ const collectQuotations = (params = { 'reservations': Object(), 'journeyType': N
       }
     })
     .catch(function (error) {
-      callback({ 'status': 400, 'message': error.message })
+      callback({ 'status': 400, 'message': error })
 
       let message = "EDINBURG TRANSFERS   _collectQuotations()  function catch blog  else part of>> parseInt(journeyType) === 0"
       window.handelErrorLogs(error, message, { configReturn })
