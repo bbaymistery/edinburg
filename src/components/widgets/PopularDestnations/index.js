@@ -43,25 +43,28 @@ const PopularDestinations = (props) => {
         dispatch({ type: "SET_NAVBAR_TAXI_DEALS", data: { hasTaxiDeals } });
     }, [language, hasTaxiDeals,])
 
-    const imagesUrls=[
+    const imagesUrls = [
         {
-            url:"/images/matchingItemImages/webp/Edinburgh-airport-apl-edinburgh.webp"
+            url: "/images/matchingItemImages/webp/Edinburgh-airport-apl-edinburgh.webp"
         },
         {
-            url:'/images/matchingItemImages/webp/Glasgow-apl-edinburgh.webp'
+            url: '/images/matchingItemImages/webp/Glasgow-apl-edinburgh.webp'
         },
         {
-            url:"/images/matchingItemImages/webp/Aberdeen-apl-edinburgh.webp"
+            url: "/images/matchingItemImages/webp/Aberdeen-apl-edinburgh.webp"
         },
         {
-            url:"/images/matchingItemImages/webp/fort-william-apl-edinburgh.webp"
+            url: "/images/matchingItemImages/webp/fort-william-apl-edinburgh.webp"
         },
         {
-            url:"/images/matchingItemImages/webp/inverness-apl-edinburgh.webp"
+            url: "/images/matchingItemImages/webp/inverness-apl-edinburgh.webp"
         },
         {
-            url:"/images/matchingItemImages/webp/StAndrews-apl-edinburgh.webp"
-        }
+            url: "/images/matchingItemImages/webp/StAndrews-apl-edinburgh.webp"
+        },
+        {
+            url: "/images/matchingItemImages/webp/Edinburgh-airport-apl-edinburgh.webp"
+        },
     ]
 
     return (
@@ -73,12 +76,14 @@ const PopularDestinations = (props) => {
                     </h1>
                     <div className={styles.featureIcons}>
                         {points.map((item, idx) => {
+                            console.log({ item: imagesUrls?.[idx]?.url });
+
                             return (
                                 <div className={styles.featureIcon} key={idx}>
                                     <a href={item.pathname}>
                                         <div className={styles.tourcard_header}>
                                             <div className={styles.tourcard_image}>
-                                                <Image alt={item.translatedPageTitle || item.pageTitle} sizes="(max-width: 768px) 100vw, (min-width: 769px) 300px" src={imagesUrls[idx].url} width={250} height={198} />
+                                                <Image alt={item.translatedPageTitle || item.pageTitle} sizes="(max-width: 768px) 100vw, (min-width: 769px) 300px" src={imagesUrls?.[idx]?.url} width={250} height={198} />
                                             </div>
                                         </div>
                                         <div className={styles.tourcard_content}>
