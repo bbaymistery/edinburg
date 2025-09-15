@@ -59,7 +59,7 @@ const OneWayCardItemComponent = (props) => {
                                     </span>
 
                                     <span className={`${styles.price_span}`} >
-                                        {quotationLoading ? "..." : `£${String(_item_details.normalPrice || '').split(".")[0]}.`}
+                                        {quotationLoading ? "..." : `£${String(_item_details.price || '').split(".")[0]}.`}
 
                                         <span>00</span>
                                     </span>
@@ -70,7 +70,7 @@ const OneWayCardItemComponent = (props) => {
 
                     <div className={` ${styles.column_third}`}>
                         <div className={styles.duration_price}>
-                            <div className={styles.price}>{quotationLoading ? "..." : `£${String(_item_details.normalPrice || '').split(".")[0]}.`} <span>00</span> </div>
+                            <div className={styles.price}>{quotationLoading ? "..." : `£${String(_item_details.price || '').split(".")[0]}.`} <span>00</span> </div>
                         </div>
                         <div className={`${styles.btn_div} ${selected ? styles.selectedBtnDiv : ""}`}>
                             <Button
