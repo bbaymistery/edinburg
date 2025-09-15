@@ -1,6 +1,7 @@
 import styles from "./styles.module.scss"
 import Button from "../Button/Button";
 import { BUTTON_TYPES } from "../Button/ButtonTypes";
+import { getPriceDetailsFromQuotation } from "../../../helpers/getPriceDetailsFromQuotation";
 
 const SelectedCardItem = ({
     item,
