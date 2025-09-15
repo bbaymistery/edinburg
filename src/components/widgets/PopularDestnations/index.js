@@ -76,8 +76,6 @@ const PopularDestinations = (props) => {
                     </h1>
                     <div className={styles.featureIcons}>
                         {points.map((item, idx) => {
-                            console.log({ item: imagesUrls?.[idx]?.url });
-
                             return (
                                 <div className={styles.featureIcon} key={idx}>
                                     <a href={item.pathname}>
