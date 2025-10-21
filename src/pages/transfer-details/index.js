@@ -21,7 +21,7 @@ const TransferDetails = (props) => {
 
     let state = useSelector((state) => state.pickUpDropOffActions)
     let { reservations,
-        params: {   passengerDetailsStatus, modalInfo, direction, quotations, sessionToken: reducerSessionToken, language, journeyType, }
+        params: { passengerDetailsStatus, modalInfo, direction, quotations, sessionToken: reducerSessionToken, language, journeyType, }
     } = state
 
     const { appData } = useSelector(state => state.initialReducer)
@@ -31,6 +31,7 @@ const TransferDetails = (props) => {
 
 
 
+    console.log({ quotations });
 
     return (
         <GlobalLayout keywords={keywords} title={title} description={description} >

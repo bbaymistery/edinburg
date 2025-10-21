@@ -77,7 +77,7 @@ const CardQuotationItemTaxiDeal = (params = {}) => {
     const router = useRouter();
     const dispatch = useDispatch();
     const state = useSelector((state) => state.pickUpDropOffActions)
-    let { params: { journeyType, direction, language, quotations,  } } = state
+    let { params: { journeyType, direction, language, quotations, } } = state
     const { appData } = useSelector(state => state.initialReducer)
     //cartypes object for card item as {1:{image:'sds, name:Economy}}
     const carObject = appData?.carsTypes?.reduce((obj, item) => ({ ...obj, [item.id]: item, }), {});
@@ -93,7 +93,7 @@ const CardQuotationItemTaxiDeal = (params = {}) => {
         if (isTaxiDeal && previousUrl) {
 
             try {
-                const body = { language, checkRedirect: true, taxiDealPathname: previousUrl, withoutExprectedPoints: false, "channelId": 12 }
+                const body = { language, checkRedirect: true, taxiDealPathname: previousUrl, withoutExprectedPoints: false, "channelId": 13 }
                 const url = `${env.apiDomain}/api/v1/taxi-deals/details`
                 const { status, data } = await postDataAPI({ url, body })
                 if (status === 200) {

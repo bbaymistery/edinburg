@@ -21,7 +21,6 @@ function TestA(props) {
             pageContent = "", returnHeadTitle = "", returnPageTitle = "", duration = "", distance = "", quotationOptions = [], breadcrumbs = [], linkurl = "", review = {} } = fetchdatas
 
     if (data === "not found") return <Error404 />
-    console.log({ returnHeadTitle, returnPageTitle, returnPathname });
 
     useEffect(() => {
 
