@@ -70,7 +70,8 @@ const CardQuotationItemTaxiDeal = (params = {}) => {
         returnPageTitle,
         isVisible = false,
         review,
-        env
+        env,
+        channelId
     } = params
 
 
@@ -93,7 +94,7 @@ const CardQuotationItemTaxiDeal = (params = {}) => {
         if (isTaxiDeal && previousUrl) {
 
             try {
-                const body = { language, checkRedirect: true, taxiDealPathname: previousUrl, withoutExprectedPoints: false, "channelId": 13 }
+                const body = { language, checkRedirect: true, taxiDealPathname: previousUrl, withoutExprectedPoints: false, "channelId": channelId }
                 const url = `${env.apiDomain}/api/v1/taxi-deals/details`
                 const { status, data } = await postDataAPI({ url, body })
                 if (status === 200) {

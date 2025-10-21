@@ -96,6 +96,7 @@ const QuotationResultsTaxiDeal = (props) => {
                                 isVisible={isVisible}
                                 review={review}
                                 env={env}
+                                channelId={reservations[0]?.reservationDetails?.channelId }
                             />
 
                         </div>
