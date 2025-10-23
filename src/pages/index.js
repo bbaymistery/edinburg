@@ -35,7 +35,6 @@ export default function Home(props) {
       <Hero env={props.env} />
       <WhyChoice />
       <PopularDestinations env={props.env} />
-      {/* {hasScrolled && <Tours insideGlobalLayout={false} />} */}
       {hasScrolled && <CarsSlider />}
       <Testimonials />
     </GlobalLayout>

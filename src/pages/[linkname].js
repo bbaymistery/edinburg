@@ -204,7 +204,7 @@ export const getServerSideProps = wrapper.getServerSideProps(store => async ({ r
         // "/bodrum-milas-airport-taxi-prices",
 
         "/edinburgh-airport-to-city-centre-taxi",
-        "/city-centre-to-edinburgh-airport-taxi",
+        "/edinburgh-city-centre-to-edinburgh-airport-taxi",
         "/edinburgh-airport-to-glasgow-taxi",
         "/glasgow-to-edinburgh-airport-taxi",
         "/edinburgh-airport-to-st-andrews-taxi",

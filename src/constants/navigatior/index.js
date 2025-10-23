@@ -31,7 +31,7 @@ export const navigator = [
             },
             {
                 innerText: "City Centre to Edinburgh Airport",
-                path: "/city-centre-to-edinburgh-airport-taxi",
+                path: "/edinburgh-city-centre-to-edinburgh-airport-taxi",
                 title: "strCityCentreToEdinburghAirport",
                 type: "cell",
                 hasTaxiDeals: "EDH",
@@ -142,7 +142,7 @@ export const expandedNavigatorDesktop = [
             },
             {
                 innerText: "City Centre to Edinburgh Airport",
-                path: "/city-centre-to-edinburgh-airport-taxi",
+                path: "/edinburgh-city-centre-to-edinburgh-airport-taxi",
                 title: "strCityCentreToEdinburghAirport",
                 type: "cell",
                 hasTaxiDeals: "CITY-EDI",
@@ -242,7 +242,7 @@ export const airportTaxiLinks = [
     },
     {
         innerText: "City Centre to Edinburgh Airport",
-        path: "/city-centre-to-edinburgh-airport-taxi",
+        path: "/edinburgh-city-centre-to-edinburgh-airport-taxi",
         title: "strCityCentreToEdinburghAirport",
         type: "cell",
         hasTaxiDeals: "CITY-EDI",

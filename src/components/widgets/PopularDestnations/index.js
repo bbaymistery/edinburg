@@ -65,6 +65,21 @@ const PopularDestinations = (props) => {
         {
             url: "/images/matchingItemImages/webp/Edinburgh-airport-apl-edinburgh.webp"
         },
+        {
+            url: '/images/matchingItemImages/webp/Glasgow-apl-edinburgh.webp'
+        },
+        {
+            url: "/images/matchingItemImages/webp/Aberdeen-apl-edinburgh.webp"
+        },
+        {
+            url: "/images/matchingItemImages/webp/fort-william-apl-edinburgh.webp"
+        },
+        {
+            url: "/images/matchingItemImages/webp/inverness-apl-edinburgh.webp"
+        },
+        {
+            url: "/images/matchingItemImages/webp/StAndrews-apl-edinburgh.webp"
+        },
     ]
 
     return (
