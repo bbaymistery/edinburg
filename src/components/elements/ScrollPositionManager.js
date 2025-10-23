@@ -1,32 +1,35 @@
-import { useEffect } from 'react';
-import { useRouter } from 'next/router';
+import { useEffect } from "react";
+import { useRouter } from "next/router";
 
 export default function ScrollPositionManager() {
     const router = useRouter();
 
     const saveScrollPosition = () => {
-        const currentScrollPosition = window.scrollY;
-        localStorage.setItem('scrollPosition', currentScrollPosition);
+        localStorage.setItem("scrollPosition", window.scrollY.toString());
     };
 
     const restoreScrollPosition = () => {
-        const savedPosition = localStorage.getItem('scrollPosition');
-        if (savedPosition) {
-            const parsedPosition = parseInt(savedPosition, 10);
-            window.scrollTo(0, parsedPosition);
-            localStorage.removeItem('scrollPosition');
+        const saved = localStorage.getItem("scrollPosition");
+        if (saved) {
+            const y = parseInt(saved, 10);
+            setTimeout(() => {
+                window.scrollTo({ top: y, behavior: "smooth" });
+                localStorage.removeItem("scrollPosition");
+            }, 750); // 🕒 1 saniye gecikme
         }
     };
 
     useEffect(() => {
+        window.addEventListener("beforeunload", saveScrollPosition);
         restoreScrollPosition();
-        router.events.on('routeChangeStart', saveScrollPosition);
-        router.events.on('routeChangeComplete', restoreScrollPosition);
+        router.events.on("routeChangeStart", saveScrollPosition);
+        router.events.on("routeChangeComplete", restoreScrollPosition);
         return () => {
-            router.events.off('routeChangeStart', saveScrollPosition);
-            router.events.off('routeChangeComplete', restoreScrollPosition);
+            window.removeEventListener("beforeunload", saveScrollPosition);
+            router.events.off("routeChangeStart", saveScrollPosition);
+            router.events.off("routeChangeComplete", restoreScrollPosition);
         };
-    }, [router]);
+    }, []);
 
     return null;
 }

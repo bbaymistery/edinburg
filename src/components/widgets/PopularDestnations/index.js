@@ -104,9 +104,9 @@ const PopularDestinations = (props) => {
                                                 <i className="fa-solid fa-location-dot"></i>
                                                 {item.pickup}
                                             </div>
-                                            <h3 className={styles.title}>
+                                            <h1 className={styles.title}>
                                                 <span>{item.translatedPageTitle}</span>
-                                            </h3>
+                                            </h1>
                                             <div className={styles.tourcard_rating}>
                                                 <div className={styles.stars}>
                                                     <div><i className="fa-solid fa-star "></i></div>

@@ -2,7 +2,7 @@
 export const quotationImagesObjWebp = {
     1: {
         name: "Saloon",
-        image: "/images/cars/normal-saloon-v2.webp",
+        image: "/images/cars/normal-saloon.webp",
         id: 1,
     },
     2: {
@@ -12,7 +12,7 @@ export const quotationImagesObjWebp = {
     },
     3: {
         name: "8 Seater",
-        image: "/images/cars/8-Seater-Minibus.webp",
+        image: "/images/cars/8-Seater-Minibuss.webp",
         id: 3,
     },
     4: {
@@ -30,14 +30,5 @@ export const quotationImagesObjWebp = {
         image: "/images/cars/vip-mpv-v2.webp",
         id: 6,
     },
-    // 7: {
-    //     name: "Large-people-Carrier-7.webp",
-    //     image: "/images/cars/Large-people-Carrier-7.webp",
-    //     id: 7,
-    // },
-    // 7: {
-    //     name: "Mercedes S Class/ BMW 7 Series",
-    //     image: "/images/cars/Mercedes-S-Class.webp",
-    //     id: 7,
-    // }
+ 
 }

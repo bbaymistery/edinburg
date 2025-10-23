@@ -2,7 +2,7 @@
 
 export const carsItems = [
   {
-    carImage: "/images/cars/normal-saloon-v2.webp",
+    carImage: "/images/cars/normal-saloon.webp",
     carName: "Saloon",
     passenger: 3,
     suitcase: 3,
@@ -16,7 +16,7 @@ export const carsItems = [
     id: 3,
   },
   {
-    carImage: "/images/cars/8-Seater-Minibus.webp",
+    carImage: "/images/cars/8-Seater-Minibuss.webp",
     carName: "8 Seater",
     passenger: 8,
     suitcase: 8,
