@@ -106,30 +106,58 @@
 
            }
 
-           .column_first[data="2"] {
-               background-size: 70%;
+           .column_first[data="1"] {
+               background-size: 80%;
+               background-color: $gray-color-light-5;
 
                @media (max-width: 768px) {
                    background-size: 35%;
 
                }
 
-               @media (max-width: 500px) {
-                   background-size: 70%;
+               @media (max-width: 550px) {
+                   background-size: 45%;
+               }
+
+               @media (max-width: 400px) {
+                   background-size: 60%;
+
+               }
+           }
+
+           .column_first[data="2"] {
+               background-size: 80%;
+
+               @media (max-width: 768px) {
+                   background-size: 35%;
+
+               }
+
+               @media (max-width: 550px) {
+                   background-size: 45%;
+
+               }
+
+               @media (max-width: 400px) {
+                   background-size: 60%;
 
                }
            }
 
            .column_first[data="3"] {
-               background-size: 70%;
+               background-size: 80%;
 
                @media (max-width: 768px) {
                    background-size: 35%;
+               }
+
+               @media (max-width: 550px) {
+                   background-size: 45%;
 
                }
 
-               @media (max-width: 500px) {
-                   background-size: 70%;
+               @media (max-width: 400px) {
+                   background-size: 60%;
 
                }
            }
@@ -144,8 +172,9 @@
                background-repeat: no-repeat;
                background-position: center center;
                background-size: 120%;
-               background-color: $gray-color-light;
+               background-color: $gray-color-light-5;
                margin: 15px;
+               border: 2px solid $gray-color-light;
 
                @media (max-width: 1400px) {
                    flex: 0.28;
@@ -607,7 +636,7 @@
        .selectedCard {
            position: relative;
            background-color: $primary-color-light-2;
-           border-color: $gray-color-light-4;
+           border-color: $gray-color-light-5;
            transition: .25s linear;
            box-shadow: none;
            box-shadow: $box-shadow-1;
@@ -618,6 +647,8 @@
 
            .column_first {
                background-color: transparent;
+           background-color: $gray-color-light-5;
+
 
            }
        }

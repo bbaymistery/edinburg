@@ -5,16 +5,16 @@ export default function ScrollPositionManager() {
     const router = useRouter();
 
     const saveScrollPosition = () => {
-        localStorage.setItem("scrollPosition", window.scrollY.toString());
+        sessionStorage.setItem("scrollPosition", window.scrollY.toString());
     };
 
     const restoreScrollPosition = () => {
-        const saved = localStorage.getItem("scrollPosition");
+        const saved = sessionStorage.getItem("scrollPosition");
         if (saved) {
             const y = parseInt(saved, 10);
             setTimeout(() => {
                 window.scrollTo({ top: y, behavior: "smooth" });
-                localStorage.removeItem("scrollPosition");
+                sessionStorage.removeItem("scrollPosition");
             }, 750); // 🕒 1 saniye gecikme
         }
     };

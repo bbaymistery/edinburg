@@ -17,6 +17,9 @@ const SelectedCardItem = ({
     quotationImagesObjWebp
 }) => {
     const _item_details = getPriceDetailsFromQuotation({ quotation: item }).data || {};
+    console.log({ _item_details });
+
+    const finalPrice = `£${String(_item_details.price || '').split(".")[0]}.`
 
     const carData = carObject[item?.carId];
     const storageKey = index === 0 ? "journeyQuotation" : "returnJourneyQuotation";
